@@ -1,284 +1,490 @@
 <!DOCTYPE html>
-<html style="color: rgba(0,0,0,0);">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - SEAN SULLIVAN</title>
-    <meta name="description" content="Sean Sullivan -- Information Systems Student at Ohio State.">
-    <link rel="icon" type="image/jpeg" sizes="2000x1333" href="assets/img/skydiving.jpg">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andada">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vesper+Libre">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Accordion.css">
-    <link rel="stylesheet" href="assets/css/Article-Clean.css">
-    <link rel="stylesheet" href="assets/css/content_blocks_modernstyle.css">
-    <link rel="stylesheet" href="assets/css/Cool-Menu-Navbar.css">
-    <link rel="stylesheet" href="assets/css/dh-header-non-rectangular.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/mainChanges.css">
-    <link rel="stylesheet" href="assets/css/responsive-blog-card-slider.css">
-    <link rel="stylesheet" href="assets/css/Swiper-Slider-Card-For-Blog-Or-Product.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean's  stylish text generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .options-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 10px auto;
+        }
+        h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .text-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .text-area label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            font-size: 16px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        #output {
+            white-space: pre-wrap;
+            background-color: #fff;
+        }
+        .copy-button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            align-self: flex-end;
+        }
+        .copy-button:hover {
+            background-color: #45a049;
+        }
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .option-button {
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .option-button:hover {
+            background-color: #e0e0e0;
+        }
+        .option-button.active {
+            background-color: #007bff;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            textarea {
+                height: 200px;
+            }
+        }
+    </style>
 </head>
-
-<body id="page-top" style="background: url(&quot;https://s.eansullivan.io/background.webp&quot;);">
-    <header class="dh-header-non-rectangular" style="margin-top: -20px;background: rgba(233,236,239,0.08);">
-        <div class="header__bg" style="background: url(&quot;assets/img/skydivin.jpg&quot;) center / cover;"></div>
-        <nav class="navbar navbar-light navbar-expand-md" style="box-shadow: 0px 0px 20px rgb(0,0,0,0.40);border-radius: 0px;margin-top: 20px;">
-            <div class="container-fluid"><a class="navbar-brand" href="https://s.eansullivan.io" style="color: #ffffff;font-size: 25px;font-family: Roboto, sans-serif;font-weight: bold;">SEAN SULLIVAN</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="opacity: 1;background: url(&quot;assets/img/icon2.png&quot;) center / cover;width: 20px;height: 20px;"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="navbar-nav ml-auto" style="margin-top: -10px;">
-                        <li class="nav-item"><a class="nav-link active" href="https://s.eansullivan.io" style="color: #ffffff;font-size: 20px;font-family: Roboto, sans-serif;font-weight: bold;">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="https://s.eansullivan.io/#goodscroll" style="color: #ffffff;font-size: 20px;font-family: Roboto, sans-serif;font-weight: bold;">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://s.eansullivan.io/index.html/#skills" style="color: #ffffff;font-size: 20px;font-family: Roboto, sans-serif;font-weight: bold;">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="mailto:s@eansullivan.io" style="color: #ffffff;font-size: 20px;font-family: Roboto, sans-serif;font-weight: bold;">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="container" style="margin-top: 110px;">
-            <div class="col-md-12 dh-header-non-rectangular-container">
-                <p id="tagline" style="margin-bottom: 25px;">Industrial Engineering Student</p>
-                <section id="contactButtons" style="margin-top: -15px;"><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;margin-bottom: 12px;margin-top: 14px;"><a class="text-body flex-grow-1 flex-shrink-1" href="mailto:s@eansullivan.io" style="font-size: 20px;font-weight: bold;">Contact</a></button><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;margin-bottom: 12px;margin-top: 14px;"><a class="text-body flex-grow-1 flex-shrink-1" href="https://s.eansullivan.io/resources/Resume.pdf" style="font-size: 20px;font-weight: bold;">Resume</a></button></section>
-            </div>
-        </div>
-    </header>
-    <div id="topDiv" style="text-align: center;padding-top: 0;">
-        <div class="jumbotron" id="jumbo" style="background: rgba(233,236,239,0.08);text-align: center;padding-bottom: 0;padding-top: 90px;opacity: 1;padding-right: 0px;padding-left: 0px;margin-bottom: 19px;">
-            <p id="mainTitle" style="/*font-size: 28px;*/font-family: Cabin, sans-serif;margin: 26px;padding: 6px;/*line-height: 62px;*/margin-top: 57px;">SEAN SULLIVAN: Fourth Year, Ohio State University<br></p>
-            <div class="container" style="max-width: 1000px;">
-                <div class="row">
-                    <div class="col"><img class="img-fluid" id="headshot" src="assets/img/headshot.jpg" style="margin-top: 30px;margin-right: 0px;margin-bottom: 10px;"></div>
-                    <div class="col">
-                        <p class="d-inline-block flex-grow-1 flex-shrink-1 intro-text" id="newText" style="padding: 0px;font-size: 20px;padding-top: 0;padding-left: 0;padding-right: 0;padding-bottom: 0;max-width: 623px;color: rgb(255, 255, 255);margin-top: 10px;min-width: 300px;">Industrial Engineering major with a minor in Computer Science!<br>I'm a health advocate, an air quality nerd, and a technology addict. Website designed entirely in Bootstrap Studio because you can't get exactly what you want from a WordPress template.<br><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;margin-bottom: 12px;margin-top: 14px;"><a class="text-body flex-grow-1 flex-shrink-1" href="mailto:s@eansullivan.io" style="font-size: 20px;font-weight: bold;">Contact</a></button><br><button class="btn btn-primary flex-grow-1 flex-shrink-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;"><a class="text-body flex-grow-1 flex-shrink-1" href="https://s.eansullivan.io/resources/Resume.pdf" style="font-size: 20px;font-weight: bold;">Resume</a></button><br><br></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="goodscroll" style="padding-top: 50px;padding-bottom: 0;text-align: center;height: 64px;"></div>
+<body>
+    <h1>Stylish Text Generator</h1>
     <div class="container">
-        <div id="mainDiv" class="intro-body" style="margin-top: 19px;text-align: center;margin-bottom: 0;max-height: 811px;">
-            <p class="text-center d-inline" id="projects" style="padding-bottom: 0;margin-bottom: 0;font-size: 38PX;font-family: Cabin, sans-serif;text-align: center;">PROJECT EXPERIENCE<br></p>
-            <p class="d-inline-block"><br>My very first courses at Ohio State were in engineering. I completed a&nbsp;two-semester journey through the Honors Fundamentals of Engineering&nbsp; curriculum, completing 10+ lab reports, learning C and C++, learning&nbsp; MATLAB, and spending a semester designing a microchip capable of&nbsp;detecting HIV with a single drop of blood.<br><br></p>
-            <p class="d-inline"></p>
+        <div class="text-area">
+            <label for="input">Input Text:</label>
+            <textarea id="input" placeholder="Type your text here..."></textarea>
+        </div>
+        <div class="text-area">
+            <label for="output">Transformed Text:</label>
+            <textarea id="output" readonly></textarea>
+            <button class="copy-button" id="copyButton">Copy to Clipboard</button>
         </div>
     </div>
-    <div id="slider" class="blog-slider">
-        <div class="blog-slider__wrp swiper-wrapper">
-            <div class="blog-slider__item swiper-slide">
-                <div></div>
-                <div class="blog-slider__img" style="background: #EBF3FF;"><img src="assets/img/tecmo-bowl.jpg"></div>
-                <div class="blog-slider__content"><span class="blog-slider__code">RECENT</span><div class="blog-slider__title">Software Design Project</div><div class="blog-slider__text">As part of a Fundamentals of Engineering class, I partnered with one other student to create a virtual game on Ohio State's custom-made Linux touchscreen device known as a Proteus.</div><a id="readMore" class="class=&quot;blog-slider__button" href="/software.html" style="color: rgb(255,255,255);"><button class="btn btn-primary flex-grow-1 flex-shrink-1" id="read_more_button" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;"><a class="text-body flex-grow-1 flex-shrink-1" href="/software" style="font-size: 20px;font-weight: bold;border-style: none;color: rgb(255,255,255);">Read More</a></button></a></div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-                <div></div>
-                <div class="blog-slider__img" style="background: #EBF3FF;"><img src="assets/img/flyer.jpg"></div>
-                <div class="blog-slider__content"><span class="blog-slider__code">RECENT</span><div class="blog-slider__title">Nanotechnology Project</div><div class="blog-slider__text">This was a semester-long project sponsored by Ohio State's College of Engineering with two aims:  
-Aim 1, Researching and designing a nanolyser, (a lab-on-a-chip) capable of detecting HIV with a single drop of blood. Aim 2, Conducting experiments on yeast cell adhesion in microchannels when subjected to saline water as a model for cleaning biomedical implants.</div><a id="readMore-1" class="class=&quot;blog-slider__button" href="" style="color: rgb(255,255,255);"><button class="btn btn-primary flex-grow-1 flex-shrink-1" id="read_more_button" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;"><a class="text-body flex-grow-1 flex-shrink-1" href="nanotechnology.html" style="font-size: 20px;font-weight: bold;border-style: none;color: rgb(255,255,255);">Read More</a></button></a></div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-                <div></div>
-                <div class="blog-slider__img" style="background: #EBF3FF;"><img src="assets/img/iphone.png"></div>
-                <div class="blog-slider__content"><span class="blog-slider__code">RECENT</span><div class="blog-slider__title">3Tree App Design</div><div class="blog-slider__text">This was a semester-long project sponsored by Ohio State's College of Engineering with two aims:  
-Aim 1, Researching and designing a nanolyser, (a lab-on-a-chip) capable of detecting HIV with a single drop of blood. Aim 2, Conducting experiments on yeast cell adhesion in microchannels when subjected to saline water as a model for cleaning biomedical implants.</div><a id="readMore-1" class="class=&quot;blog-slider__button" href="" style="color: rgb(255,255,255);"><button class="btn btn-primary flex-grow-1 flex-shrink-1" id="read_more_button-1" type="button" style="background: #e8e4e3;border-radius: 43px;border-width: 1px;border-color: rgba(33,37,41,0);width: 125px;padding: 3px;font-size: 14px;margin: 1px;height: 50px;"><a class="text-body flex-grow-1 flex-shrink-1" href="design.html" style="font-size: 20px;font-weight: bold;border-style: none;color: rgb(255,255,255);">Read More</a></button></a></div>
-            </div>
-            <div class="blog-slider__pagination"></div>
+    
+    <div class="options-container">
+        <h3>Quick Copy Any Style (Click a button to copy that style):</h3>
+        <div class="options" id="styleOptions">
+            <!-- Style options will be added here by JavaScript -->
         </div>
     </div>
-    <div class="container" id="skills">
-        <div class="row text-center justify-content-center" style="background: #ffffff;border-width: 2px;border-radius: 10px;text-align: center;">
-            <div class="col" id="buttonn" style="text-align: center;min-width: 175px;padding-top: 5px;padding-bottom: 5px;margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;background: rgb(0,0,0);border-radius: 10px;border-width: 2px;border-style: solid;min-height: 50px;max-width: 223px;"><a href="https://s.eansullivan.io/resources/Resume.pdf" style="min-width: 175px;padding-top: 0px;padding-bottom: 0px;margin-top: 10px;margin-bottom: 10px;margin-right: 5px;margin-left: 5px;"><button class="btn btn-primary newClass" id="button" type="button" style="background: rgba(0,0,0,0);border-radius: 5px;/*min-width: 175px;*/padding-top: 0px;padding-bottom: 0px;margin-top: 0px;margin-bottom: 0px;/*margin-right: 0px;*//*margin-left: 0px;*/border-color: rgba(255,255,255,0);color: rgb(255,255,255);min-height: 40px;">Download<br>&nbsp;Resume<br></button></a></div>
-            <div class="col" id="buttonn" style="text-align: center;min-width: 175px;padding-top: 5px;padding-bottom: 5px;margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;border-radius: 10px;border-width: 2px;border-style: solid;background: rgb(0,0,0);min-height: 50px;max-width: 223px;"><a href="https://s.eansullivan.io/resources/MATLAB.zip" style="min-width: 175px;padding-top: 0px;padding-bottom: 0px;margin-top: 0px;margin-bottom: 0px;margin-right: 5px;margin-left: 5px;min-height: 40px;"><button class="btn btn-primary d-inline newClass" id="downloadM" type="button" style="border-radius: 5px;background: rgba(255,255,255,0);/*min-width: 175px;*//*padding: 0px;*/padding-top: 0px;padding-bottom: 0px;/*margin-top: 0px;*//*margin-bottom: 0px;*//*margin-right: 0px;*//*margin-left: 0px;*/border-color: rgba(255,255,255,0);color: rgb(255,255,255);min-height: 40px;padding-right: 10px;">Download MATLAB Portfolio<br></button></a></div>
-            <div class="col" id="buttonn" style="text-align: center;min-width: 175px;padding-top: 5px;padding-bottom: 5px;margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;border-radius: 10px;border-width: 2px;border-style: solid;background: rgb(0,0,0);min-height: 50px;max-width: 223px;"><a href="https://s.eansullivan.io/resources/C.zip" style="min-width: 175px;padding-top: 0px;padding-bottom: 0px;margin-top: 0px;margin-bottom: 0px;margin-right: 5px;margin-left: 5px;min-height: 40px;"><button class="btn btn-primary newClass" id="button" type="button" style="background: rgba(255,255,255,0);border-radius: 5px;/*min-width: 175px;*/padding-top: 0px;padding-bottom: 0px;margin-bottom: 0px;margin-right: 0px;margin-left: 0px;border-color: rgba(255,255,255,0);color: rgb(255,255,255);margin-top: 0px;min-height: 40px;">Download C/C++ Portfolio<br></button></a></div>
-            <div class="col" id="buttonn" style="line-height: 15px;text-align: center;min-width: 175px;padding-top: 5px;padding-bottom: 5px;margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;border-radius: 10px;border-width: 2px;border-style: solid;background: rgb(0,0,0);min-height: 50px;max-width: 223px;"><a href="https://s.eansullivan.io/resources/labs.zip" style="min-width: 175px;"><button class="btn btn-primary newClass" id="button" type="button" style="background: rgba(255,255,255,0);border-radius: 5px;/*min-width: 175px;*/border-color: rgba(255,255,255,0);color: rgb(255,255,255);margin-top: 0px;padding-top: 0px;margin-bottom: 0px;padding-bottom: 0px;">Download Engineering Lab Reports<br></button></a></div>
-        </div>
-    </div>
-    <div class="map-clean"></div>
-    <div class="container" style="max-width: 1000px;">
-        <p style="padding-bottom: 0;font-size: 38PX;font-family: Cabin, sans-serif;text-align: center;margin-top: 80px;margin-bottom: 0px;">SKILLS &amp; CERTIFICATIONS<br></p>
-        <div id="mainDiv-1" class="intro-body" style="margin: 33px;text-align: center;margin-bottom: 0;max-height: 811px;margin-top: -40px;">
-            <p class="d-inline-block"><br></p>
-            <p class="d-inline"></p>
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="margin-top: 10px;border-radius: 10px;">
-                        <div class="card-body" style="color: rgba(255,255,255,0.75);background: rgba(255,255,255,0);">
-                            <h4 class="card-title" style="color: rgb(0,0,0);font-size: 22px;">Certifications</h4>
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="text-muted mb-2"></h6><img src="assets/img/AWS%20CCP.png" style="width: 80px;margin-right: -8px;">
-                                </div>
-                                <div class="col">
-                                    <p id="amazonCCP" class="mb-2" style="color: rgb(0,0,0);text-align: center;/*margin-top: 3px;*/font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;font-size: 16px;">Amazon Certified Cloud Practicioner</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="text-muted mb-2"></h6><img id="googAna2" src="assets/img/google%20analytics%20light%20mode.png" style="width: 80px;margin-right: -8px;">
-                                </div>
-                                <div class="col">
-                                    <p id="gaiq" class="mb-2" style="color: rgb(0,0,0);text-align: center;/*margin-top: 3px;*/font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;font-size: 16px;">Google Analytics Individual Qualification</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="text-muted mb-2"></h6><a href="https://s.eansullivan.io/resources/accolades.certificate.pdf"><img src="assets/img/virtanza.png" style="width: 60px;margin-top: 1px;"></a>
-                                </div>
-                                <div class="col">
-                                    <p id="gaiq2" class="mb-2" style="color: rgb(0,0,0);text-align: center;/*margin-top: 3px;*/font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;font-size: 16px;">Virtanza Sales Certification</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-top: 10px;border-radius: 10px;">
-                        <div class="card-body" style="color: rgba(255,255,255,0.75);background: rgba(255,255,255,0);">
-                            <h4 class="card-title" style="color: rgb(0,0,0);font-size: 22px;">Programming Langauges</h4>
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="text-muted mb-2"></h6><img src="assets/img/cplusplus.png" style="width: 80px;margin-right: -8px;">
-                                </div>
-                                <div class="col" style="text-align: left;">
-                                    <p class="mb-2" style="color: rgb(0,0,0);text-align: center;font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;font-size: 18px;margin-top: 40px;">C++</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="text-muted mb-2"></h6><img src="assets/img/java.png" style="width: 60px;margin-top: 1px;margin-right: -12px;">
-                                </div>
-                                <div class="col" style="margin-top: 6px;text-align: left;">
-                                    <p class="mb-2" style="color: rgb(0,0,0);text-align: center;margin-top: 25px;font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;font-size: 18px;">Java</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="margin-top: 10px;background: rgb(255,255,255);border-radius: 10px;">
-                        <div class="card-body" style="background: rgba(255,255,255,0);">
-                            <h4 class="card-title" style="color: rgb(0,0,0);font-size: 22px;">Business Applications</h4>
-                            <div class="row">
-                                <div class="col" style="padding-bottom: -5px;"><img src="assets/img/ms%20access%20image.png" style="width: 60px;padding-bottom: -5px;"></div>
-                                <div class="col">
-                                    <p style="color: rgb(0,0,0);text-align: center;margin-top: 9px;font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;">Microsoft Access</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="clearfix"></div>
-                                <div class="col"><img src="assets/img/excel.png" style="width: 60px;height: 59px;margin-top: -8px;"></div>
-                                <div class="col">
-                                    <p style="color: rgb(0,0,0);text-align: center;margin-top: 3px;font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;">Microsoft Excel</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="margin-top: 10px;background: rgb(255,255,255);border-radius: 10px;">
-                        <div class="card-body" style="background: rgba(255,255,255,0);">
-                            <h4 class="card-title" style="color: rgb(0,0,0);font-size: 22px;">Engineering Applications</h4>
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="text-muted mb-2"></h6><img src="assets/img/solidworks.png" style="width: 60px;margin-right: 0px;">
-                                </div>
-                                <div class="col" style="margin-right: 0px;">
-                                    <p style="color: rgb(0,0,0);text-align: center;margin-top: 24px;font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;margin-right: 0px;">SOLIDWORKS</p>
-                                </div>
-                            </div>
-                            <div class="row" style="margin-right: 0px;">
-                                <div class="col" style="margin-right: 0px;">
-                                    <h6 class="text-muted mb-2" style="margin-right: 0px;"></h6><img src="assets/img/matlab.png" style="width: 60px;margin-right: 0px;margin-top: -18px;">
-                                </div>
-                                <div class="col" style="margin-right: 0px;">
-                                    <p style="color: rgb(0,0,0);text-align: center;margin-top: 3px;font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;margin-right: 0px;">MATLAB</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="line-height: 15px;">
-                    <div class="card" style="margin-top: 10px;background: rgb(255,255,255);border-radius: 10px;box-shadow: 0px 0px;">
-                        <div class="card-body" style="background: rgba(255,255,255,0);">
-                            <h4 class="card-title" style="color: rgb(0,0,0);font-size: 22px;">design applications</h4>
-                            <div class="row">
-                                <div class="col text-center" style="margin-top: -6px;margin-bottom: 10px;"><img src="assets/img/indesign.png" style="width: 60px;padding-top: 5px;margin-right: -10px;margin-left: 0px;"></div>
-                                <div class="col text-center" style="margin-top: -6px;margin-right: 0px;margin-left: 0px;">
-                                    <p class="text-center" id="indesign" style="color: rgb(0,0,0);text-align: center;/*margin-top: 23px;*/font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;margin-left: 0px;">Adobe InDesign</p>
-                                </div>
-                            </div>
-                            <div class="row" style="margin-right: 0px;margin-left: 0px;">
-                                <div class="col text-center" style="padding-bottom: -5px;margin-right: 0px;margin-left: 0px;margin-bottom: 10px;"><img src="assets/img/muse.png" style="width: 60px;margin-left: 0px;"></div>
-                                <div class="col text-center" style="margin-right: 0px;margin-left: 0px;">
-                                    <p class="text-center" id="muse" style="color: rgb(0,0,0);text-align: center;/*margin-top: 22px;*/font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;margin-left: 0px;">Adobe Muse</p>
-                                </div>
-                            </div>
-                            <div class="row" style="margin-right: 0px;margin-left: 0px;">
-                                <div class="col text-center" style="padding-bottom: -5px;margin-right: 0px;margin-left: 0px;margin-bottom: 10px;"><img src="assets/img/Bootstrap_Studio_Logo.png" style="width: 62px;margin-right: 0px;margin-left: 0px;margin-bottom: 10px;"></div>
-                                <div class="col text-center" style="margin-right: 0px;margin-left: 0px;margin-bottom: 10px;">
-                                    <p id="publisher" style="color: rgb(0,0,0);text-align: center;/*margin-top: 18px;*/font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;margin-right: 0px;margin-left: 0px;margin-bottom: 10px;">Bootstrap Studio</p>
-                                </div>
-                            </div>
-                            <div class="row" style="margin-left: 0px;margin-right: 0px;">
-                                <div class="col text-center" style="padding-bottom: -5px;margin-right: 0px;margin-left: 0px;margin-bottom: 10px;"><img src="assets/img/publcsher.png" style="width: 60px;margin-right: 6px;margin-left: 0px;"></div>
-                                <div class="col text-center" style="margin-left: 0px;margin-right: 0px;">
-                                    <p id="publisher" style="color: rgb(0,0,0);text-align: center;/*margin-top: -5px;*/font-family: 'Baloo Paaji 2', cursive;font-weight: bold;line-height: 23px;margin-right: 0px;margin-left: 0px;">Microsoft Publisher</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div style="height: 111px;"></div>
-    </div>
-    <div id="bottomDiv"></div>
-    <p style="color: rgba(255,255,255,0);"><strong>Sean Sullivan Information Systems major ohio state university linkedin Sean Sullivan Sean Sullivan information systems major at the ohio state university sean sullivan information systems majorSean Sullivan Information Systems major ohio state university linkedin Sean Sullivan Sean Sullivan information systems major at the ohio state university sean sullivan information systems majorSean Sullivan Information Systems major ohio state university linkedin Sean Sullivan Sean Sullivan information systems major at the ohio state university sean sullivan information systems majorSean Sullivan Information Systems major ohio state university linkedin Sean Sullivan Sean Sullivan information systems major at the ohio state university sean sullivan information systems major</strong></p>
-    <footer class="footer-dark" style="width: 100%;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Projects</h3>
-                    <ul>
-                        <li><a href="#goodscroll" style="font-family: 'Baloo Paaji 2', cursive;">Overview</a></li>
-                        <li style="font-family: 'Baloo Paaji 2', cursive;"><a href="nanotechnology.html" style="font-family: 'Baloo Paaji 2', cursive;">Nanotechnology</a></li>
-                        <li style="font-family: 'Baloo Paaji 2', cursive;"><a href="software.html" style="font-family: 'Baloo Paaji 2', cursive;">Software Design</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="#mainTitle" style="font-family: 'Baloo Paaji 2', cursive;">About Me</a></li>
-                        <li style="font-family: 'Baloo Paaji 2', cursive;"></li>
-                        <li style="font-family: 'Baloo Paaji 2', cursive;"></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 item text">
-                    <h3>Sean Sullivan</h3>
-                    <p style="font-family: 'Baloo Paaji 2', cursive;">Third year Industrial &amp; Systems Engineering student at The Ohio State University, minoring in Computer Science. Always looking to learn.&nbsp;</p>
-                </div>
-                <div class="col item social"><a href="https://linkedin.com/in/sean1sullivan1"><i class="icon ion-social-linkedin"></i></a><a href="https://instagram.com/seansullivan2"><i class="icon ion-social-instagram"></i></a></div>
-            </div>
-            <p class="copyright" style="font-family: 'Baloo Paaji 2', cursive;">Sean Sullivan © 2021</p>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>
-</body>
 
+    <script>
+        // Character maps for various styles
+        const charMaps = {
+            normal: {},
+            bold: {},
+            italic: {},
+            boldItalic: {},
+            script: {},
+            boldScript: {},
+            fraktur: {},
+            boldFraktur: {},
+            doubleStruck: {},
+            sansSerif: {},
+            sansSerifBold: {},
+            sansSerifItalic: {},
+            sansSerifBoldItalic: {},
+            monospace: {},
+            fullWidth: {},
+            smallCaps: {},
+            circled: {},
+            negative: {},
+            squared: {},
+            boxed: {}
+        };
+
+        // Initialize normal lowercase letters map
+        const lowerAlpha = 'abcdefghijklmnopqrstuvwxyz';
+        const upperAlpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const numbers = '0123456789';
+
+        // Math bold (𝐚-𝐳, 𝐀-𝐙, 𝟎-𝟗)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.bold[lowerAlpha[i]] = String.fromCodePoint(0x1D41A + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.bold[upperAlpha[i]] = String.fromCodePoint(0x1D400 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.bold[numbers[i]] = String.fromCodePoint(0x1D7CE + i);
+        }
+
+        // Math italic (𝑎-𝑧, 𝐴-𝑍)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.italic[lowerAlpha[i]] = String.fromCodePoint(0x1D44E + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.italic[upperAlpha[i]] = String.fromCodePoint(0x1D434 + i);
+        }
+
+        // Math bold italic (𝒂-𝒛, 𝑨-𝒁)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.boldItalic[lowerAlpha[i]] = String.fromCodePoint(0x1D482 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boldItalic[upperAlpha[i]] = String.fromCodePoint(0x1D468 + i);
+        }
+
+        // Math script (𝓪-𝔃, 𝓐-𝓩)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.script[lowerAlpha[i]] = String.fromCodePoint(0x1D4EA + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.script[upperAlpha[i]] = String.fromCodePoint(0x1D4D0 + i);
+        }
+
+        // Math bold script (𝓫-𝔃, 𝓐-𝓩)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.boldScript[lowerAlpha[i]] = String.fromCodePoint(0x1D51E + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boldScript[upperAlpha[i]] = String.fromCodePoint(0x1D504 + i);
+        }
+
+        // Math fraktur (𝔞-𝔷, 𝔄-ℨ)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.fraktur[lowerAlpha[i]] = String.fromCodePoint(0x1D586 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.fraktur[upperAlpha[i]] = String.fromCodePoint(0x1D56C + i);
+        }
+
+        // Math double-struck (𝕒-𝕫, 𝔸-ℤ, 𝟘-𝟡)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.doubleStruck[lowerAlpha[i]] = String.fromCodePoint(0x1D552 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.doubleStruck[upperAlpha[i]] = String.fromCodePoint(0x1D538 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.doubleStruck[numbers[i]] = String.fromCodePoint(0x1D7D8 + i);
+        }
+
+        // Sans-serif (𝖺-𝗓, 𝖠-𝖹, 𝟢-𝟫)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerif[lowerAlpha[i]] = String.fromCodePoint(0x1D5BA + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerif[upperAlpha[i]] = String.fromCodePoint(0x1D5A0 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.sansSerif[numbers[i]] = String.fromCodePoint(0x1D7E2 + i);
+        }
+
+        // Sans-serif bold (𝗮-𝘇, 𝗔-𝗭, 𝟬-𝟵)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerifBold[lowerAlpha[i]] = String.fromCodePoint(0x1D5EE + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerifBold[upperAlpha[i]] = String.fromCodePoint(0x1D5D4 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.sansSerifBold[numbers[i]] = String.fromCodePoint(0x1D7EC + i);
+        }
+
+        // Sans-serif italic (𝘢-𝘻, 𝘈-𝘡)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerifItalic[lowerAlpha[i]] = String.fromCodePoint(0x1D622 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerifItalic[upperAlpha[i]] = String.fromCodePoint(0x1D608 + i);
+        }
+
+        // Sans-serif bold italic (𝙖-𝙯, 𝘼-𝙕)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerifBoldItalic[lowerAlpha[i]] = String.fromCodePoint(0x1D656 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerifBoldItalic[upperAlpha[i]] = String.fromCodePoint(0x1D63C + i);
+        }
+
+        // Monospace (𝚊-𝚣, 𝙰-𝚉, 𝟶-𝟿)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.monospace[lowerAlpha[i]] = String.fromCodePoint(0x1D68A + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.monospace[upperAlpha[i]] = String.fromCodePoint(0x1D670 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.monospace[numbers[i]] = String.fromCodePoint(0x1D7F6 + i);
+        }
+
+        // Fullwidth (ａ-ｚ, Ａ-Ｚ, ０-９)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.fullWidth[lowerAlpha[i]] = String.fromCodePoint(0xFF41 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.fullWidth[upperAlpha[i]] = String.fromCodePoint(0xFF21 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.fullWidth[numbers[i]] = String.fromCodePoint(0xFF10 + i);
+        }
+
+        // Small caps - approximation for lowercase only
+        const smallCapsChars = "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.smallCaps[lowerAlpha[i]] = smallCapsChars[i] || lowerAlpha[i];
+        }
+
+        // Circled (ⓐ-ⓩ, Ⓐ-Ⓩ, ⓪-⑨)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.circled[lowerAlpha[i]] = String.fromCodePoint(0x24D0 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.circled[upperAlpha[i]] = String.fromCodePoint(0x24B6 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.circled[numbers[i]] = String.fromCodePoint(0x2460 + i - 1);
+        }
+        charMaps.circled['0'] = '⓪';
+
+        // Negative circled (🅐-🅩)
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.negative[upperAlpha[i]] = String.fromCodePoint(0x1F150 + i);
+        }
+
+        // Squared (🄰-🄹)
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.squared[upperAlpha[i]] = String.fromCodePoint(0x1F130 + i);
+        }
+
+        // Boxed (🅰-🅉)
+        const boxedChars = "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉";
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boxed[upperAlpha[i]] = boxedChars[i] || upperAlpha[i];
+        }
+
+        // Special effects functions
+        const effects = {
+            normal: text => text,
+            bold: text => applyCharMap(charMaps.bold, text),
+            italic: text => applyCharMap(charMaps.italic, text),
+            boldItalic: text => applyCharMap(charMaps.boldItalic, text),
+            script: text => applyCharMap(charMaps.script, text),
+            boldScript: text => applyCharMap(charMaps.boldScript, text),
+            fraktur: text => applyCharMap(charMaps.fraktur, text),
+            doubleStruck: text => applyCharMap(charMaps.doubleStruck, text),
+            sansSerif: text => applyCharMap(charMaps.sansSerif, text),
+            sansSerifBold: text => applyCharMap(charMaps.sansSerifBold, text),
+            sansSerifItalic: text => applyCharMap(charMaps.sansSerifItalic, text),
+            sansSerifBoldItalic: text => applyCharMap(charMaps.sansSerifBoldItalic, text),
+            monospace: text => applyCharMap(charMaps.monospace, text),
+            fullWidth: text => applyCharMap(charMaps.fullWidth, text),
+            smallCaps: text => applyCharMap(charMaps.smallCaps, text),
+            circled: text => applyCharMap(charMaps.circled, text),
+            negative: text => applyCharMap(charMaps.negative, text),
+            squared: text => applyCharMap(charMaps.squared, text),
+            boxed: text => applyCharMap(charMaps.boxed, text),
+            reversed: text => text.split('').reverse().join(''),
+            strikeThrough: text => text.split('').join('̶') + '̶',
+            underline: text => text.split('').join('̲') + '̲',
+            zalgo: text => {
+                const zalgo_up = ["\u030d","\u030e","\u0304","\u0305","\u033f","\u0311","\u0306"];
+                const zalgo_mid = ["\u0315","\u031b","\u0340","\u0341","\u0358","\u0321"];
+                const zalgo_down = ["\u0316","\u0317","\u0318","\u0319","\u031c","\u031d","\u031e","\u031f","\u0320","\u0324","\u0325","\u0326"];
+                return text.split('').map(char => {
+                    let result = char;
+                    // Limit the number of combining characters to avoid extreme height
+                    let numUp = Math.floor(Math.random() * 2) + 1;
+                    let numMid = Math.floor(Math.random() * 2);
+                    let numDown = Math.floor(Math.random() * 2) + 1;
+                    
+                    for (let i = 0; i < numUp; i++) {
+                        result += zalgo_up[Math.floor(Math.random() * zalgo_up.length)];
+                    }
+                    for (let i = 0; i < numMid; i++) {
+                        result += zalgo_mid[Math.floor(Math.random() * zalgo_mid.length)];
+                    }
+                    for (let i = 0; i < numDown; i++) {
+                        result += zalgo_down[Math.floor(Math.random() * zalgo_down.length)];
+                    }
+                    return result;
+                }).join('');
+            },
+            bubbleText: text => text.split('').map(c => {
+                if (c.match(/[a-z]/i)) {
+                    return charMaps.circled[c] || c;
+                }
+                return c;
+            }).join(''),
+            waveText: text => text.split('').map((c, i) => {
+                const wave = ["₁", "₂", "₃", "₄", "₃", "₂"];
+                return c + (wave[i % wave.length] || "");
+            }).join(''),
+            flourish: text => "★⋆｡°✩ " + text + " ✩°｡⋆★",
+            squiggle: text => "～～～ " + text + " ～～～",
+            emojiDecor: text => "✨💖 " + text + " 💖✨",
+            cursive: text => applyCharMap(charMaps.script, text),
+            sparks: text => "✨" + text.split('').join('✨') + "✨"
+        };
+
+        // Labels for the UI
+        const effectLabels = {
+            normal: "Normal",
+            bold: "𝐁𝐨𝐥𝐝",
+            italic: "𝐼𝑡𝑎𝑙𝑖𝑐",
+            boldItalic: "𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄",
+            script: "𝓢𝓬𝓻𝓲𝓹𝓽",
+            boldScript: "𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽",
+            fraktur: "𝔉𝔯𝔞𝔨𝔱𝔲𝔯",
+            doubleStruck: "𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜",
+            sansSerif: "𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿",
+            sansSerifBold: "𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱",
+            sansSerifItalic: "𝘚𝘢𝘯𝘴 𝘚𝘦𝘳𝘪𝘧 𝘐𝘵𝘢𝘭𝘪𝘤",
+            sansSerifBoldItalic: "𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘",
+            monospace: "𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎",
+            fullWidth: "Ｆｕｌｌ　Ｗｉｄｔｈ",
+            smallCaps: "sᴍᴀʟʟ ᴄᴀᴘs",
+            circled: "Ⓒⓘⓡⓒⓛⓔⓓ",
+            negative: "🅝🅔🅖🅐🅣🅘🅥🅔",
+            squared: "🄽🄴🄶🄰🅃🄸🅅🄴",
+            boxed: "🅱🅾🆇🅴🅳",
+            reversed: "desreveR",
+            strikeThrough: "S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶",
+            underline: "U̲n̲d̲e̲r̲l̲i̲n̲e̲",
+            zalgo: "Z̸̢̗̥̪̣͚̭͖̭̜͍̠̩̙̮̺͎̠̪̣̼̯̀̓͂̔͋̈́̀̃̈̀̐̕̚͝a̴̗̮̠̮̝̝̜͙̤̥̹̼̮̠̗͉̩̜̭̹̹̣̹̍̍̓̃̃̋̏̈́̈̓̔̐̚͝l̸̡̧̪̞̟̮̭̻̩̬̬̥̥̹̞̘̬̗̠̜͒̊́̓́̃͐̅͝͝ͅǧ̴̢̨̱̝̖̬̳̫̬͖̻͎͍̪̔̿̓̑̆̇̍̓̿͒̾̾̏̄̌́̒͠ỏ̸̡̹̮͓̮̮̠̞̩̖̙̝̣̦̗̻̓̂̏͒͌͐̅͛̑̄̎̈̊̚͝͝",
+            bubbleText: "Ⓑⓤⓑⓑⓛⓔ",
+            waveText: "W₁a₂v₃e₄",
+            flourish: "★⋆｡°✩ Flourish ✩°｡⋆★",
+            squiggle: "～～～ Squiggle ～～～",
+            emojiDecor: "✨💖 Emoji 💖✨",
+            cursive: "𝒞𝓊𝓇𝓈𝒾𝓋𝑒",
+            sparks: "✨S✨p✨a✨r✨k✨s✨"
+        };
+
+        // Function to apply character map to text
+        function applyCharMap(map, text) {
+            return text.split('').map(c => map[c] || c).join('');
+        }
+
+        // Create style option buttons
+        const styleOptionsDiv = document.getElementById('styleOptions');
+        let currentStyle = 'normal';
+
+        for (const style in effects) {
+            const button = document.createElement('button');
+            button.className = 'option-button';
+            button.textContent = effectLabels[style] || style;
+            button.dataset.style = style;
+            
+            button.addEventListener('click', function() {
+                const text = inputArea.value;
+                if (text) {
+                    // Apply just this effect and copy it to clipboard
+                    const transformed = effects[this.dataset.style](text);
+                    outputArea.value = transformed;
+                    outputArea.select();
+                    document.execCommand('copy');
+                    
+                    // Visual feedback
+                    this.classList.add('active');
+                    setTimeout(() => {
+                        this.classList.remove('active');
+                        // Restore all transformations after copying
+                        updateOutput();
+                    }, 1000);
+                    
+                    copyButton.textContent = 'Copied!';
+                    setTimeout(() => {
+                        copyButton.textContent = 'Copy to Clipboard';
+                    }, 2000);
+                }
+            });
+            
+            styleOptionsDiv.appendChild(button);
+        }
+
+        // Set up event listeners
+        const inputArea = document.getElementById('input');
+        const outputArea = document.getElementById('output');
+        const copyButton = document.getElementById('copyButton');
+
+        inputArea.addEventListener('input', updateOutput);
+
+        copyButton.addEventListener('click', function() {
+            outputArea.select();
+            document.execCommand('copy');
+            
+            // Visual feedback
+            this.textContent = 'Copied!';
+            setTimeout(() => {
+                this.textContent = 'Copy to Clipboard';
+            }, 2000);
+        });
+
+        // Function to update output with all transformations
+        function updateOutput() {
+            const text = inputArea.value;
+            if (text) {
+                let output = "";
+                // Apply all effects
+                for (const effect in effects) {
+                    if (effects.hasOwnProperty(effect)) {
+                        const transformed = effects[effect](text);
+                        output += transformed + "\n\n";
+                    }
+                }
+                outputArea.value = output.trim();
+            } else {
+                outputArea.value = '';
+            }
+        }
+    </script>
+</body>
 </html>
