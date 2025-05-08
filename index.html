@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sean's  stylish text generator</title>
@@ -93,6 +93,30 @@
             background-color: #007bff;
             color: white;
         }
+        /* New styles for special symbols section */
+        .special-symbols-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto 10px;
+            padding: 15px;
+            background-color: #e8f4ff;
+            border-radius: 6px;
+            border: 1px solid #b8daff;
+        }
+        .symbol-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 18px;
+            min-width: 150px;
+        }
+        .symbol-button:hover {
+            background-color: #0069d9;
+        }
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
@@ -103,7 +127,7 @@
         }
     </style>
 </head>
-<body>
+<body class="vsc-initialized">
     <h1>Stylish Text Generator</h1>
     <div class="container">
         <div class="text-area">
@@ -112,7 +136,7 @@
         </div>
         <div class="text-area">
             <label for="output">Transformed Text:</label>
-            <textarea id="output" readonly></textarea>
+            <textarea id="output" readonly="readonly"></textarea>
             <button class="copy-button" id="copyButton">Copy to Clipboard</button>
         </div>
     </div>
@@ -121,6 +145,16 @@
         <h3>Quick Copy Any Style (Click a button to copy that style):</h3>
         <div class="options" id="styleOptions">
             <!-- Style options will be added here by JavaScript -->
+        <button class="option-button" data-style="normal">Normal</button><button class="option-button" data-style="bold">𝐁𝐨𝐥𝐝</button><button class="option-button" data-style="italic">𝐼𝑡𝑎𝑙𝑖𝑐</button><button class="option-button" data-style="boldItalic">𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄</button><button class="option-button" data-style="script">𝓢𝓬𝓻𝓲𝓹𝓽</button><button class="option-button" data-style="boldScript">𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽</button><button class="option-button" data-style="fraktur">𝔉𝔯𝔞𝔨𝔱𝔲𝔯</button><button class="option-button" data-style="doubleStruck">𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜</button><button class="option-button" data-style="sansSerif">𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿</button><button class="option-button" data-style="sansSerifBold">𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱</button><button class="option-button" data-style="sansSerifItalic">𝘚𝘢𝘯𝘴 𝘚𝘦𝘳𝘪𝘧 𝘐𝘵𝘢𝘭𝘪𝘤</button><button class="option-button" data-style="sansSerifBoldItalic">𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘</button><button class="option-button" data-style="monospace">𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎</button><button class="option-button" data-style="fullWidth">Ｆｕｌｌ　Ｗｉｄｔｈ</button><button class="option-button" data-style="smallCaps">sᴍᴀʟʟ ᴄᴀᴘs</button><button class="option-button" data-style="circled">Ⓒⓘⓡⓒⓛⓔⓓ</button><button class="option-button" data-style="negative">🅝🅔🅖🅐🅣🅘🅥🅔</button><button class="option-button" data-style="squared">🄽🄴🄶🄰🅃🄸🅅🄴</button><button class="option-button" data-style="boxed">🅱🅾🆇🅴🅳</button><button class="option-button" data-style="reversed">desreveR</button><button class="option-button" data-style="strikeThrough">S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶</button><button class="option-button" data-style="underline">U̲n̲d̲e̲r̲l̲i̲n̲e̲</button><button class="option-button" data-style="zalgo">Z̸̢̗̥̪̣͚̭͖̭̜͍̠̩̙̮̺͎̠̪̣̼̯̀̓͂̔͋̈́̀̃̈̀̐̕̚͝a̴̗̮̠̮̝̝̜͙̤̥̹̼̮̠̗͉̩̜̭̹̹̣̹̍̍̓̃̃̋̏̈́̈̓̔̐̚͝l̸̡̧̪̞̟̮̭̻̩̬̬̥̥̹̞̘̬̗̠̜͒̊́̓́̃͐̅͝͝ͅǧ̴̢̨̱̝̖̬̳̫̬͖̻͎͍̪̔̿̓̑̆̇̍̓̿͒̾̾̏̄̌́̒͠ỏ̸̡̹̮͓̮̮̠̞̩̖̙̝̣̦̗̻̓̂̏͒͌͐̅͛̑̄̎̈̊̚͝͝</button><button class="option-button" data-style="bubbleText">Ⓑⓤⓑⓑⓛⓔ</button><button class="option-button" data-style="waveText">W₁a₂v₃e₄</button><button class="option-button" data-style="flourish">★⋆｡°✩ Flourish ✩°｡⋆★</button><button class="option-button" data-style="squiggle">～～～ Squiggle ～～～</button><button class="option-button" data-style="emojiDecor">✨💖 Emoji 💖✨</button><button class="option-button" data-style="cursive">𝒞𝓊𝓇𝓈𝒾𝓋𝑒</button><button class="option-button" data-style="sparks">✨S✨p✨a✨r✨k✨s✨</button></div>
+    </div>
+
+    <!-- New section for special symbols -->
+    <div class="special-symbols-container">
+        <h3>Special Symbols - One-Click Copy:</h3>
+        <div class="options">
+            <button class="symbol-button" id="trademarkButton">Trademark (™)</button>
+            <button class="symbol-button" id="copyrightButton">Copyright (©)</button>
+            <button class="symbol-button" id="registeredButton">Registered (®)</button>
         </div>
     </div>
 
@@ -387,104 +421,4 @@
             sansSerif: "𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿",
             sansSerifBold: "𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱",
             sansSerifItalic: "𝘚𝘢𝘯𝘴 𝘚𝘦𝘳𝘪𝘧 𝘐𝘵𝘢𝘭𝘪𝘤",
-            sansSerifBoldItalic: "𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘",
-            monospace: "𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎",
-            fullWidth: "Ｆｕｌｌ　Ｗｉｄｔｈ",
-            smallCaps: "sᴍᴀʟʟ ᴄᴀᴘs",
-            circled: "Ⓒⓘⓡⓒⓛⓔⓓ",
-            negative: "🅝🅔🅖🅐🅣🅘🅥🅔",
-            squared: "🄽🄴🄶🄰🅃🄸🅅🄴",
-            boxed: "🅱🅾🆇🅴🅳",
-            reversed: "desreveR",
-            strikeThrough: "S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶",
-            underline: "U̲n̲d̲e̲r̲l̲i̲n̲e̲",
-            zalgo: "Z̸̢̗̥̪̣͚̭͖̭̜͍̠̩̙̮̺͎̠̪̣̼̯̀̓͂̔͋̈́̀̃̈̀̐̕̚͝a̴̗̮̠̮̝̝̜͙̤̥̹̼̮̠̗͉̩̜̭̹̹̣̹̍̍̓̃̃̋̏̈́̈̓̔̐̚͝l̸̡̧̪̞̟̮̭̻̩̬̬̥̥̹̞̘̬̗̠̜͒̊́̓́̃͐̅͝͝ͅǧ̴̢̨̱̝̖̬̳̫̬͖̻͎͍̪̔̿̓̑̆̇̍̓̿͒̾̾̏̄̌́̒͠ỏ̸̡̹̮͓̮̮̠̞̩̖̙̝̣̦̗̻̓̂̏͒͌͐̅͛̑̄̎̈̊̚͝͝",
-            bubbleText: "Ⓑⓤⓑⓑⓛⓔ",
-            waveText: "W₁a₂v₃e₄",
-            flourish: "★⋆｡°✩ Flourish ✩°｡⋆★",
-            squiggle: "～～～ Squiggle ～～～",
-            emojiDecor: "✨💖 Emoji 💖✨",
-            cursive: "𝒞𝓊𝓇𝓈𝒾𝓋𝑒",
-            sparks: "✨S✨p✨a✨r✨k✨s✨"
-        };
-
-        // Function to apply character map to text
-        function applyCharMap(map, text) {
-            return text.split('').map(c => map[c] || c).join('');
-        }
-
-        // Create style option buttons
-        const styleOptionsDiv = document.getElementById('styleOptions');
-        let currentStyle = 'normal';
-
-        for (const style in effects) {
-            const button = document.createElement('button');
-            button.className = 'option-button';
-            button.textContent = effectLabels[style] || style;
-            button.dataset.style = style;
-            
-            button.addEventListener('click', function() {
-                const text = inputArea.value;
-                if (text) {
-                    // Apply just this effect and copy it to clipboard
-                    const transformed = effects[this.dataset.style](text);
-                    outputArea.value = transformed;
-                    outputArea.select();
-                    document.execCommand('copy');
-                    
-                    // Visual feedback
-                    this.classList.add('active');
-                    setTimeout(() => {
-                        this.classList.remove('active');
-                        // Restore all transformations after copying
-                        updateOutput();
-                    }, 1000);
-                    
-                    copyButton.textContent = 'Copied!';
-                    setTimeout(() => {
-                        copyButton.textContent = 'Copy to Clipboard';
-                    }, 2000);
-                }
-            });
-            
-            styleOptionsDiv.appendChild(button);
-        }
-
-        // Set up event listeners
-        const inputArea = document.getElementById('input');
-        const outputArea = document.getElementById('output');
-        const copyButton = document.getElementById('copyButton');
-
-        inputArea.addEventListener('input', updateOutput);
-
-        copyButton.addEventListener('click', function() {
-            outputArea.select();
-            document.execCommand('copy');
-            
-            // Visual feedback
-            this.textContent = 'Copied!';
-            setTimeout(() => {
-                this.textContent = 'Copy to Clipboard';
-            }, 2000);
-        });
-
-        // Function to update output with all transformations
-        function updateOutput() {
-            const text = inputArea.value;
-            if (text) {
-                let output = "";
-                // Apply all effects
-                for (const effect in effects) {
-                    if (effects.hasOwnProperty(effect)) {
-                        const transformed = effects[effect](text);
-                        output += transformed + "\n\n";
-                    }
-                }
-                outputArea.value = output.trim();
-            } else {
-                outputArea.value = '';
-            }
-        }
-    </script>
-</body>
-</html>
+            sansSerifBoldItalic: "𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙
