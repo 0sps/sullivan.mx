@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean's  stylish text generator</title>
+    <title>Sean's stylish text generator</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -127,7 +127,7 @@
         }
     </style>
 </head>
-<body class="vsc-initialized">
+<body>
     <h1>Stylish Text Generator</h1>
     <div class="container">
         <div class="text-area">
@@ -136,7 +136,7 @@
         </div>
         <div class="text-area">
             <label for="output">Transformed Text:</label>
-            <textarea id="output" readonly="readonly"></textarea>
+            <textarea id="output" readonly></textarea>
             <button class="copy-button" id="copyButton">Copy to Clipboard</button>
         </div>
     </div>
@@ -145,7 +145,37 @@
         <h3>Quick Copy Any Style (Click a button to copy that style):</h3>
         <div class="options" id="styleOptions">
             <!-- Style options will be added here by JavaScript -->
-        <button class="option-button" data-style="normal">Normal</button><button class="option-button" data-style="bold">𝐁𝐨𝐥𝐝</button><button class="option-button" data-style="italic">𝐼𝑡𝑎𝑙𝑖𝑐</button><button class="option-button" data-style="boldItalic">𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄</button><button class="option-button" data-style="script">𝓢𝓬𝓻𝓲𝓹𝓽</button><button class="option-button" data-style="boldScript">𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽</button><button class="option-button" data-style="fraktur">𝔉𝔯𝔞𝔨𝔱𝔲𝔯</button><button class="option-button" data-style="doubleStruck">𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜</button><button class="option-button" data-style="sansSerif">𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿</button><button class="option-button" data-style="sansSerifBold">𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱</button><button class="option-button" data-style="sansSerifItalic">𝘚𝘢𝘯𝘴 𝘚𝘦𝘳𝘪𝘧 𝘐𝘵𝘢𝘭𝘪𝘤</button><button class="option-button" data-style="sansSerifBoldItalic">𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘</button><button class="option-button" data-style="monospace">𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎</button><button class="option-button" data-style="fullWidth">Ｆｕｌｌ　Ｗｉｄｔｈ</button><button class="option-button" data-style="smallCaps">sᴍᴀʟʟ ᴄᴀᴘs</button><button class="option-button" data-style="circled">Ⓒⓘⓡⓒⓛⓔⓓ</button><button class="option-button" data-style="negative">🅝🅔🅖🅐🅣🅘🅥🅔</button><button class="option-button" data-style="squared">🄽🄴🄶🄰🅃🄸🅅🄴</button><button class="option-button" data-style="boxed">🅱🅾🆇🅴🅳</button><button class="option-button" data-style="reversed">desreveR</button><button class="option-button" data-style="strikeThrough">S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶</button><button class="option-button" data-style="underline">U̲n̲d̲e̲r̲l̲i̲n̲e̲</button><button class="option-button" data-style="zalgo">Z̸̢̗̥̪̣͚̭͖̭̜͍̠̩̙̮̺͎̠̪̣̼̯̀̓͂̔͋̈́̀̃̈̀̐̕̚͝a̴̗̮̠̮̝̝̜͙̤̥̹̼̮̠̗͉̩̜̭̹̹̣̹̍̍̓̃̃̋̏̈́̈̓̔̐̚͝l̸̡̧̪̞̟̮̭̻̩̬̬̥̥̹̞̘̬̗̠̜͒̊́̓́̃͐̅͝͝ͅǧ̴̢̨̱̝̖̬̳̫̬͖̻͎͍̪̔̿̓̑̆̇̍̓̿͒̾̾̏̄̌́̒͠ỏ̸̡̹̮͓̮̮̠̞̩̖̙̝̣̦̗̻̓̂̏͒͌͐̅͛̑̄̎̈̊̚͝͝</button><button class="option-button" data-style="bubbleText">Ⓑⓤⓑⓑⓛⓔ</button><button class="option-button" data-style="waveText">W₁a₂v₃e₄</button><button class="option-button" data-style="flourish">★⋆｡°✩ Flourish ✩°｡⋆★</button><button class="option-button" data-style="squiggle">～～～ Squiggle ～～～</button><button class="option-button" data-style="emojiDecor">✨💖 Emoji 💖✨</button><button class="option-button" data-style="cursive">𝒞𝓊𝓇𝓈𝒾𝓋𝑒</button><button class="option-button" data-style="sparks">✨S✨p✨a✨r✨k✨s✨</button></div>
+            <button class="option-button" data-style="normal">Normal</button>
+            <button class="option-button" data-style="bold">𝐁𝐨𝐥𝐝</button>
+            <button class="option-button" data-style="italic">𝐼𝑡𝑎𝑙𝑖𝑐</button>
+            <button class="option-button" data-style="boldItalic">𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄</button>
+            <button class="option-button" data-style="script">𝓢𝓬𝓻𝓲𝓹𝓽</button>
+            <button class="option-button" data-style="boldScript">𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽</button>
+            <button class="option-button" data-style="fraktur">𝔉𝔯𝔞𝔨𝔱𝔲𝔯</button>
+            <button class="option-button" data-style="doubleStruck">𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜</button>
+            <button class="option-button" data-style="sansSerif">𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿</button>
+            <button class="option-button" data-style="sansSerifBold">𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱</button>
+            <button class="option-button" data-style="sansSerifItalic">𝘚𝘢𝘯𝘴 𝘚𝘦𝘳𝘪𝘧 𝘐𝘵𝘢𝘭𝘪𝘤</button>
+            <button class="option-button" data-style="sansSerifBoldItalic">𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘</button>
+            <button class="option-button" data-style="monospace">𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎</button>
+            <button class="option-button" data-style="fullWidth">Ｆｕｌｌ　Ｗｉｄｔｈ</button>
+            <button class="option-button" data-style="smallCaps">sᴍᴀʟʟ ᴄᴀᴘs</button>
+            <button class="option-button" data-style="circled">Ⓒⓘⓡⓒⓛⓔⓓ</button>
+            <button class="option-button" data-style="negative">🅝🅔🅖🅐🅣🅘🅥🅔</button>
+            <button class="option-button" data-style="squared">🄽🄴🄶🄰🅃🄸🅅🄴</button>
+            <button class="option-button" data-style="boxed">🅱🅾🆇🅴🅳</button>
+            <button class="option-button" data-style="reversed">desreveR</button>
+            <button class="option-button" data-style="strikeThrough">S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶</button>
+            <button class="option-button" data-style="underline">U̲n̲d̲e̲r̲l̲i̲n̲e̲</button>
+            <button class="option-button" data-style="zalgo">Z̸̢̗̥̪̣͚̭͖̭̜͍̠̩̙̮̺͎̠̪̣̼̯̀̓͂̔͋̈́̀̃̈̀̐̕̚͝a̴̗̮̠̮̝̝̜͙̤̥̹̼̮̠̗͉̩̜̭̹̹̣̹̍̍̓̃̃̋̏̈́̈̓̔̐̚͝l̸̡̧̪̞̟̮̭̻̩̬̬̥̥̹̞̘̬̗̠̜͒̊́̓́̃͐̅͝͝ͅǧ̴̢̨̱̝̖̬̳̫̬͖̻͎͍̪̔̿̓̑̆̇̍̓̿͒̾̾̏̄̌́̒͠ỏ̸̡̹̮͓̮̮̠̞̩̖̙̝̣̦̗̻̓̂̏͒͌͐̅͛̑̄̎̈̊̚͝͝</button>
+            <button class="option-button" data-style="bubbleText">Ⓑⓤⓑⓑⓛⓔ</button>
+            <button class="option-button" data-style="waveText">W₁a₂v₃e₄</button>
+            <button class="option-button" data-style="flourish">★⋆｡°✩ Flourish ✩°｡⋆★</button>
+            <button class="option-button" data-style="squiggle">～～～ Squiggle ～～～</button>
+            <button class="option-button" data-style="emojiDecor">✨💖 Emoji 💖✨</button>
+            <button class="option-button" data-style="cursive">𝒞𝓊𝓇𝓈𝒾𝓋𝑒</button>
+            <button class="option-button" data-style="sparks">✨S✨p✨a✨r✨k✨s✨</button>
+        </div>
     </div>
 
     <!-- New section for special symbols -->
@@ -344,6 +374,11 @@
             charMaps.boxed[upperAlpha[i]] = boxedChars[i] || upperAlpha[i];
         }
 
+        // Helper function to apply character map
+        function applyCharMap(map, text) {
+            return text.split('').map(char => map[char] || char).join('');
+        }
+
         // Special effects functions
         const effects = {
             normal: text => text,
@@ -408,17 +443,78 @@
             sparks: text => "✨" + text.split('').join('✨') + "✨"
         };
 
-        // Labels for the UI
-        const effectLabels = {
-            normal: "Normal",
-            bold: "𝐁𝐨𝐥𝐝",
-            italic: "𝐼𝑡𝑎𝑙𝑖𝑐",
-            boldItalic: "𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄",
-            script: "𝓢𝓬𝓻𝓲𝓹𝓽",
-            boldScript: "𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽",
-            fraktur: "𝔉𝔯𝔞𝔨𝔱𝔲𝔯",
-            doubleStruck: "𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜",
-            sansSerif: "𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿",
-            sansSerifBold: "𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱",
-            sansSerifItalic: "𝘚𝘢𝘯𝘴 𝘚𝘦𝘳𝘪𝘧 𝘐𝘵𝘢𝘭𝘪𝘤",
-            sansSerifBoldItalic: "𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙
+        // Helper function for copying text
+        function copyToClipboard(text) {
+            const tempInput = document.createElement('textarea');
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            
+            // Optional: provide feedback
+            alert('Copied: ' + text);
+        }
+
+        // Event listener for the main copy button
+        document.getElementById('copyButton').addEventListener('click', function() {
+            const outputText = document.getElementById('output');
+            outputText.select();
+            document.execCommand('copy');
+            // Visual feedback
+            this.textContent = 'Copied!';
+            setTimeout(() => {
+                this.textContent = 'Copy to Clipboard';
+            }, 2000);
+        });
+
+        // Event listeners for style option buttons
+        document.querySelectorAll('.option-button').forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                document.querySelectorAll('.option-button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // Apply style to current text
+                const style = this.dataset.style;
+                const inputText = document.getElementById('input').value;
+                const transformedText = effects[style](inputText);
+                
+                // Update output
+                document.getElementById('output').value = transformedText;
+                
+                // Copy to clipboard
+                copyToClipboard(transformedText);
+            });
+        });
+
+        // Event listeners for special symbol buttons
+        document.getElementById('trademarkButton').addEventListener('click', function() {
+            copyToClipboard('™');
+        });
+
+        document.getElementById('copyrightButton').addEventListener('click', function() {
+            copyToClipboard('©');
+        });
+
+        document.getElementById('registeredButton').addEventListener('click', function() {
+            copyToClipboard('®');
+        });
+
+        // Initialize text transformation on input
+        document.getElementById('input').addEventListener('input', function() {
+            const activeButton = document.querySelector('.option-button.active');
+            const style = activeButton ? activeButton.dataset.style : 'normal';
+            document.getElementById('output').value = effects[style](this.value);
+        });
+        
+        // Set default active style
+        const defaultButton = document.querySelector('[data-style="normal"]');
+        if (defaultButton) defaultButton.classList.add('active');
+    </script>
+</body>
+</html>
