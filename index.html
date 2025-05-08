@@ -450,7 +450,7 @@
             sparks: text => "✨" + text.split('').join('✨') + "✨"
         };
 
-        // Helper function for copying text
+        // Helper function for copying text with no feedback
         function copyToClipboard(text) {
             const tempInput = document.createElement('textarea');
             tempInput.value = text;
@@ -458,16 +458,7 @@
             tempInput.select();
             document.execCommand('copy');
             document.body.removeChild(tempInput);
-            
-            // Visual feedback (without alert)
-            const button = document.activeElement;
-            if (button) {
-                const originalText = button.textContent;
-                button.textContent = 'Copied';
-                setTimeout(() => {
-                    button.textContent = originalText;
-                }, 1000);
-            }
+            // No feedback at all
         }
 
         // Function to generate all transformed texts
@@ -523,12 +514,7 @@
             const outputText = document.getElementById('output');
             outputText.select();
             document.execCommand('copy');
-            
-            // Visual feedback (without alert)
-            this.textContent = 'Copied!';
-            setTimeout(() => {
-                this.textContent = 'Copy to Clipboard';
-            }, 1000);
+            // No feedback
         });
 
         // Event listeners for style option buttons
