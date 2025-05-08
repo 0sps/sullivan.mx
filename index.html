@@ -59,6 +59,7 @@
         #output {
             white-space: pre-wrap;
             background-color: #fff;
+            overflow-y: auto;
         }
         .copy-button {
             margin-top: 10px;
@@ -117,6 +118,12 @@
         .symbol-button:hover {
             background-color: #0069d9;
         }
+        .style-label {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 5px;
+            display: block;
+        }
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
@@ -135,7 +142,7 @@
             <textarea id="input" placeholder="Type your text here..."></textarea>
         </div>
         <div class="text-area">
-            <label for="output">Transformed Text:</label>
+            <label for="output">All Transformed Styles:</label>
             <textarea id="output" readonly></textarea>
             <button class="copy-button" id="copyButton">Copy to Clipboard</button>
         </div>
@@ -452,8 +459,63 @@
             document.execCommand('copy');
             document.body.removeChild(tempInput);
             
-            // Optional: provide feedback
-            alert('Copied: ' + text);
+            // Visual feedback (without alert)
+            const button = document.activeElement;
+            if (button) {
+                const originalText = button.textContent;
+                button.textContent = 'Copied';
+                setTimeout(() => {
+                    button.textContent = originalText;
+                }, 1000);
+            }
+        }
+
+        // Function to generate all transformed texts
+        function generateAllTransforms(text) {
+            if (!text) return '';
+            
+            let output = '';
+            const styleNames = {
+                normal: "Normal",
+                bold: "Bold",
+                italic: "Italic",
+                boldItalic: "Bold Italic",
+                script: "Script",
+                boldScript: "Bold Script",
+                fraktur: "Fraktur",
+                doubleStruck: "Double Struck",
+                sansSerif: "Sans Serif",
+                sansSerifBold: "Sans Serif Bold",
+                sansSerifItalic: "Sans Serif Italic",
+                sansSerifBoldItalic: "Sans Serif Bold Italic",
+                monospace: "Monospace",
+                fullWidth: "Full Width",
+                smallCaps: "Small Caps",
+                circled: "Circled",
+                negative: "Negative",
+                squared: "Squared",
+                boxed: "Boxed",
+                reversed: "Reversed",
+                strikeThrough: "Strikethrough",
+                underline: "Underline",
+                zalgo: "Zalgo",
+                bubbleText: "Bubble",
+                waveText: "Wave",
+                flourish: "Flourish",
+                squiggle: "Squiggle",
+                emojiDecor: "Emoji Decorated",
+                cursive: "Cursive",
+                sparks: "Sparks"
+            };
+            
+            for (const style in effects) {
+                if (effects.hasOwnProperty(style)) {
+                    const transformedText = effects[style](text);
+                    output += `${styleNames[style] || style}:\n${transformedText}\n\n`;
+                }
+            }
+            
+            return output;
         }
 
         // Event listener for the main copy button
@@ -461,34 +523,24 @@
             const outputText = document.getElementById('output');
             outputText.select();
             document.execCommand('copy');
-            // Visual feedback
+            
+            // Visual feedback (without alert)
             this.textContent = 'Copied!';
             setTimeout(() => {
                 this.textContent = 'Copy to Clipboard';
-            }, 2000);
+            }, 1000);
         });
 
         // Event listeners for style option buttons
         document.querySelectorAll('.option-button').forEach(button => {
             button.addEventListener('click', function() {
-                // Remove active class from all buttons
-                document.querySelectorAll('.option-button').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                
-                // Add active class to clicked button
-                this.classList.add('active');
-                
-                // Apply style to current text
                 const style = this.dataset.style;
                 const inputText = document.getElementById('input').value;
-                const transformedText = effects[style](inputText);
                 
-                // Update output
-                document.getElementById('output').value = transformedText;
-                
-                // Copy to clipboard
-                copyToClipboard(transformedText);
+                if (inputText) {
+                    const transformedText = effects[style](inputText);
+                    copyToClipboard(transformedText);
+                }
             });
         });
 
@@ -507,14 +559,8 @@
 
         // Initialize text transformation on input
         document.getElementById('input').addEventListener('input', function() {
-            const activeButton = document.querySelector('.option-button.active');
-            const style = activeButton ? activeButton.dataset.style : 'normal';
-            document.getElementById('output').value = effects[style](this.value);
+            document.getElementById('output').value = generateAllTransforms(this.value);
         });
-        
-        // Set default active style
-        const defaultButton = document.querySelector('[data-style="normal"]');
-        if (defaultButton) defaultButton.classList.add('active');
     </script>
 </body>
 </html>
