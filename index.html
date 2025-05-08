@@ -159,6 +159,7 @@
             <button class="option-button" data-style="script">𝓢𝓬𝓻𝓲𝓹𝓽</button>
             <button class="option-button" data-style="boldScript">𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽</button>
             <button class="option-button" data-style="fraktur">𝔉𝔯𝔞𝔨𝔱𝔲𝔯</button>
+            <button class="option-button" data-style="boldFraktur">𝕱𝖗𝖆𝖐𝖙𝖚𝖗 𝕭𝖔𝖑𝖉</button>
             <button class="option-button" data-style="doubleStruck">𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜</button>
             <button class="option-button" data-style="sansSerif">𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿</button>
             <button class="option-button" data-style="sansSerifBold">𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱</button>
@@ -172,9 +173,10 @@
             <button class="option-button" data-style="squared">🄽🄴🄶🄰🅃🄸🅅🄴</button>
             <button class="option-button" data-style="boxed">🅱🅾🆇🅴🅳</button>
             <button class="option-button" data-style="reversed">desreveR</button>
+            <button class="option-button" data-style="upsideDown">uʍop ǝpᴉsd∩</button>
             <button class="option-button" data-style="strikeThrough">S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶</button>
             <button class="option-button" data-style="underline">U̲n̲d̲e̲r̲l̲i̲n̲e̲</button>
-            <button class="option-button" data-style="zalgo">Z̸̢̗̥̪̣͚̭͖̭̜͍̠̩̙̮̺͎̠̪̣̼̯̀̓͂̔͋̈́̀̃̈̀̐̕̚͝a̴̗̮̠̮̝̝̜͙̤̥̹̼̮̠̗͉̩̜̭̹̹̣̹̍̍̓̃̃̋̏̈́̈̓̔̐̚͝l̸̡̧̪̞̟̮̭̻̩̬̬̥̥̹̞̘̬̗̠̜͒̊́̓́̃͐̅͝͝ͅǧ̴̢̨̱̝̖̬̳̫̬͖̻͎͍̪̔̿̓̑̆̇̍̓̿͒̾̾̏̄̌́̒͠ỏ̸̡̹̮͓̮̮̠̞̩̖̙̝̣̦̗̻̓̂̏͒͌͐̅͛̑̄̎̈̊̚͝͝</button>
+            <button class="option-button" data-style="zalgo">Z̸̢̠̀̓a̴̗̍̍l̸̡͒̊g̴̢̔̿ỏ̸</button>
             <button class="option-button" data-style="bubbleText">Ⓑⓤⓑⓑⓛⓔ</button>
             <button class="option-button" data-style="waveText">W₁a₂v₃e₄</button>
             <button class="option-button" data-style="flourish">★⋆｡°✩ Flourish ✩°｡⋆★</button>
@@ -182,6 +184,14 @@
             <button class="option-button" data-style="emojiDecor">✨💖 Emoji 💖✨</button>
             <button class="option-button" data-style="cursive">𝒞𝓊𝓇𝓈𝒾𝓋𝑒</button>
             <button class="option-button" data-style="sparks">✨S✨p✨a✨r✨k✨s✨</button>
+            <button class="option-button" data-style="scriptCalligraphy">𝒶𝒷𝒸𝒹 𝒞𝒶𝓁𝓁𝒾𝑔𝓇𝒶𝓅𝒽𝓎</button>
+            <button class="option-button" data-style="boxed2">🄰🄱🄲🄳 🄱🄾🅇🄴🄳</button>
+            <button class="option-button" data-style="mirror">ꙅboɿɿiM</button>
+            <button class="option-button" data-style="creepyText">C̷̵̢r͘͝e̷͝͞e͘͡py̶̨̛ ̧T̸e̛̕͘͜x̶̧̡t͠</button>
+            <button class="option-button" data-style="superscript">ˢᵘᵖᵉʳˢᶜʳⁱᵖᵗ</button>
+            <button class="option-button" data-style="subscript">ₛᵤᵦₛ꜀ᵣᵢₚₜ</button>
+            <button class="option-button" data-style="blockLetters">🅰 🅱 🅲 🅳</button>
+            <button class="option-button" data-style="regionIndicator">🇷 🇪 🇬 🇮 🇴 🇳</button>
         </div>
     </div>
 
@@ -217,7 +227,15 @@
             circled: {},
             negative: {},
             squared: {},
-            boxed: {}
+            boxed: {},
+            boxed2: {},
+            upsideDown: {},
+            scriptCalligraphy: {},
+            mirror: {},
+            superscript: {},
+            subscript: {},
+            blockLetters: {},
+            regionIndicator: {}
         };
 
         // Initialize normal lowercase letters map
@@ -253,11 +271,23 @@
         }
 
         // Math script (𝓪-𝔃, 𝓐-𝓩)
+        const scriptChars = "𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃";
+        const scriptUpperChars = "𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩";
         for (let i = 0; i < lowerAlpha.length; i++) {
-            charMaps.script[lowerAlpha[i]] = String.fromCodePoint(0x1D4EA + i);
+            charMaps.script[lowerAlpha[i]] = scriptChars[i] || lowerAlpha[i];
         }
         for (let i = 0; i < upperAlpha.length; i++) {
-            charMaps.script[upperAlpha[i]] = String.fromCodePoint(0x1D4D0 + i);
+            charMaps.script[upperAlpha[i]] = scriptUpperChars[i] || upperAlpha[i];
+        }
+
+        // Script Calligraphy
+        const scriptCalligraphyChars = "𝒶𝒷𝒸𝒹𝑒𝒻𝑔𝒽𝒾𝒿𝓀𝓁𝓂𝓃𝑜𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏";
+        const scriptCalligraphyUpperChars = "𝒜𝐵𝒞𝒟𝐸𝐹𝒢𝐻𝐼𝒥𝒦𝐿𝑀𝒩𝒪𝒫𝒬𝑅𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.scriptCalligraphy[lowerAlpha[i]] = scriptCalligraphyChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.scriptCalligraphy[upperAlpha[i]] = scriptCalligraphyUpperChars[i] || upperAlpha[i];
         }
 
         // Math bold script (𝓫-𝔃, 𝓐-𝓩)
@@ -269,24 +299,35 @@
         }
 
         // Math fraktur (𝔞-𝔷, 𝔄-ℨ)
+        const frakturLowerChars = "𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷";
+        const frakturUpperChars = "𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ";
         for (let i = 0; i < lowerAlpha.length; i++) {
-            charMaps.fraktur[lowerAlpha[i]] = String.fromCodePoint(0x1D586 + i);
+            charMaps.fraktur[lowerAlpha[i]] = frakturLowerChars[i] || lowerAlpha[i];
         }
         for (let i = 0; i < upperAlpha.length; i++) {
-            charMaps.fraktur[upperAlpha[i]] = String.fromCodePoint(0x1D56C + i);
+            charMaps.fraktur[upperAlpha[i]] = frakturUpperChars[i] || upperAlpha[i];
+        }
+
+        // Bold Fraktur
+        const boldFrakturLowerChars = "𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟";
+        const boldFrakturUpperChars = "𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.boldFraktur[lowerAlpha[i]] = boldFrakturLowerChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boldFraktur[upperAlpha[i]] = boldFrakturUpperChars[i] || upperAlpha[i];
         }
 
         // Math double-struck (𝕒-𝕫, 𝔸-ℤ, 𝟘-𝟡)
+        const doubleStruckLowerChars = "𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫";
+        const doubleStruckUpperChars = "𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ";
         for (let i = 0; i < lowerAlpha.length; i++) {
-            charMaps.doubleStruck[lowerAlpha[i]] = String.fromCodePoint(0x1D552 + i);
+            charMaps.doubleStruck[lowerAlpha[i]] = doubleStruckLowerChars[i] || lowerAlpha[i];
         }
         for (let i = 0; i < upperAlpha.length; i++) {
-            charMaps.doubleStruck[upperAlpha[i]] = String.fromCodePoint(0x1D538 + i);
+            charMaps.doubleStruck[upperAlpha[i]] = doubleStruckUpperChars[i] || upperAlpha[i];
         }
-        for (let i = 0; i < numbers.length; i++) {
-            charMaps.doubleStruck[numbers[i]] = String.fromCodePoint(0x1D7D8 + i);
-        }
-
+        
         // Sans-serif (𝖺-𝗓, 𝖠-𝖹, 𝟢-𝟫)
         for (let i = 0; i < lowerAlpha.length; i++) {
             charMaps.sansSerif[lowerAlpha[i]] = String.fromCodePoint(0x1D5BA + i);
@@ -337,18 +378,20 @@
         }
 
         // Fullwidth (ａ-ｚ, Ａ-Ｚ, ０-９)
+        const fullWidthLowerChars = "ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ";
+        const fullWidthUpperChars = "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ";
         for (let i = 0; i < lowerAlpha.length; i++) {
-            charMaps.fullWidth[lowerAlpha[i]] = String.fromCodePoint(0xFF41 + i);
+            charMaps.fullWidth[lowerAlpha[i]] = fullWidthLowerChars[i] || lowerAlpha[i];
         }
         for (let i = 0; i < upperAlpha.length; i++) {
-            charMaps.fullWidth[upperAlpha[i]] = String.fromCodePoint(0xFF21 + i);
+            charMaps.fullWidth[upperAlpha[i]] = fullWidthUpperChars[i] || upperAlpha[i];
         }
         for (let i = 0; i < numbers.length; i++) {
             charMaps.fullWidth[numbers[i]] = String.fromCodePoint(0xFF10 + i);
         }
 
         // Small caps - approximation for lowercase only
-        const smallCapsChars = "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ";
+        const smallCapsChars = "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ";
         for (let i = 0; i < lowerAlpha.length; i++) {
             charMaps.smallCaps[lowerAlpha[i]] = smallCapsChars[i] || lowerAlpha[i];
         }
@@ -371,14 +414,81 @@
         }
 
         // Squared (🄰-🄹)
+        const squaredChars = "🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉";
         for (let i = 0; i < upperAlpha.length; i++) {
-            charMaps.squared[upperAlpha[i]] = String.fromCodePoint(0x1F130 + i);
+            charMaps.squared[upperAlpha[i]] = squaredChars[i] || upperAlpha[i];
         }
 
         // Boxed (🅰-🅉)
         const boxedChars = "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉";
         for (let i = 0; i < upperAlpha.length; i++) {
             charMaps.boxed[upperAlpha[i]] = boxedChars[i] || upperAlpha[i];
+        }
+
+        // Boxed 2 style
+        const boxed2Chars = "🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉";
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boxed2[upperAlpha[i]] = boxed2Chars[i] || upperAlpha[i];
+        }
+
+        // Upside Down (uʍop ǝpısdn)
+        const upsideDownMap = {
+            'a': 'ɐ', 'b': 'q', 'c': 'ɔ', 'd': 'p', 'e': 'ǝ', 'f': 'ɟ', 'g': 'ƃ', 'h': 'ɥ', 'i': 'ı',
+            'j': 'ɾ', 'k': 'ʞ', 'l': 'l', 'm': 'ɯ', 'n': 'u', 'o': 'o', 'p': 'd', 'q': 'b', 'r': 'ɹ',
+            's': 's', 't': 'ʇ', 'u': 'n', 'v': 'ʌ', 'w': 'ʍ', 'x': 'x', 'y': 'ʎ', 'z': 'z',
+            'A': '∀', 'B': 'ᙠ', 'C': 'Ɔ', 'D': 'ᗡ', 'E': 'Ǝ', 'F': 'Ⅎ', 'G': '⅁', 'H': 'H', 'I': 'I',
+            'J': 'ſ', 'K': '⋊', 'L': '˥', 'M': 'W', 'N': 'N', 'O': 'O', 'P': 'Ԁ', 'Q': 'Ό', 'R': 'ᴚ',
+            'S': 'S', 'T': '⊥', 'U': '∩', 'V': 'Λ', 'W': 'M', 'X': 'X', 'Y': '⅄', 'Z': 'Z',
+            '0': '0', '1': 'Ɩ', '2': 'ᄅ', '3': 'Ɛ', '4': 'ㄣ', '5': 'ϛ', '6': '9', '7': 'ㄥ', '8': '8', '9': '6',
+            '.': '˙', ',': '\'', '\'': ',', '"': '„', '`': ',', '!': '¡', '?': '¿', '(': ')', ')': '(', '[': ']', ']': '[', '{': '}', '}': '{', '<': '>', '>': '<', '&': '⅋'
+        };
+        
+        Object.keys(upsideDownMap).forEach(key => {
+            charMaps.upsideDown[key] = upsideDownMap[key];
+        });
+
+        // Mirror text
+        const mirrorMap = {
+            'a': 'ɒ', 'b': 'd', 'c': 'ɔ', 'd': 'b', 'e': 'ɘ', 'f': 'ꟻ', 'g': 'ǫ', 'h': 'ʜ', 'i': 'i', 
+            'j': 'ꞁ', 'k': 'ʞ', 'l': 'l', 'm': 'm', 'n': 'ᴎ', 'o': 'o', 'p': 'q', 'q': 'p', 'r': 'ɿ',
+            's': 'ꙅ', 't': 'ƚ', 'u': 'u', 'v': 'v', 'w': 'w', 'x': 'x', 'y': 'y', 'z': 'ƹ',
+            'A': 'A', 'B': 'ꓭ', 'C': 'Ɔ', 'D': 'ꓷ', 'E': 'Ǝ', 'F': 'ꟻ', 'G': 'Ꚁ', 'H': 'H', 'I': 'I',
+            'J': 'Ⴑ', 'K': 'Ꞣ', 'L': '⅃', 'M': 'M', 'N': 'Ͷ', 'O': 'O', 'P': 'ꟼ', 'Q': 'Ọ', 'R': 'Я',
+            'S': 'Ꙅ', 'T': 'T', 'U': 'U', 'V': 'V', 'W': 'W', 'X': 'X', 'Y': 'Y', 'Z': 'Ƹ'
+        };
+
+        Object.keys(mirrorMap).forEach(key => {
+            charMaps.mirror[key] = mirrorMap[key];
+        });
+
+        // Superscript
+        const superscriptChars = "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖqʳˢᵗᵘᵛʷˣʸᶻ";
+        const superscriptUpperChars = "ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾQᴿˢᵀᵁⱽᵂˣʸᶻ";
+
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.superscript[lowerAlpha[i]] = superscriptChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.superscript[upperAlpha[i]] = superscriptUpperChars[i] || upperAlpha[i];
+        }
+
+        // Subscript
+        const subscriptChars = "ₐbcdₑfgₕᵢⱼₖₗₘₙₒₚqᵣₛₜᵤᵥwₓyz";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.subscript[lowerAlpha[i]] = subscriptChars[i] || lowerAlpha[i];
+        }
+        
+        // Block letters
+        const blockLettersChars = "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉";
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.blockLetters[upperAlpha[i]] = blockLettersChars[i] || upperAlpha[i];
+            charMaps.blockLetters[lowerAlpha[i]] = blockLettersChars[i] || lowerAlpha[i];
+        }
+
+        // Region indicator (for flag emoji style)
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.regionIndicator[upperAlpha[i]] = String.fromCodePoint(0x1F1E6 + i);
+            charMaps.regionIndicator[lowerAlpha[i]] = String.fromCodePoint(0x1F1E6 + i);
         }
 
         // Helper function to apply character map
@@ -395,6 +505,7 @@
             script: text => applyCharMap(charMaps.script, text),
             boldScript: text => applyCharMap(charMaps.boldScript, text),
             fraktur: text => applyCharMap(charMaps.fraktur, text),
+            boldFraktur: text => applyCharMap(charMaps.boldFraktur, text),
             doubleStruck: text => applyCharMap(charMaps.doubleStruck, text),
             sansSerif: text => applyCharMap(charMaps.sansSerif, text),
             sansSerifBold: text => applyCharMap(charMaps.sansSerifBold, text),
@@ -407,7 +518,9 @@
             negative: text => applyCharMap(charMaps.negative, text),
             squared: text => applyCharMap(charMaps.squared, text),
             boxed: text => applyCharMap(charMaps.boxed, text),
+            boxed2: text => applyCharMap(charMaps.boxed2, text),
             reversed: text => text.split('').reverse().join(''),
+            upsideDown: text => applyCharMap(charMaps.upsideDown, text.split('').reverse().join('')),
             strikeThrough: text => text.split('').join('̶') + '̶',
             underline: text => text.split('').join('̲') + '̲',
             zalgo: text => {
@@ -447,7 +560,36 @@
             squiggle: text => "～～～ " + text + " ～～～",
             emojiDecor: text => "✨💖 " + text + " 💖✨",
             cursive: text => applyCharMap(charMaps.script, text),
-            sparks: text => "✨" + text.split('').join('✨') + "✨"
+            sparks: text => "✨" + text.split('').join('✨') + "✨",
+            scriptCalligraphy: text => applyCharMap(charMaps.scriptCalligraphy, text),
+            mirror: text => applyCharMap(charMaps.mirror, text.split('').reverse().join('')),
+            creepyText: text => {
+                // This is a simplified version of zalgo with fewer combining characters
+                const zalgo_chars = ["\u0300", "\u0301", "\u0302", "\u0303", "\u0304", "\u0305", "\u0306", "\u0307"];
+                return text.split('').map(char => {
+                    let result = char;
+                    let numChars = Math.floor(Math.random() * 2) + 1; // 1-2 combining characters
+                    
+                    for (let i = 0; i < numChars; i++) {
+                        result += zalgo_chars[Math.floor(Math.random() * zalgo_chars.length)];
+                    }
+                    return result;
+                }).join('');
+            },
+            superscript: text => applyCharMap(charMaps.superscript, text),
+            subscript: text => applyCharMap(charMaps.subscript, text),
+            blockLetters: text => text.split('').map(c => {
+                if (c.match(/[a-z]/i)) {
+                    return charMaps.blockLetters[c] || c;
+                }
+                return c;
+            }).join(' '),
+            regionIndicator: text => text.split('').map(c => {
+                if (c.match(/[a-z]/i)) {
+                    return charMaps.regionIndicator[c] || c;
+                }
+                return c;
+            }).join(' ')
         };
 
         // Helper function for copying text with no feedback
@@ -474,6 +616,7 @@
                 script: "Script",
                 boldScript: "Bold Script",
                 fraktur: "Fraktur",
+                boldFraktur: "Bold Fraktur",
                 doubleStruck: "Double Struck",
                 sansSerif: "Sans Serif",
                 sansSerifBold: "Sans Serif Bold",
@@ -486,7 +629,9 @@
                 negative: "Negative",
                 squared: "Squared",
                 boxed: "Boxed",
+                boxed2: "Boxed Style 2",
                 reversed: "Reversed",
+                upsideDown: "Upside Down",
                 strikeThrough: "Strikethrough",
                 underline: "Underline",
                 zalgo: "Zalgo",
@@ -496,13 +641,20 @@
                 squiggle: "Squiggle",
                 emojiDecor: "Emoji Decorated",
                 cursive: "Cursive",
-                sparks: "Sparks"
+                sparks: "Sparks",
+                scriptCalligraphy: "Script Calligraphy",
+                mirror: "Mirror",
+                creepyText: "Creepy Text",
+                superscript: "Superscript",
+                subscript: "Subscript",
+                blockLetters: "Block Letters",
+                regionIndicator: "Region Indicator"
             };
             
             for (const style in effects) {
                 if (effects.hasOwnProperty(style)) {
                     const transformedText = effects[style](text);
-                    output += `${styleNames[style] || style}:\n${transformedText}\n\n`;
+                    output += `${transformedText}\n\n`;
                 }
             }
             
