@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Welcome to My Blog"
+title: "A Dozen Chargers in the Lab"
 date: 2026-01-18
-tags: [meta, blogging]
+tags: [technology]
 ---
 
 ## A Dozen chargers in the lab: apple is okay, but not the best
@@ -10,7 +10,10 @@ tags: [meta, blogging]
 Hello! 
 I have been inspired by Ken Shirriff to make a writeup of different USB Chargers you might find.
 
-![Apple retail power supply](/assets/images/1%20Apple%20Retail%205v%202.3a.png)
+<p style="display: flex; gap: 10px;">
+  <img src="/assets/images/1-apple-retail.png" alt="Image 1" style="width: 48%;">
+  <img src="/assets/images/2-apple-retail.png" alt="Image 2" style="width: 48%;">
+</p>
 
 I tested a dozen chargers and i have some interesting opinions on them.
 
