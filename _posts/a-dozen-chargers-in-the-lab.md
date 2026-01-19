@@ -11,6 +11,9 @@ Hello!
 I have been inspired by Ken Shirriff to make a writeup of different USB Chargers you might find.
 
 ![Apple retail power supply](/assets/images/1%20Apple%20Retail%205v%202.3a.png)
+
+I tested a dozen chargers and i have some interesting opinions on them.
+
 - Technology and programming
 - Mathematics and algorithms
 - Interesting problems and solutions
