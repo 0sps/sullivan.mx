@@ -5,14 +5,12 @@ date: 2026-01-18
 tags: [meta, blogging]
 ---
 
-## Introduction
+## A Dozen chargers in the lab: apple is okay, but not the best
 
-Welcome to my new blog! This is an example post to demonstrate the blog structure and styling.
+Hello! 
+I have been inspired by Ken Shirriff to make a writeup of different USB Chargers you might find.
 
-## What You'll Find Here
-
-I'll be writing about:
-
+![Apple retail power supply](/assets/images/1%20Apple%20Retail%205v%202.3a.png)
 - Technology and programming
 - Mathematics and algorithms
 - Interesting problems and solutions
