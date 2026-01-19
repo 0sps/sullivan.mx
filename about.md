@@ -5,6 +5,6 @@ title: About
 
 # About
 
-Welcome to my blog! I write about technology, mathematics, and programming.
+Welcome to my blog! I write about technology, engineering, programming, health, anything that comes to mind..
 
-You can customize this page with your own content.
+If you really need me, you can contact me at sean@(this-domain).
