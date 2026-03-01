@@ -47,7 +47,7 @@ You can use **bold text**, *italic text*, and `inline code`. Lists work great to
 This blog is built with Jekyll and deployed on Netlify. It uses a minimalist design inspired by clean, readable blogs that focus on content over flashy design.
 
 Stay tuned for more posts!
-
+<p>
 <style>
   table {
     border-collapse: collapse;
@@ -196,3 +196,4 @@ Stay tuned for more posts!
     </tr>
   </tbody>
 </table>
+</p>
