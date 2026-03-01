@@ -245,7 +245,7 @@ devices:
     align-items: center;
     gap: 10px;
     margin-bottom: 12px;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
   .device-card figcaption {
     font-size: 1.1em;
@@ -267,10 +267,12 @@ devices:
     font-weight: 600;
     transition: all 0.2s ease;
     margin-top: 15px;
+    opacity: 0.5;
   }
   .expand-btn:hover {
     background: #808080;
     color: #fff;
+    opacity: 1;
   }
 
   /* Modal Styles */
