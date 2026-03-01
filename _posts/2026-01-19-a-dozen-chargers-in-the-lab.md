@@ -455,8 +455,8 @@ devices:
   .bolt-5 { color: #004d00; font-weight: 900; -webkit-text-stroke: 1px #004d00; }
   .bolt-4 { color: #228B22; font-weight: 900; -webkit-text-stroke: 1px #228B22; }
   .bolt-3 { color: #32CD32; font-weight: 900; -webkit-text-stroke: 1px #32CD32; }
-  .bolt-2 { color: #98FB98; font-weight: 900; -webkit-text-stroke: 1px #98FB98; }
-  .bolt-1 { color: #FFD700; font-weight: 900; -webkit-text-stroke: 1px #FFD700; }
+  .bolt-2 { color: #D4A800; font-weight: 900; -webkit-text-stroke: 1px #D4A800; }
+  .bolt-1 { color: #C41C00; font-weight: 900; -webkit-text-stroke: 1px #C41C00; }
 </style>
 
 <table>
