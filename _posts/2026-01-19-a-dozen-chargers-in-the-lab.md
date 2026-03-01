@@ -109,11 +109,11 @@ Stay tuned for more posts!
 
   <figure class="device-card">
     <div class="device-images">
-      <a href="/assets/images/iphone-1.png" target="_blank">
-        <img src="/assets/images/iphone-1.png" alt="iPhone Test 1">
+      <a href="/assets/images/VEBNERgaqn2.png" target="_blank">
+        <img src="/assets/images/VEBNERgaqn2.png" alt="iPhone Test 1">
       </a>
-      <a href="/assets/images/iphone-2.png" target="_blank">
-        <img src="/assets/images/iphone-2.png" alt="iPhone Test 2">
+      <a href="/assets/images/VEBNERgaqn2.png" target="_blank">
+        <img src="/assets/images/VEBNERgaqn2.png" alt="iPhone Test 2">
       </a>
     </div>
     <figcaption>
@@ -122,7 +122,7 @@ Stay tuned for more posts!
   </figure>
 
   </div>
-  
+
 <style>
   table {
     border-collapse: collapse;
