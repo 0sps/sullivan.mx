@@ -167,16 +167,15 @@ Stay tuned for more posts!
     align-items: center;
     justify-content: center;
     padding: 10px 0;
-    border-right: 2px solid #ddd;
   }
   .vertical-title-text {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.95em;
     letter-spacing: 2px;
     font-weight: 800;
-    color: #555;
+    color: #3a3a3a;
     white-space: nowrap;
   }
   .device-content {
@@ -251,16 +250,26 @@ Stay tuned for more posts!
     backdrop-filter: blur(6px);
   }
   .modal-dismiss-hint {
-    color: rgba(255,255,255,0.6);
-    font-size: 0.9em;
-    letter-spacing: 1px;
-    margin-bottom: 14px;
+    position: absolute;
+    font-family: sans-serif;
+    color: rgba(255,255,255,0.55);
+    font-size: 0.82em;
+    letter-spacing: 1.5px;
     user-select: none;
+    pointer-events: none;
+  }
+  .modal-dismiss-hint.top    { top: 18px;    left: 50%; transform: translateX(-50%); }
+  .modal-dismiss-hint.bottom { bottom: 18px; left: 50%; transform: translateX(-50%); }
+  .modal-dismiss-hint.left   { left: 18px;   top: 50%;  transform: translateY(-50%) rotate(-90deg); }
+  .modal-dismiss-hint.right  { right: 18px;  top: 50%;  transform: translateY(-50%) rotate(90deg); }
+  .modal-wrapper {
+    position: relative;
+    width: 90%;
+    max-width: 1100px;
   }
   .modal-container {
     background: #fff;
-    width: 90%;
-    max-width: 1100px;
+    width: 100%;
     max-height: 85vh;
     border-radius: 24px;
     position: relative;
@@ -269,22 +278,29 @@ Stay tuned for more posts!
     flex-direction: column;
     transform: scale(0.3);
     opacity: 0;
-    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease;
     transform-origin: center center;
   }
   #device-modal.modal-open .modal-container {
     transform: scale(1);
     opacity: 1;
   }
-  .modal-close {
-    position: absolute;
-    top: 20px;
-    right: 25px;
-    font-size: 35px;
-    color: #333;
-    cursor: pointer;
-    z-index: 10;
+  /* Custom scrollbar for modal */
+  .modal-container::-webkit-scrollbar {
+    width: 10px;
   }
+  .modal-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 0 24px 24px 0;
+  }
+  .modal-container::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 10px;
+  }
+  .modal-container::-webkit-scrollbar-thumb:hover {
+    background: #999;
+  }
+
   .modal-body {
     padding: 40px;
   }
@@ -340,12 +356,16 @@ Stay tuned for more posts!
   {% endfor %}
 </div>
 
-<div id="device-modal" onclick="if(event.target == this || event.target.classList.contains('modal-dismiss-hint')) closeModal()">
-  <div class="modal-dismiss-hint">click anywhere to dismiss</div>
-  <div class="modal-container">
-    <span class="modal-close" onclick="closeModal()">&times;</span>
-    <div id="modal-content" class="modal-body">
-      <!-- Content injected by JS -->
+<div id="device-modal" onclick="closeModal()">
+  <span class="modal-dismiss-hint top">click anywhere to dismiss</span>
+  <span class="modal-dismiss-hint bottom">click anywhere to dismiss</span>
+  <span class="modal-dismiss-hint left">click anywhere to dismiss</span>
+  <span class="modal-dismiss-hint right">click anywhere to dismiss</span>
+  <div class="modal-wrapper" onclick="event.stopPropagation()">
+    <div class="modal-container">
+      <div id="modal-content" class="modal-body">
+        <!-- Content injected by JS -->
+      </div>
     </div>
   </div>
 </div>
