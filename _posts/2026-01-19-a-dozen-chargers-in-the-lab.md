@@ -49,6 +49,81 @@ This blog is built with Jekyll and deployed on Netlify. It uses a minimalist des
 Stay tuned for more posts!
 <p>
 <style>
+  .device-scroller {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    padding-bottom: 20px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .device-scroller::-webkit-scrollbar {
+    height: 8px;
+  }
+  .device-scroller::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 10px;
+  }
+  .device-card {
+    flex: 0 0 320px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .device-images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  .device-images a {
+    width: 50%;
+  }
+  .device-images img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #eee;
+  }
+  .device-card figcaption {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #444;
+  }
+</style>
+
+<div class="device-scroller">
+  
+  <figure class="device-card">
+    <div class="device-images">
+      <a href="/assets/images/apple-1.png" target="_blank">
+        <img src="/assets/images/apple-1.png" alt="Apple 30W Test 1">
+      </a>
+      <a href="/assets/images/apple-2.png" target="_blank">
+        <img src="/assets/images/apple-2.png" alt="Apple 30W Test 2">
+      </a>
+    </div>
+    <figcaption>
+      <strong>Apple 30W Retail:</strong> Advertised at 30W, actual measured power was 29.5W. Solid performance.
+    </figcaption>
+  </figure>
+
+  <figure class="device-card">
+    <div class="device-images">
+      <a href="/assets/images/iphone-1.png" target="_blank">
+        <img src="/assets/images/iphone-1.png" alt="iPhone Test 1">
+      </a>
+      <a href="/assets/images/iphone-2.png" target="_blank">
+        <img src="/assets/images/iphone-2.png" alt="iPhone Test 2">
+      </a>
+    </div>
+    <figcaption>
+      <strong>iPhone 17 Pro:</strong> Over-performed! Advertised at 4.5W but pulled 5.4W during testing.
+    </figcaption>
+  </figure>
+
+  </div>
+  
+<style>
   table {
     border-collapse: collapse;
     width: 100%;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Dozen Chargers in the Lab"
+title: "Vibe Coding my workout app"
 date: 2026-01-18
 tags: [technology]
 ---
