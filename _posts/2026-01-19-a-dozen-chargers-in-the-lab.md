@@ -134,9 +134,9 @@ Stay tuned for more posts!
     align-items: flex-start;
     overflow-x: auto;
     gap: 30px;
-    padding: 24px 10%; /* Provides a margin on both sides so the cards don't hit the screen edges */
+    padding: 24px 10%;
     -webkit-overflow-scrolling: touch;
-    height: 575px;
+    height: 690px;
     box-sizing: border-box;
   }
   .device-scroller::-webkit-scrollbar {
@@ -147,7 +147,7 @@ Stay tuned for more posts!
     border-radius: 10px;
   }
   .device-card {
-    flex: 0 0 800px;
+    flex: 0 0 950px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -161,7 +161,7 @@ Stay tuned for more posts!
     display: flex;
     flex-direction: column;
     gap: 12px;
-    flex: 0 0 340px;
+    flex: 0 0 450px;
   }
   .device-images a {
     display: block;
@@ -170,7 +170,7 @@ Stay tuned for more posts!
   .device-images img {
     width: 100%;
     height: auto;
-    max-height: 240px;
+    max-height: 290px;
     object-fit: cover;
     border-radius: 10px;
     border: 1px solid #eee;
@@ -178,16 +178,16 @@ Stay tuned for more posts!
   }
   .device-card figcaption {
     flex: 1;
-    padding-left: 30px;
-    font-size: 1.05em;
-    line-height: 1.6;
+    padding-left: 35px;
+    font-size: 1.1em;
+    line-height: 1.65;
     color: #333;
     overflow-y: auto;
   }
   .device-card figcaption strong {
     display: block;
-    font-size: 1.2em;
-    margin-bottom: 8px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
     color: #000;
   }
 </style>
