@@ -126,13 +126,18 @@ Stay tuned for more posts!
 <p>
 <style>
   .device-scroller {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    position: relative;
     display: flex;
     align-items: flex-start;
     overflow-x: auto;
     gap: 30px;
-    padding: 20px 5px;
+    padding: 24px 10%; /* Provides a margin on both sides so the cards don't hit the screen edges */
     -webkit-overflow-scrolling: touch;
     height: 575px;
+    box-sizing: border-box;
   }
   .device-scroller::-webkit-scrollbar {
     height: 8px;
