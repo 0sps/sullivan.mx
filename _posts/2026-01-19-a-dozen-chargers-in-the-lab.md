@@ -267,6 +267,19 @@ Stay tuned for more posts!
     position: relative;
     width: 90%;
     max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-title {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgba(255,255,255,0.88);
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    padding-left: 4px;
+    text-transform: uppercase;
+    transition: opacity 0.3s ease;
   }
   .modal-container {
     background: #fff;
@@ -288,7 +301,7 @@ Stay tuned for more posts!
   }
   /* Custom scrollbar for modal */
   .modal-body::-webkit-scrollbar {
-    width: 10px;
+    width: 14px;
   }
   .modal-body::-webkit-scrollbar-track {
     background: #f1f1f1;
@@ -318,17 +331,11 @@ Stay tuned for more posts!
     border-radius: 12px;
     box-shadow: 0 5px 25px rgba(0,0,0,0.1);
   }
-  .modal-body h2 {
-    margin-top: 0;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-  }
   .modal-body p {
     font-size: 1.15em;
     line-height: 1.6;
     color: #333;
-    margin-top: 20px;
+    margin-top: 0;
   }
 </style>
 
@@ -364,6 +371,7 @@ Stay tuned for more posts!
   <span class="modal-dismiss-hint left">click anywhere to dismiss</span>
   <span class="modal-dismiss-hint right">click anywhere to dismiss</span>
   <div class="modal-wrapper" onclick="event.stopPropagation()">
+    <div id="modal-title" class="modal-title"></div>
     <div class="modal-container">
       <div id="modal-content" class="modal-body">
         <!-- Content injected by JS -->
@@ -381,8 +389,9 @@ Stay tuned for more posts!
     if(item.img1) imgsHtml += `<img src="${item.img1}" alt="${item.name}">`;
     if(item.img2) imgsHtml += `<img src="${item.img2}" alt="${item.name}">`;
 
+    document.getElementById('modal-title').textContent = item.name;
+
     content.innerHTML = `
-      <h2>${item.name}</h2>
       <div class="modal-imgs">${imgsHtml}</div>
       <p>${item.caption || ''}</p>
     `;
