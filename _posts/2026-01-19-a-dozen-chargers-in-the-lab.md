@@ -148,7 +148,7 @@ devices:
     scroll-behavior: smooth;
   }
   .device-scroller::-webkit-scrollbar {
-    height: 8px;
+    height: 16px;
   }
   .device-scroller::-webkit-scrollbar-thumb {
     background: #bbb;
@@ -188,6 +188,7 @@ devices:
     letter-spacing: 2px;
     font-weight: 800;
     color: #3a3a3a;
+    text-align: center;
   }
   .device-content {
     flex: 1;
