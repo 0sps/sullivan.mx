@@ -157,19 +157,22 @@ devices:
   .device-card {
     flex: 0 0 820px;
     margin: 0;
+    position: relative;
     display: flex;
     flex-direction: row;
     border-radius: 20px;
-    padding: 0;
+    padding: 0 0 0 42px;
     border: 1px solid rgba(0,0,0,0.08);
     box-sizing: border-box;
     overflow: hidden;
     transition: transform 0.2s ease;
   }
   .vertical-title-bar {
-    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
     width: 42px;
-    max-height: 620px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -185,7 +188,6 @@ devices:
     letter-spacing: 2px;
     font-weight: 800;
     color: #3a3a3a;
-    white-space: nowrap;
   }
   .device-content {
     flex: 1;
