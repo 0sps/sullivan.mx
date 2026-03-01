@@ -140,7 +140,7 @@ Stay tuned for more posts!
     border-radius: 10px;
   }
   .device-card {
-    flex: 0 0 320px;
+    flex: 0 0 640px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -151,12 +151,11 @@ Stay tuned for more posts!
     margin-bottom: 12px;
   }
   .device-images a {
-    width: 50%;
+    flex: 1;
   }
   .device-images img {
     width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    height: auto;
     border-radius: 6px;
     border: 1px solid #eee;
   }
