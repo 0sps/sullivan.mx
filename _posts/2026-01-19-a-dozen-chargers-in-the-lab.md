@@ -172,6 +172,7 @@ Stay tuned for more posts!
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-transform: uppercase;
+    font-family: sans-serif;
     font-size: 0.95em;
     letter-spacing: 2px;
     font-weight: 800;
@@ -271,9 +272,9 @@ Stay tuned for more posts!
     background: #fff;
     width: 100%;
     max-height: 85vh;
-    border-radius: 24px;
+    border-radius: 12px;
     position: relative;
-    overflow-y: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     transform: scale(0.3);
@@ -286,23 +287,24 @@ Stay tuned for more posts!
     opacity: 1;
   }
   /* Custom scrollbar for modal */
-  .modal-container::-webkit-scrollbar {
+  .modal-body::-webkit-scrollbar {
     width: 10px;
   }
-  .modal-container::-webkit-scrollbar-track {
+  .modal-body::-webkit-scrollbar-track {
     background: #f1f1f1;
-    border-radius: 0 24px 24px 0;
   }
-  .modal-container::-webkit-scrollbar-thumb {
+  .modal-body::-webkit-scrollbar-thumb {
     background: #bbb;
     border-radius: 10px;
   }
-  .modal-container::-webkit-scrollbar-thumb:hover {
+  .modal-body::-webkit-scrollbar-thumb:hover {
     background: #999;
   }
 
   .modal-body {
     padding: 40px;
+    overflow-y: auto;
+    flex: 1;
   }
   .modal-body .modal-imgs {
     display: flex;
