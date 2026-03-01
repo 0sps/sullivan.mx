@@ -47,3 +47,152 @@ You can use **bold text**, *italic text*, and `inline code`. Lists work great to
 This blog is built with Jekyll and deployed on Netlify. It uses a minimalist design inspired by clean, readable blogs that focus on content over flashy design.
 
 Stay tuned for more posts!
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  /* These classes control the colors and force the bold thickness */
+  .bolt-5 { color: #004d00; font-weight: 900; -webkit-text-stroke: 1px #004d00; }
+  .bolt-4 { color: #228B22; font-weight: 900; -webkit-text-stroke: 1px #228B22; }
+  .bolt-3 { color: #32CD32; font-weight: 900; -webkit-text-stroke: 1px #32CD32; }
+  .bolt-2 { color: #98FB98; font-weight: 900; -webkit-text-stroke: 1px #98FB98; }
+  .bolt-1 { color: #FFD700; font-weight: 900; -webkit-text-stroke: 1px #FFD700; }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Charger</th>
+      <th>Vpp (mV)</th>
+      <th>Noise Rating (Graph 1)</th>
+      <th>Ripple Rating (Graphs 2 & 3)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Eero 15W Charger</strong></td>
+      <td>60mV</td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Shargeek Macintosh Charger</strong></td>
+      <td>152mV</td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Apple 30W Retail Charger</strong></td>
+      <td>96mV</td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Apple HomePod Mini Charger</strong></td>
+      <td>308mV</td>
+      <td><span class="bolt-1">&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-2">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Vebner GaN 65W Charger</strong></td>
+      <td>332mV</td>
+      <td><span class="bolt-1">&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-1">&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Govee Power Supply</strong></td>
+      <td>164mV</td>
+      <td><span class="bolt-2">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Counterfeit AT&T</strong></td>
+      <td>260mV</td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Counterfeit Samsung</strong></td>
+      <td>468mV</td>
+      <td><span class="bolt-1">&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-1">&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Amazon Kindle Charger</strong></td>
+      <td>288mV</td>
+      <td><span class="bolt-2">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-1">&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Counterfeit Chinese Wall Charger (USB A Only)</strong></td>
+      <td>84mV</td>
+      <td><span class="bolt-4">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Dealworthy Charger</strong></td>
+      <td>212mV</td>
+      <td><span class="bolt-2">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-2">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Anker 621 MAG GO 5000mAh Battery</strong></td>
+      <td>36mV</td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-4">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>iPhone 17 pro</strong></td>
+      <td>136mV</td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>Macbook Pro M1</strong></td>
+      <td>24mV</td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td><strong>Anker ASPD053a</strong></td>
+      <td>128mV</td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-3">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Apple 96W Macbook Charger</strong></td>
+      <td>92mV</td>
+      <td><span class="bolt-4">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-4">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>AOHI GaN Charger</strong></td>
+      <td>72mV</td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Anker 637 Magnetic Charging Station</strong></td>
+      <td>76mV</td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+    <tr>
+      <td><strong>Spigen PowerArc ArcStation Pro</strong></td>
+      <td>56mV</td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+      <td><span class="bolt-5">&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;&#x26A1;&#xFE0E;</span></td>
+    </tr>
+  </tbody>
+</table>
