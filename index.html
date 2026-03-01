@@ -1,3 +1,741 @@
----
-layout: home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean's stylish text generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .options-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 10px auto;
+        }
+        h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .text-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .text-area label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            font-size: 16px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        #output {
+            white-space: pre-wrap;
+            background-color: #fff;
+            overflow-y: auto;
+        }
+        .copy-button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            align-self: flex-end;
+        }
+        .copy-button:hover {
+            background-color: #45a049;
+        }
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .option-button {
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .option-button:hover {
+            background-color: #e0e0e0;
+        }
+        .option-button.active {
+            background-color: #007bff;
+            color: white;
+        }
+        /* New styles for special symbols section */
+        .special-symbols-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto 10px;
+            padding: 15px;
+            background-color: #e8f4ff;
+            border-radius: 6px;
+            border: 1px solid #b8daff;
+        }
+        .symbol-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 18px;
+            min-width: 150px;
+        }
+        .symbol-button:hover {
+            background-color: #0069d9;
+        }
+        .style-label {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 5px;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            textarea {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+<!--  google looker studio embed-->
+<style>
+  .report-embed {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .report-embed iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+    min-height: 1000px;   /* desktop default (fixes the '12…00px' typo) */
+  }
+
+  /* tablet-ish */
+  @media (max-width: 1024px) {
+    .report-embed iframe { min-height: 1000px; }
+  }
+
+  /* mobile: force 820px */
+  @media (max-width: 600px) {
+    .report-embed iframe { min-height: 720px; }
+  }
+</style>
+
+<div class="report-embed">
+  <iframe
+    src="https://lookerstudio.google.com/embed/reporting/73e61f50-7336-418d-9d10-60530b1371af/page/x8qXF"
+    loading="lazy"
+    allowfullscreen
+  ></iframe>
+</div>
+<!--  end google looker studio embed-->
+
+
+    <h1>Stylish Text Generator</h1>
+    <div class="container">
+        <div class="text-area">
+            <label for="input">Input Text:</label>
+            <textarea id="input" placeholder="Type your text here..."></textarea>
+        </div>
+        <div class="text-area">
+            <label for="output">All Transformed Styles:</label>
+            <textarea id="output" readonly></textarea>
+            <button class="copy-button" id="copyButton">Copy to Clipboard</button>
+        </div>
+    </div>
+    
+    <div class="options-container">
+        <h3>Quick Copy Any Style (Click a button to copy that style):</h3>
+        <div class="options" id="styleOptions">
+            <!-- Style options will be added here by JavaScript -->
+            <button class="option-button" data-style="normal">Normal</button>
+            <button class="option-button" data-style="bold">𝐁𝐨𝐥𝐝</button>
+            <button class="option-button" data-style="italic">𝐼𝑡𝑎𝑙𝑖𝑐</button>
+            <button class="option-button" data-style="boldItalic">𝑩𝒐𝒍𝒅 𝑰𝒕𝒂𝒍𝒊𝒄</button>
+            <button class="option-button" data-style="script">𝓢𝓬𝓻𝓲𝓹𝓽</button>
+            <button class="option-button" data-style="boldScript">𝓑𝓸𝓵𝓭 𝓢𝓬𝓻𝓲𝓹𝓽</button>
+            <button class="option-button" data-style="fraktur">𝔉𝔯𝔞𝔨𝔱𝔲𝔯</button>
+            <button class="option-button" data-style="boldFraktur">𝕱𝖗𝖆𝖐𝖙𝖚𝖗 𝕭𝖔𝖑𝖉</button>
+            <button class="option-button" data-style="doubleStruck">𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜</button>
+            <button class="option-button" data-style="sansSerif">𝖲𝖺𝗇𝗌 𝖲𝖾𝗋𝗂𝖿</button>
+            <button class="option-button" data-style="sansSerifBold">𝗦𝗮𝗻𝘀 𝗦𝗲𝗿𝗶𝗳 𝗕𝗼𝗹𝗱</button>
+            <button class="option-button" data-style="sansSerifItalic">𝘚𝘢𝘯𝘴 𝘚𝘦𝘳𝘪𝘧 𝘐𝘵𝘢𝘭𝘪𝘤</button>
+            <button class="option-button" data-style="sansSerifBoldItalic">𝙎𝙖𝙣𝙨 𝙎𝙚𝙧𝙞𝙛 𝘽𝙤𝙡𝙙 𝙄𝙩𝙖𝙡𝙞𝙘</button>
+            <button class="option-button" data-style="monospace">𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎</button>
+            <button class="option-button" data-style="fullWidth">Ｆｕｌｌ　Ｗｉｄｔｈ</button>
+            <button class="option-button" data-style="smallCaps">sᴍᴀʟʟ ᴄᴀᴘs</button>
+            <button class="option-button" data-style="circled">Ⓒⓘⓡⓒⓛⓔⓓ</button>
+            <button class="option-button" data-style="negative">🅝🅔🅖🅐🅣🅘🅥🅔</button>
+            <button class="option-button" data-style="squared">🄽🄴🄶🄰🅃🄸🅅🄴</button>
+            <button class="option-button" data-style="boxed">🅱🅾🆇🅴🅳</button>
+            <button class="option-button" data-style="reversed">desreveR</button>
+            <button class="option-button" data-style="upsideDown">uʍop ǝpᴉsd∩</button>
+            <button class="option-button" data-style="strikeThrough">S̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶</button>
+            <button class="option-button" data-style="underline">U̲n̲d̲e̲r̲l̲i̲n̲e̲</button>
+            <button class="option-button" data-style="zalgo">Z̸̢̠̀̓a̴̗̍̍l̸̡͒̊g̴̢̔̿ỏ̸</button>
+            <button class="option-button" data-style="bubbleText">Ⓑⓤⓑⓑⓛⓔ</button>
+            <button class="option-button" data-style="waveText">W₁a₂v₃e₄</button>
+            <button class="option-button" data-style="flourish">★⋆｡°✩ Flourish ✩°｡⋆★</button>
+            <button class="option-button" data-style="squiggle">～～～ Squiggle ～～～</button>
+            <button class="option-button" data-style="emojiDecor">✨💖 Emoji 💖✨</button>
+            <button class="option-button" data-style="cursive">𝒞𝓊𝓇𝓈𝒾𝓋𝑒</button>
+            <button class="option-button" data-style="sparks">✨S✨p✨a✨r✨k✨s✨</button>
+            <button class="option-button" data-style="scriptCalligraphy">𝒶𝒷𝒸𝒹 𝒞𝒶𝓁𝓁𝒾𝑔𝓇𝒶𝓅𝒽𝓎</button>
+            <button class="option-button" data-style="boxed2">🄰🄱🄲🄳 🄱🄾🅇🄴🄳</button>
+            <button class="option-button" data-style="mirror">ꙅboɿɿiM</button>
+            <button class="option-button" data-style="creepyText">C̷̵̢r͘͝e̷͝͞e͘͡py̶̨̛ ̧T̸e̛̕͘͜x̶̧̡t͠</button>
+            <button class="option-button" data-style="superscript">ˢᵘᵖᵉʳˢᶜʳⁱᵖᵗ</button>
+            <button class="option-button" data-style="subscript">ₛᵤᵦₛ꜀ᵣᵢₚₜ</button>
+            <button class="option-button" data-style="blockLetters">🅰 🅱 🅲 🅳</button>
+            <button class="option-button" data-style="regionIndicator">🇷 🇪 🇬 🇮 🇴 🇳</button>
+        </div>
+    </div>
+
+    <!-- New section for special symbols -->
+    <div class="special-symbols-container">
+        <h3>Special Symbols - One-Click Copy:</h3>
+        <div class="options">
+            <button class="symbol-button" id="trademarkButton">Trademark (™)</button>
+            <button class="symbol-button" id="copyrightButton">Copyright (©)</button>
+            <button class="symbol-button" id="registeredButton">Registered (®)</button>
+        </div>
+    </div>
+
+    <script>
+        // Character maps for various styles
+        const charMaps = {
+            normal: {},
+            bold: {},
+            italic: {},
+            boldItalic: {},
+            script: {},
+            boldScript: {},
+            fraktur: {},
+            boldFraktur: {},
+            doubleStruck: {},
+            sansSerif: {},
+            sansSerifBold: {},
+            sansSerifItalic: {},
+            sansSerifBoldItalic: {},
+            monospace: {},
+            fullWidth: {},
+            smallCaps: {},
+            circled: {},
+            negative: {},
+            squared: {},
+            boxed: {},
+            boxed2: {},
+            upsideDown: {},
+            scriptCalligraphy: {},
+            mirror: {},
+            superscript: {},
+            subscript: {},
+            blockLetters: {},
+            regionIndicator: {}
+        };
+
+        // Initialize normal lowercase letters map
+        const lowerAlpha = 'abcdefghijklmnopqrstuvwxyz';
+        const upperAlpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const numbers = '0123456789';
+
+        // Math bold (𝐚-𝐳, 𝐀-𝐙, 𝟎-𝟗)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.bold[lowerAlpha[i]] = String.fromCodePoint(0x1D41A + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.bold[upperAlpha[i]] = String.fromCodePoint(0x1D400 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.bold[numbers[i]] = String.fromCodePoint(0x1D7CE + i);
+        }
+
+        // Math italic (𝑎-𝑧, 𝐴-𝑍)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.italic[lowerAlpha[i]] = String.fromCodePoint(0x1D44E + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.italic[upperAlpha[i]] = String.fromCodePoint(0x1D434 + i);
+        }
+
+        // Math bold italic (𝒂-𝒛, 𝑨-𝒁)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.boldItalic[lowerAlpha[i]] = String.fromCodePoint(0x1D482 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boldItalic[upperAlpha[i]] = String.fromCodePoint(0x1D468 + i);
+        }
+
+        // Math script (𝓪-𝔃, 𝓐-𝓩)
+        const scriptChars = "𝓪𝓫𝓬𝓭𝓮𝓯𝓰𝓱𝓲𝓳𝓴𝓵𝓶𝓷𝓸𝓹𝓺𝓻𝓼𝓽𝓾𝓿𝔀𝔁𝔂𝔃";
+        const scriptUpperChars = "𝓐𝓑𝓒𝓓𝓔𝓕𝓖𝓗𝓘𝓙𝓚𝓛𝓜𝓝𝓞𝓟𝓠𝓡𝓢𝓣𝓤𝓥𝓦𝓧𝓨𝓩";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.script[lowerAlpha[i]] = scriptChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.script[upperAlpha[i]] = scriptUpperChars[i] || upperAlpha[i];
+        }
+
+        // Script Calligraphy
+        const scriptCalligraphyChars = "𝒶𝒷𝒸𝒹𝑒𝒻𝑔𝒽𝒾𝒿𝓀𝓁𝓂𝓃𝑜𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏";
+        const scriptCalligraphyUpperChars = "𝒜𝐵𝒞𝒟𝐸𝐹𝒢𝐻𝐼𝒥𝒦𝐿𝑀𝒩𝒪𝒫𝒬𝑅𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.scriptCalligraphy[lowerAlpha[i]] = scriptCalligraphyChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.scriptCalligraphy[upperAlpha[i]] = scriptCalligraphyUpperChars[i] || upperAlpha[i];
+        }
+
+        // Math bold script (𝓫-𝔃, 𝓐-𝓩)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.boldScript[lowerAlpha[i]] = String.fromCodePoint(0x1D51E + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boldScript[upperAlpha[i]] = String.fromCodePoint(0x1D504 + i);
+        }
+
+        // Math fraktur (𝔞-𝔷, 𝔄-ℨ)
+        const frakturLowerChars = "𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷";
+        const frakturUpperChars = "𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.fraktur[lowerAlpha[i]] = frakturLowerChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.fraktur[upperAlpha[i]] = frakturUpperChars[i] || upperAlpha[i];
+        }
+
+        // Bold Fraktur
+        const boldFrakturLowerChars = "𝖆𝖇𝖈𝖉𝖊𝖋𝖌𝖍𝖎𝖏𝖐𝖑𝖒𝖓𝖔𝖕𝖖𝖗𝖘𝖙𝖚𝖛𝖜𝖝𝖞𝖟";
+        const boldFrakturUpperChars = "𝕬𝕭𝕮𝕯𝕰𝕱𝕲𝕳𝕴𝕵𝕶𝕷𝕸𝕹𝕺𝕻𝕼𝕽𝕾𝕿𝖀𝖁𝖂𝖃𝖄𝖅";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.boldFraktur[lowerAlpha[i]] = boldFrakturLowerChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boldFraktur[upperAlpha[i]] = boldFrakturUpperChars[i] || upperAlpha[i];
+        }
+
+        // Math double-struck (𝕒-𝕫, 𝔸-ℤ, 𝟘-𝟡)
+        const doubleStruckLowerChars = "𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫";
+        const doubleStruckUpperChars = "𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.doubleStruck[lowerAlpha[i]] = doubleStruckLowerChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.doubleStruck[upperAlpha[i]] = doubleStruckUpperChars[i] || upperAlpha[i];
+        }
+        
+        // Sans-serif (𝖺-𝗓, 𝖠-𝖹, 𝟢-𝟫)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerif[lowerAlpha[i]] = String.fromCodePoint(0x1D5BA + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerif[upperAlpha[i]] = String.fromCodePoint(0x1D5A0 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.sansSerif[numbers[i]] = String.fromCodePoint(0x1D7E2 + i);
+        }
+
+        // Sans-serif bold (𝗮-𝘇, 𝗔-𝗭, 𝟬-𝟵)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerifBold[lowerAlpha[i]] = String.fromCodePoint(0x1D5EE + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerifBold[upperAlpha[i]] = String.fromCodePoint(0x1D5D4 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.sansSerifBold[numbers[i]] = String.fromCodePoint(0x1D7EC + i);
+        }
+
+        // Sans-serif italic (𝘢-𝘻, 𝘈-𝘡)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerifItalic[lowerAlpha[i]] = String.fromCodePoint(0x1D622 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerifItalic[upperAlpha[i]] = String.fromCodePoint(0x1D608 + i);
+        }
+
+        // Sans-serif bold italic (𝙖-𝙯, 𝘼-𝙕)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.sansSerifBoldItalic[lowerAlpha[i]] = String.fromCodePoint(0x1D656 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.sansSerifBoldItalic[upperAlpha[i]] = String.fromCodePoint(0x1D63C + i);
+        }
+
+        // Monospace (𝚊-𝚣, 𝙰-𝚉, 𝟶-𝟿)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.monospace[lowerAlpha[i]] = String.fromCodePoint(0x1D68A + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.monospace[upperAlpha[i]] = String.fromCodePoint(0x1D670 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.monospace[numbers[i]] = String.fromCodePoint(0x1D7F6 + i);
+        }
+
+        // Fullwidth (ａ-ｚ, Ａ-Ｚ, ０-９)
+        const fullWidthLowerChars = "ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ";
+        const fullWidthUpperChars = "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.fullWidth[lowerAlpha[i]] = fullWidthLowerChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.fullWidth[upperAlpha[i]] = fullWidthUpperChars[i] || upperAlpha[i];
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.fullWidth[numbers[i]] = String.fromCodePoint(0xFF10 + i);
+        }
+
+        // Small caps - approximation for lowercase only
+        const smallCapsChars = "ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.smallCaps[lowerAlpha[i]] = smallCapsChars[i] || lowerAlpha[i];
+        }
+
+        // Circled (ⓐ-ⓩ, Ⓐ-Ⓩ, ⓪-⑨)
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.circled[lowerAlpha[i]] = String.fromCodePoint(0x24D0 + i);
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.circled[upperAlpha[i]] = String.fromCodePoint(0x24B6 + i);
+        }
+        for (let i = 0; i < numbers.length; i++) {
+            charMaps.circled[numbers[i]] = String.fromCodePoint(0x2460 + i - 1);
+        }
+        charMaps.circled['0'] = '⓪';
+
+        // Negative circled (🅐-🅩)
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.negative[upperAlpha[i]] = String.fromCodePoint(0x1F150 + i);
+        }
+
+        // Squared (🄰-🄹)
+        const squaredChars = "🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉";
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.squared[upperAlpha[i]] = squaredChars[i] || upperAlpha[i];
+        }
+
+        // Boxed (🅰-🅉)
+        const boxedChars = "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉";
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boxed[upperAlpha[i]] = boxedChars[i] || upperAlpha[i];
+        }
+
+        // Boxed 2 style
+        const boxed2Chars = "🄰🄱🄲🄳🄴🄵🄶🄷🄸🄹🄺🄻🄼🄽🄾🄿🅀🅁🅂🅃🅄🅅🅆🅇🅈🅉";
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.boxed2[upperAlpha[i]] = boxed2Chars[i] || upperAlpha[i];
+        }
+
+        // Upside Down (uʍop ǝpısdn)
+        const upsideDownMap = {
+            'a': 'ɐ', 'b': 'q', 'c': 'ɔ', 'd': 'p', 'e': 'ǝ', 'f': 'ɟ', 'g': 'ƃ', 'h': 'ɥ', 'i': 'ı',
+            'j': 'ɾ', 'k': 'ʞ', 'l': 'l', 'm': 'ɯ', 'n': 'u', 'o': 'o', 'p': 'd', 'q': 'b', 'r': 'ɹ',
+            's': 's', 't': 'ʇ', 'u': 'n', 'v': 'ʌ', 'w': 'ʍ', 'x': 'x', 'y': 'ʎ', 'z': 'z',
+            'A': '∀', 'B': 'ᙠ', 'C': 'Ɔ', 'D': 'ᗡ', 'E': 'Ǝ', 'F': 'Ⅎ', 'G': '⅁', 'H': 'H', 'I': 'I',
+            'J': 'ſ', 'K': '⋊', 'L': '˥', 'M': 'W', 'N': 'N', 'O': 'O', 'P': 'Ԁ', 'Q': 'Ό', 'R': 'ᴚ',
+            'S': 'S', 'T': '⊥', 'U': '∩', 'V': 'Λ', 'W': 'M', 'X': 'X', 'Y': '⅄', 'Z': 'Z',
+            '0': '0', '1': 'Ɩ', '2': 'ᄅ', '3': 'Ɛ', '4': 'ㄣ', '5': 'ϛ', '6': '9', '7': 'ㄥ', '8': '8', '9': '6',
+            '.': '˙', ',': '\'', '\'': ',', '"': '„', '`': ',', '!': '¡', '?': '¿', '(': ')', ')': '(', '[': ']', ']': '[', '{': '}', '}': '{', '<': '>', '>': '<', '&': '⅋'
+        };
+        
+        Object.keys(upsideDownMap).forEach(key => {
+            charMaps.upsideDown[key] = upsideDownMap[key];
+        });
+
+        // Mirror text
+        const mirrorMap = {
+            'a': 'ɒ', 'b': 'd', 'c': 'ɔ', 'd': 'b', 'e': 'ɘ', 'f': 'ꟻ', 'g': 'ǫ', 'h': 'ʜ', 'i': 'i', 
+            'j': 'ꞁ', 'k': 'ʞ', 'l': 'l', 'm': 'm', 'n': 'ᴎ', 'o': 'o', 'p': 'q', 'q': 'p', 'r': 'ɿ',
+            's': 'ꙅ', 't': 'ƚ', 'u': 'u', 'v': 'v', 'w': 'w', 'x': 'x', 'y': 'y', 'z': 'ƹ',
+            'A': 'A', 'B': 'ꓭ', 'C': 'Ɔ', 'D': 'ꓷ', 'E': 'Ǝ', 'F': 'ꟻ', 'G': 'Ꚁ', 'H': 'H', 'I': 'I',
+            'J': 'Ⴑ', 'K': 'Ꞣ', 'L': '⅃', 'M': 'M', 'N': 'Ͷ', 'O': 'O', 'P': 'ꟼ', 'Q': 'Ọ', 'R': 'Я',
+            'S': 'Ꙅ', 'T': 'T', 'U': 'U', 'V': 'V', 'W': 'W', 'X': 'X', 'Y': 'Y', 'Z': 'Ƹ'
+        };
+
+        Object.keys(mirrorMap).forEach(key => {
+            charMaps.mirror[key] = mirrorMap[key];
+        });
+
+        // Superscript
+        const superscriptChars = "ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖqʳˢᵗᵘᵛʷˣʸᶻ";
+        const superscriptUpperChars = "ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾQᴿˢᵀᵁⱽᵂˣʸᶻ";
+
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.superscript[lowerAlpha[i]] = superscriptChars[i] || lowerAlpha[i];
+        }
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.superscript[upperAlpha[i]] = superscriptUpperChars[i] || upperAlpha[i];
+        }
+
+        // Subscript
+        const subscriptChars = "ₐbcdₑfgₕᵢⱼₖₗₘₙₒₚqᵣₛₜᵤᵥwₓyz";
+        for (let i = 0; i < lowerAlpha.length; i++) {
+            charMaps.subscript[lowerAlpha[i]] = subscriptChars[i] || lowerAlpha[i];
+        }
+        
+        // Block letters
+        const blockLettersChars = "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉";
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.blockLetters[upperAlpha[i]] = blockLettersChars[i] || upperAlpha[i];
+            charMaps.blockLetters[lowerAlpha[i]] = blockLettersChars[i] || lowerAlpha[i];
+        }
+
+        // Region indicator (for flag emoji style)
+        for (let i = 0; i < upperAlpha.length; i++) {
+            charMaps.regionIndicator[upperAlpha[i]] = String.fromCodePoint(0x1F1E6 + i);
+            charMaps.regionIndicator[lowerAlpha[i]] = String.fromCodePoint(0x1F1E6 + i);
+        }
+
+        // Helper function to apply character map
+        function applyCharMap(map, text) {
+            return text.split('').map(char => map[char] || char).join('');
+        }
+
+        // Special effects functions
+        const effects = {
+            normal: text => text,
+            bold: text => applyCharMap(charMaps.bold, text),
+            italic: text => applyCharMap(charMaps.italic, text),
+            boldItalic: text => applyCharMap(charMaps.boldItalic, text),
+            script: text => applyCharMap(charMaps.script, text),
+            boldScript: text => applyCharMap(charMaps.boldScript, text),
+            fraktur: text => applyCharMap(charMaps.fraktur, text),
+            boldFraktur: text => applyCharMap(charMaps.boldFraktur, text),
+            doubleStruck: text => applyCharMap(charMaps.doubleStruck, text),
+            sansSerif: text => applyCharMap(charMaps.sansSerif, text),
+            sansSerifBold: text => applyCharMap(charMaps.sansSerifBold, text),
+            sansSerifItalic: text => applyCharMap(charMaps.sansSerifItalic, text),
+            sansSerifBoldItalic: text => applyCharMap(charMaps.sansSerifBoldItalic, text),
+            monospace: text => applyCharMap(charMaps.monospace, text),
+            fullWidth: text => applyCharMap(charMaps.fullWidth, text),
+            smallCaps: text => applyCharMap(charMaps.smallCaps, text),
+            circled: text => applyCharMap(charMaps.circled, text),
+            negative: text => applyCharMap(charMaps.negative, text),
+            squared: text => applyCharMap(charMaps.squared, text),
+            boxed: text => applyCharMap(charMaps.boxed, text),
+            boxed2: text => applyCharMap(charMaps.boxed2, text),
+            reversed: text => text.split('').reverse().join(''),
+            upsideDown: text => applyCharMap(charMaps.upsideDown, text.split('').reverse().join('')),
+            strikeThrough: text => text.split('').join('̶') + '̶',
+            underline: text => text.split('').join('̲') + '̲',
+            zalgo: text => {
+                const zalgo_up = ["\u030d","\u030e","\u0304","\u0305","\u033f","\u0311","\u0306"];
+                const zalgo_mid = ["\u0315","\u031b","\u0340","\u0341","\u0358","\u0321"];
+                const zalgo_down = ["\u0316","\u0317","\u0318","\u0319","\u031c","\u031d","\u031e","\u031f","\u0320","\u0324","\u0325","\u0326"];
+                return text.split('').map(char => {
+                    let result = char;
+                    // Limit the number of combining characters to avoid extreme height
+                    let numUp = Math.floor(Math.random() * 2) + 1;
+                    let numMid = Math.floor(Math.random() * 2);
+                    let numDown = Math.floor(Math.random() * 2) + 1;
+                    
+                    for (let i = 0; i < numUp; i++) {
+                        result += zalgo_up[Math.floor(Math.random() * zalgo_up.length)];
+                    }
+                    for (let i = 0; i < numMid; i++) {
+                        result += zalgo_mid[Math.floor(Math.random() * zalgo_mid.length)];
+                    }
+                    for (let i = 0; i < numDown; i++) {
+                        result += zalgo_down[Math.floor(Math.random() * zalgo_down.length)];
+                    }
+                    return result;
+                }).join('');
+            },
+            bubbleText: text => text.split('').map(c => {
+                if (c.match(/[a-z]/i)) {
+                    return charMaps.circled[c] || c;
+                }
+                return c;
+            }).join(''),
+            waveText: text => text.split('').map((c, i) => {
+                const wave = ["₁", "₂", "₃", "₄", "₃", "₂"];
+                return c + (wave[i % wave.length] || "");
+            }).join(''),
+            flourish: text => "★⋆｡°✩ " + text + " ✩°｡⋆★",
+            squiggle: text => "～～～ " + text + " ～～～",
+            emojiDecor: text => "✨💖 " + text + " 💖✨",
+            cursive: text => applyCharMap(charMaps.script, text),
+            sparks: text => "✨" + text.split('').join('✨') + "✨",
+            scriptCalligraphy: text => applyCharMap(charMaps.scriptCalligraphy, text),
+            mirror: text => applyCharMap(charMaps.mirror, text.split('').reverse().join('')),
+            creepyText: text => {
+                // This is a simplified version of zalgo with fewer combining characters
+                const zalgo_chars = ["\u0300", "\u0301", "\u0302", "\u0303", "\u0304", "\u0305", "\u0306", "\u0307"];
+                return text.split('').map(char => {
+                    let result = char;
+                    let numChars = Math.floor(Math.random() * 2) + 1; // 1-2 combining characters
+                    
+                    for (let i = 0; i < numChars; i++) {
+                        result += zalgo_chars[Math.floor(Math.random() * zalgo_chars.length)];
+                    }
+                    return result;
+                }).join('');
+            },
+            superscript: text => applyCharMap(charMaps.superscript, text),
+            subscript: text => applyCharMap(charMaps.subscript, text),
+            blockLetters: text => text.split('').map(c => {
+                if (c.match(/[a-z]/i)) {
+                    return charMaps.blockLetters[c] || c;
+                }
+                return c;
+            }).join(' '),
+            regionIndicator: text => text.split('').map(c => {
+                if (c.match(/[a-z]/i)) {
+                    return charMaps.regionIndicator[c] || c;
+                }
+                return c;
+            }).join(' ')
+        };
+
+        // Helper function for copying text with no feedback
+        function copyToClipboard(text) {
+            const tempInput = document.createElement('textarea');
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            // No feedback at all
+        }
+
+        // Function to generate all transformed texts
+        function generateAllTransforms(text) {
+            if (!text) return '';
+            
+            let output = '';
+            const styleNames = {
+                normal: "Normal",
+                bold: "Bold",
+                italic: "Italic",
+                boldItalic: "Bold Italic",
+                script: "Script",
+                boldScript: "Bold Script",
+                fraktur: "Fraktur",
+                boldFraktur: "Bold Fraktur",
+                doubleStruck: "Double Struck",
+                sansSerif: "Sans Serif",
+                sansSerifBold: "Sans Serif Bold",
+                sansSerifItalic: "Sans Serif Italic",
+                sansSerifBoldItalic: "Sans Serif Bold Italic",
+                monospace: "Monospace",
+                fullWidth: "Full Width",
+                smallCaps: "Small Caps",
+                circled: "Circled",
+                negative: "Negative",
+                squared: "Squared",
+                boxed: "Boxed",
+                boxed2: "Boxed Style 2",
+                reversed: "Reversed",
+                upsideDown: "Upside Down",
+                strikeThrough: "Strikethrough",
+                underline: "Underline",
+                zalgo: "Zalgo",
+                bubbleText: "Bubble",
+                waveText: "Wave",
+                flourish: "Flourish",
+                squiggle: "Squiggle",
+                emojiDecor: "Emoji Decorated",
+                cursive: "Cursive",
+                sparks: "Sparks",
+                scriptCalligraphy: "Script Calligraphy",
+                mirror: "Mirror",
+                creepyText: "Creepy Text",
+                superscript: "Superscript",
+                subscript: "Subscript",
+                blockLetters: "Block Letters",
+                regionIndicator: "Region Indicator"
+            };
+            
+            for (const style in effects) {
+                if (effects.hasOwnProperty(style)) {
+                    const transformedText = effects[style](text);
+                    output += `${transformedText}\n\n`;
+                }
+            }
+            
+            return output;
+        }
+
+        // Event listener for the main copy button
+        document.getElementById('copyButton').addEventListener('click', function() {
+            const outputText = document.getElementById('output');
+            outputText.select();
+            document.execCommand('copy');
+            // No feedback
+        });
+
+        // Event listeners for style option buttons
+        document.querySelectorAll('.option-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const style = this.dataset.style;
+                const inputText = document.getElementById('input').value;
+                
+                if (inputText) {
+                    const transformedText = effects[style](inputText);
+                    copyToClipboard(transformedText);
+                }
+            });
+        });
+
+        // Event listeners for special symbol buttons
+        document.getElementById('trademarkButton').addEventListener('click', function() {
+            copyToClipboard('™');
+        });
+
+        document.getElementById('copyrightButton').addEventListener('click', function() {
+            copyToClipboard('©');
+        });
+
+        document.getElementById('registeredButton').addEventListener('click', function() {
+            copyToClipboard('®');
+        });
+
+        // Initialize text transformation on input
+        document.getElementById('input').addEventListener('input', function() {
+            document.getElementById('output').value = generateAllTransforms(this.value);
+        });
+    </script>
+</body>
+</html>
