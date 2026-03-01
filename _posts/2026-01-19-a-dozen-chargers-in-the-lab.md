@@ -129,9 +129,10 @@ Stay tuned for more posts!
     display: flex;
     align-items: flex-start;
     overflow-x: auto;
-    gap: 25px;
-    padding-bottom: 20px;
+    gap: 30px;
+    padding: 20px 5px;
     -webkit-overflow-scrolling: touch;
+    height: 575px;
   }
   .device-scroller::-webkit-scrollbar {
     height: 8px;
@@ -141,29 +142,48 @@ Stay tuned for more posts!
     border-radius: 10px;
   }
   .device-card {
-    flex: 0 0 640px;
+    flex: 0 0 800px;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background: #f8f8f8;
+    border-radius: 18px;
+    padding: 24px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
   }
   .device-images {
     display: flex;
-    gap: 10px;
-    margin-bottom: 12px;
+    flex-direction: column;
+    gap: 12px;
+    flex: 0 0 340px;
   }
   .device-images a {
-    flex: 1;
+    display: block;
+    width: 100%;
   }
   .device-images img {
     width: 100%;
     height: auto;
-    border-radius: 6px;
+    max-height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
     border: 1px solid #eee;
+    background: #fff;
   }
   .device-card figcaption {
-    font-size: 0.9em;
-    line-height: 1.5;
-    color: #444;
+    flex: 1;
+    padding-left: 30px;
+    font-size: 1.05em;
+    line-height: 1.6;
+    color: #333;
+    overflow-y: auto;
+  }
+  .device-card figcaption strong {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #000;
   }
 </style>
 
