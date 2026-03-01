@@ -136,8 +136,9 @@ Stay tuned for more posts!
     gap: 30px;
     padding: 24px 10%;
     -webkit-overflow-scrolling: touch;
-    height: 690px;
+    height: 720px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   .device-scroller::-webkit-scrollbar {
     height: 8px;
@@ -147,25 +148,48 @@ Stay tuned for more posts!
     border-radius: 10px;
   }
   .device-card {
-    flex: 0 0 950px;
+    flex: 0 0 820px;
     margin: 0;
     display: flex;
     flex-direction: row;
     background: #f8f8f8;
-    border-radius: 18px;
-    padding: 24px;
+    border-radius: 20px;
+    padding: 0;
     border: 1px solid #eee;
     box-sizing: border-box;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  .vertical-title-bar {
+    background: #333;
+    color: #fff;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  .vertical-title-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .device-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    gap: 24px;
   }
   .device-images {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    flex: 0 0 450px;
-  }
-  .device-images a {
-    display: block;
-    width: 100%;
+    flex: 0 0 400px;
   }
   .device-images img {
     width: 100%;
@@ -173,52 +197,161 @@ Stay tuned for more posts!
     max-height: 290px;
     object-fit: cover;
     border-radius: 10px;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     background: #fff;
   }
-  .device-card figcaption {
+  .device-info {
     flex: 1;
-    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .device-card figcaption {
     font-size: 1.1em;
     line-height: 1.65;
-    color: #333;
-    overflow-y: auto;
+    color: #444;
   }
-  .device-card figcaption strong {
-    display: block;
-    font-size: 1.3em;
-    margin-bottom: 10px;
-    color: #000;
+  .expand-btn {
+    align-self: flex-end;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: background 0.2s ease;
+    margin-top: 15px;
+  }
+  .expand-btn:hover {
+    background: #444;
+  }
+
+  /* Modal Styles */
+  #device-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  .modal-container {
+    background: #fff;
+    width: 90%;
+    max-width: 1100px;
+    max-height: 90vh;
+    border-radius: 24px;
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .modal-close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 35px;
+    color: #333;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .modal-body {
+    padding: 40px;
+  }
+  .modal-body .modal-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  }
+  .modal-body h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  .modal-body p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    margin-top: 20px;
   }
 </style>
 
 <div class="device-scroller">
-  
   {% for item in page.devices %}
-  <figure class="device-card">
-    <div class="device-images">
-      
-      {% if item.img1 %}
-      <a href="{{ item.img1 }}" target="_blank">
-        <img src="{{ item.img1 }}" alt="{{ item.name }} Image 1">
-      </a>
-      {% endif %}
-
-      {% if item.img2 %}
-      <a href="{{ item.img2 }}" target="_blank">
-        <img src="{{ item.img2 }}" alt="{{ item.name }} Image 2">
-      </a>
-      {% endif %}
-
+  <div class="device-card">
+    <div class="vertical-title-bar">
+      <div class="vertical-title-text">{{ item.name }}</div>
     </div>
-    
-    <figcaption>
-      <strong>{{ item.name }}:</strong> {{ item.caption }}
-    </figcaption>
-  </figure>
-  {% endfor %}
-
+    <div class="device-content">
+      <div class="device-images">
+        {% if item.img1 %}
+        <img src="{{ item.img1 }}" alt="{{ item.name }} 1">
+        {% endif %}
+        {% if item.img2 %}
+        <img src="{{ item.img2 }}" alt="{{ item.name }} 2">
+        {% endif %}
+      </div>
+      <div class="device-info">
+        <figcaption>
+          {{ item.caption }}
+        </figcaption>
+        <button class="expand-btn" onclick='openModal({{ item | jsonify | escape }})'>Click to Expand</button>
+      </div>
+    </div>
   </div>
+  {% endfor %}
+</div>
+
+<div id="device-modal" onclick="if(event.target == this) closeModal()">
+  <div class="modal-container">
+    <span class="modal-close" onclick="closeModal()">&times;</span>
+    <div id="modal-content" class="modal-body">
+      <!-- Content injected by JS -->
+    </div>
+  </div>
+</div>
+
+<script>
+  function openModal(item) {
+    const content = document.getElementById('modal-content');
+    let imgsHtml = '';
+    if(item.img1) imgsHtml += `<img src="${item.img1}" alt="${item.name}">`;
+    if(item.img2) imgsHtml += `<img src="${item.img2}" alt="${item.name}">`;
+    
+    content.innerHTML = `
+      <h2>${item.name}</h2>
+      <div class="modal-imgs">${imgsHtml}</div>
+      <p>${item.caption}</p>
+    `;
+    document.getElementById('device-modal').style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // Prevent background scroll
+  }
+
+  function closeModal() {
+    document.getElementById('device-modal').style.display = 'none';
+    document.body.style.overflow = 'auto'; // Restore scroll
+  }
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+</script>
 
 <style>
   table {
