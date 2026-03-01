@@ -156,7 +156,6 @@ devices:
   }
   .device-card {
     flex: 0 0 820px;
-    height: 672px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -170,6 +169,8 @@ devices:
   .vertical-title-bar {
     background: transparent;
     width: 42px;
+    max-height: 620px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
