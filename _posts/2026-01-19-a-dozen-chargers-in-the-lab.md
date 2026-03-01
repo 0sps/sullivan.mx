@@ -161,21 +161,22 @@ Stay tuned for more posts!
     transition: transform 0.2s ease;
   }
   .vertical-title-bar {
-    background: #333;
-    color: #fff;
-    width: 50px;
+    background: transparent;
+    width: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 0;
+    border-right: 2px solid #ddd;
   }
   .vertical-title-text {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-transform: uppercase;
-    font-size: 0.85em;
+    font-size: 0.8em;
     letter-spacing: 2px;
-    font-weight: 700;
+    font-weight: 800;
+    color: #555;
     white-space: nowrap;
   }
   .device-content {
@@ -213,7 +214,7 @@ Stay tuned for more posts!
   }
   .expand-btn {
     align-self: flex-end;
-    background: #000;
+    background: #808080;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -225,7 +226,7 @@ Stay tuned for more posts!
     margin-top: 15px;
   }
   .expand-btn:hover {
-    background: #444;
+    background: #666;
   }
 
   /* Modal Styles */
@@ -236,23 +237,44 @@ Stay tuned for more posts!
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.85);
-    backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0);
+    backdrop-filter: blur(0px);
     z-index: 10000;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 40px;
+    transition: background 0.35s ease, backdrop-filter 0.35s ease;
+  }
+  #device-modal.modal-open {
+    background: rgba(0,0,0,0.82);
+    backdrop-filter: blur(6px);
+  }
+  .modal-dismiss-hint {
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    user-select: none;
   }
   .modal-container {
     background: #fff;
     width: 90%;
     max-width: 1100px;
-    max-height: 90vh;
+    max-height: 85vh;
     border-radius: 24px;
     position: relative;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    transform: scale(0.3);
+    opacity: 0;
+    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+    transform-origin: center center;
+  }
+  #device-modal.modal-open .modal-container {
+    transform: scale(1);
+    opacity: 1;
   }
   .modal-close {
     position: absolute;
@@ -279,12 +301,13 @@ Stay tuned for more posts!
     box-shadow: 0 5px 25px rgba(0,0,0,0.1);
   }
   .modal-body h2 {
-    margin-top: 30px;
+    margin-top: 0;
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
+    margin-bottom: 20px;
   }
   .modal-body p {
-    font-size: 1.2em;
+    font-size: 1.15em;
     line-height: 1.6;
     color: #333;
     margin-top: 20px;
@@ -310,14 +333,15 @@ Stay tuned for more posts!
         <figcaption>
           {{ item.caption }}
         </figcaption>
-        <button class="expand-btn" onclick='openModal({{ item | jsonify | escape }})'>Click to Expand</button>
+        <button class="expand-btn" onclick='openModal({{ item | jsonify | escape }}, this)'>Click to Expand</button>
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
 
-<div id="device-modal" onclick="if(event.target == this) closeModal()">
+<div id="device-modal" onclick="if(event.target == this || event.target.classList.contains('modal-dismiss-hint')) closeModal()">
+  <div class="modal-dismiss-hint">click anywhere to dismiss</div>
   <div class="modal-container">
     <span class="modal-close" onclick="closeModal()">&times;</span>
     <div id="modal-content" class="modal-body">
@@ -327,24 +351,49 @@ Stay tuned for more posts!
 </div>
 
 <script>
-  function openModal(item) {
+  function openModal(item, triggerBtn) {
+    const modal = document.getElementById('device-modal');
     const content = document.getElementById('modal-content');
+
     let imgsHtml = '';
     if(item.img1) imgsHtml += `<img src="${item.img1}" alt="${item.name}">`;
     if(item.img2) imgsHtml += `<img src="${item.img2}" alt="${item.name}">`;
-    
+
     content.innerHTML = `
       <h2>${item.name}</h2>
       <div class="modal-imgs">${imgsHtml}</div>
-      <p>${item.caption}</p>
+      <p>${item.caption || ''}</p>
     `;
-    document.getElementById('device-modal').style.display = 'flex';
-    document.body.style.overflow = 'hidden'; // Prevent background scroll
+
+    // Set transform-origin to the card's position so it appears to grow from there
+    const card = triggerBtn.closest('.device-card');
+    if (card) {
+      const rect = card.getBoundingClientRect();
+      const originX = rect.left + rect.width / 2;
+      const originY = rect.top + rect.height / 2;
+      const container = modal.querySelector('.modal-container');
+      container.style.transformOrigin = `${originX}px ${originY}px`;
+    }
+
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Trigger animation on next frame
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        modal.classList.add('modal-open');
+      });
+    });
   }
 
   function closeModal() {
-    document.getElementById('device-modal').style.display = 'none';
-    document.body.style.overflow = 'auto'; // Restore scroll
+    const modal = document.getElementById('device-modal');
+    modal.classList.remove('modal-open');
+    // Wait for transition to finish before hiding
+    setTimeout(() => {
+      modal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }, 350);
   }
 
   // Close on Escape key
