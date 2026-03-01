@@ -81,48 +81,36 @@ devices:
     caption: ""
 ---
 
-## A Dozen chargers in the lab: apple is okay, but not the best
+## A Dozen Chargers in the Lab: Apple is Okay, but Not the Best
 
-Hello! 
-I have been inspired by Ken Shirriff to make a writeup of different USB Chargers you might find.
+<!-- INTRO: Write your opening paragraph(s) here. Why did you test this? What inspired you? (e.g. Ken Shirriff) What is the reader going to learn? -->
 
-<p style="display: flex; gap: 10px;">
-  <img src="/assets/images/1-apple-retail.png" alt="Image 1" style="width: 48%;">
-  <img src="/assets/images/2-apple-retail.png" alt="Image 2" style="width: 48%;">
-</p>
+*Your intro goes here.*
 
-I tested a dozen chargers and i have some interesting opinions on them.
+---
 
-- Technology and programming
-- Mathematics and algorithms
-- Interesting problems and solutions
-- Personal projects and experiments
+## What I Tested
 
-## Code Examples
+<!-- Briefly describe the collection of chargers — where they came from (official, counterfeit, old, new, etc.) -->
 
-Here's a simple "Hello, World!" program in Python:
+*Your overview of the charger collection goes here.*
 
-```python
-def greet(name):
-    print(f"Hello, {name}!")
+---
 
-if __name__ == "__main__":
-    greet("World")
-```
+## How I Tested Them
 
-## Formatting
+<!-- Describe your methodology: the oscilloscope, what Vpp means, what noise/ripple means and why it matters, etc. A paragraph or two here will make the rest of the article make sense. -->
 
-You can use **bold text**, *italic text*, and `inline code`. Lists work great too:
+*Your methodology section goes here.*
 
-1. First item
-2. Second item
-3. Third item
+---
 
-## Conclusion
+## The Results
 
-This blog is built with Jekyll and deployed on Netlify. It uses a minimalist design inspired by clean, readable blogs that focus on content over flashy design.
+<!-- Introduce the interactive card viewer below. Something like "Scroll through the results below — click any card to expand the oscilloscope traces." -->
 
-Stay tuned for more posts!
+*Your results intro goes here.*
+
 <p>
 <style>
   .device-scroller {
@@ -278,7 +266,6 @@ Stay tuned for more posts!
     letter-spacing: 1px;
     margin-bottom: 12px;
     padding-left: 4px;
-    text-transform: uppercase;
     transition: opacity 0.3s ease;
   }
   .modal-container {
@@ -292,7 +279,7 @@ Stay tuned for more posts!
     flex-direction: column;
     transform: scale(0.3);
     opacity: 0;
-    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.3s ease;
+    transition: transform 0.45s cubic-bezier(0.42, 0, 0.58, 1), opacity 0.35s cubic-bezier(0.42, 0, 0.58, 1);
     transform-origin: center center;
   }
   #device-modal.modal-open .modal-container {
@@ -366,7 +353,6 @@ Stay tuned for more posts!
 </div>
 
 <div id="device-modal" onclick="closeModal()">
-  <span class="modal-dismiss-hint top">click anywhere to dismiss</span>
   <span class="modal-dismiss-hint bottom">click anywhere to dismiss</span>
   <span class="modal-dismiss-hint left">click anywhere to dismiss</span>
   <span class="modal-dismiss-hint right">click anywhere to dismiss</span>
