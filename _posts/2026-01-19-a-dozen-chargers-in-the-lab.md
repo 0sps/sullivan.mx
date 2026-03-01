@@ -7,77 +7,96 @@ devices:
   - name: "Macbook Pro M1"
     img1: "/assets/images/macbook pro 1.png"
     img2: "/assets/images/macbook pro 2.png"
+    bg: "hsl(120, 32%, 93%)"
     caption: ""
   - name: "Anker 621 MAG GO 5000mAh Battery"
     img1: "/assets/images/Anker a1654 Maggo power bank.png"
     img2: "/assets/images/Anker a1654 Maggo power bank 2.png"
+    bg: "hsl(113, 32%, 93%)"
     caption: ""
   - name: "Spigen PowerArc ArcStation Pro"
     img1: "/assets/images/Spigen PowerArc 1.png"
     img2: "/assets/images/Spigen PowerArc 2.png"
+    bg: "hsl(107, 32%, 93%)"
     caption: ""
   - name: "Eero 15W Charger"
     img1: "/assets/images/eero.png"
     img2: "/assets/images/eero2.png"
+    bg: "hsl(100, 32%, 93%)"
     caption: ""
   - name: "AOHI GaN Charger"
     img1: "/assets/images/AOHI GaN.png"
     img2: "/assets/images/AOHI GaN2.png"
+    bg: "hsl(93, 32%, 93%)"
     caption: ""
   - name: "Anker 637 Magnetic Charging Station"
     img1: "/assets/images/Anker 637 magnetic charging station USB A.png"
     img2: "/assets/images/Anker 637 magnetic charging station USB C.png"
+    bg: "hsl(87, 32%, 93%)"
     caption: ""
   - name: "Counterfeit Chinese Wall Charger (USB A Only)"
     img1: "/assets/images/Counterfeit chinese outlet 1.png"
     img2: "/assets/images/Counterfeit chinese outlet 2.png"
+    bg: "hsl(80, 32%, 93%)"
     caption: ""
   - name: "Apple 96W Macbook Charger"
     img1: "/assets/images/apple96W.png"
     img2: "/assets/images/apple96W2.png"
+    bg: "hsl(73, 32%, 93%)"
     caption: ""
   - name: "Apple 30W Retail Charger"
     img1: "/assets/images/apple retail.png"
     img2: "/assets/images/apple retail 2.png"
+    bg: "hsl(67, 32%, 93%)"
     caption: "Advertised at 30W, actual measured power was 29.5W. Solid performance."
   - name: "Anker ASPD053a"
     img1: "/assets/images/Anker ASP053a.png"
     img2: "/assets/images/Anker ASP053a 2.png"
+    bg: "hsl(60, 32%, 93%)"
     caption: ""
   - name: "iPhone 17 pro"
     img1: "/assets/images/iphone 17 pro.png"
+    bg: "hsl(53, 32%, 93%)"
     caption: "Over-performed! Advertised at 4.5W but pulled 5.4W during testing."
   - name: "Shargeek Macintosh Charger"
     img1: "/assets/images/Shargeek Fun Macintosh Charger.png"
     img2: "/assets/images/Shargeek Fun Macintosh Charger2.png"
+    bg: "hsl(47, 32%, 93%)"
     caption: "Hit its 27W target exactly. Perfect performance."
   - name: "Govee Power Supply"
     img1: "/assets/images/Govee 1.png"
     img2: "/assets/images/Govee 2.png"
+    bg: "hsl(40, 32%, 93%)"
     caption: ""
   - name: "Dealworthy Charger"
     img1: "/assets/images/Dealworthy 1.png"
     img2: "/assets/images/Dealworthy  2.png"
+    bg: "hsl(33, 32%, 93%)"
     caption: ""
   - name: "Counterfeit AT&T"
     img1: "/assets/images/Counterfeit ATnT 1.png"
     img2: "/assets/images/Counterfeit ATnT 2.png"
+    bg: "hsl(27, 32%, 93%)"
     caption: ""
   - name: "Amazon Kindle Charger"
     img1: "/assets/images/Amazon 1.png"
     img2: "/assets/images/Amazon kindle 2.png"
+    bg: "hsl(20, 32%, 93%)"
     caption: ""
   - name: "Apple HomePod Mini Charger"
     img1: "/assets/images/Apple Homepod Mini.png"
     img2: "/assets/images/Apple Homepod Mini 2.png"
+    bg: "hsl(13, 32%, 93%)"
     caption: ""
   - name: "Vebner GaN 65W Charger"
     img1: "/assets/images/VEBNERgan.png"
     img2: "/assets/images/VEBNERgaqn2.png"
+    bg: "hsl(7, 32%, 93%)"
     caption: ""
   - name: "Counterfeit Samsung"
     img1: "/assets/images/Counerfeit Samsung 1.png"
     img2: "/assets/images/Counerfeit Samsung 2.png"
+    bg: "hsl(0, 32%, 93%)"
     caption: ""
 ---
 
@@ -140,10 +159,9 @@ devices:
     margin: 0;
     display: flex;
     flex-direction: row;
-    background: #f8f8f8;
     border-radius: 20px;
     padding: 0;
-    border: 1px solid #eee;
+    border: 1px solid rgba(0,0,0,0.08);
     box-sizing: border-box;
     overflow: hidden;
     transition: transform 0.2s ease;
@@ -328,7 +346,7 @@ devices:
 
 <div class="device-scroller">
   {% for item in page.devices %}
-  <div class="device-card">
+  <div class="device-card" style="background: {{ item.bg }};">
     <div class="vertical-title-bar">
       <div class="vertical-title-text">{{ item.name }}</div>
     </div>
