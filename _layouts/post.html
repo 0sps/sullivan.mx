@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<div>By <b>{{ site.author }}</b> on {{ page.date | date: "%d %b %Y" }}</div>
+<div>By <b><a href="{{ site.baseurl }}/">{{ site.author }}</a></b> on {{ page.date | date: "%d %b %Y" }}</div>
 
 {{ content }}
 

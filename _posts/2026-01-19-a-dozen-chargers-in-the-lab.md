@@ -127,6 +127,7 @@ Stay tuned for more posts!
 <style>
   .device-scroller {
     display: flex;
+    align-items: flex-start;
     overflow-x: auto;
     gap: 25px;
     padding-bottom: 20px;
