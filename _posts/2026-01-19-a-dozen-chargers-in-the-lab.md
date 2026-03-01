@@ -9,95 +9,114 @@ devices:
     img2: "/assets/images/macbook pro 2.png"
     bg: "hsl(120, 32%, 93%)"
     caption: ""
+    rating: 5
   - name: "Anker 621 MAG GO 5000mAh Battery"
     img1: "/assets/images/Anker a1654 Maggo power bank.png"
     img2: "/assets/images/Anker a1654 Maggo power bank 2.png"
     bg: "hsl(120, 32%, 93%)"
     caption: ""
+    rating: 5
   - name: "Spigen PowerArc ArcStation Pro"
     img1: "/assets/images/Spigen PowerArc 1.png"
     img2: "/assets/images/Spigen PowerArc 2.png"
     bg: "hsl(120, 32%, 93%)"
     caption: ""
+    rating: 5
   - name: "Eero 15W Charger"
     img1: "/assets/images/eero.png"
     img2: "/assets/images/eero2.png"
     bg: "hsl(120, 32%, 93%)"
     caption: ""
+    rating: 5
   - name: "AOHI GaN Charger"
     img1: "/assets/images/AOHI GaN.png"
     img2: "/assets/images/AOHI GaN2.png"
     bg: "hsl(120, 32%, 93%)"
     caption: ""
+    rating: 5
   - name: "Anker 637 Magnetic Charging Station"
     img1: "/assets/images/Anker 637 magnetic charging station USB A.png"
     img2: "/assets/images/Anker 637 magnetic charging station USB C.png"
     bg: "hsl(120, 32%, 93%)"
     caption: ""
+    rating: 5
   - name: "Counterfeit Chinese Wall Charger (USB A Only)"
     img1: "/assets/images/Counterfeit chinese outlet 1.png"
     img2: "/assets/images/Counterfeit chinese outlet 2.png"
     bg: "hsl(90, 32%, 93%)"
     caption: ""
+    rating: 4
   - name: "Apple 96W Macbook Charger"
     img1: "/assets/images/apple96W.png"
     img2: "/assets/images/apple96W2.png"
     bg: "hsl(90, 32%, 93%)"
     caption: ""
+    rating: 4
   - name: "Apple 30W Retail Charger"
     img1: "/assets/images/apple retail.png"
     img2: "/assets/images/apple retail 2.png"
     bg: "hsl(90, 32%, 93%)"
     caption: "Advertised at 30W, actual measured power was 29.5W. Solid performance."
+    rating: 4
   - name: "Anker ASPD053a"
     img1: "/assets/images/Anker ASP053a.png"
     img2: "/assets/images/Anker ASP053a 2.png"
     bg: "hsl(60, 32%, 93%)"
     caption: ""
+    rating: 3
   - name: "iPhone 17 pro"
     img1: "/assets/images/iphone 17 pro.png"
     bg: "hsl(60, 32%, 93%)"
     caption: "Over-performed! Advertised at 4.5W but pulled 5.4W during testing."
+    rating: 3
   - name: "Shargeek Macintosh Charger"
     img1: "/assets/images/Shargeek Fun Macintosh Charger.png"
     img2: "/assets/images/Shargeek Fun Macintosh Charger2.png"
     bg: "hsl(60, 32%, 93%)"
     caption: "Hit its 27W target exactly. Perfect performance."
+    rating: 3
   - name: "Govee Power Supply"
     img1: "/assets/images/Govee 1.png"
     img2: "/assets/images/Govee 2.png"
     bg: "hsl(30, 32%, 93%)"
     caption: ""
+    rating: 2
   - name: "Dealworthy Charger"
     img1: "/assets/images/Dealworthy 1.png"
     img2: "/assets/images/Dealworthy  2.png"
     bg: "hsl(0, 32%, 93%)"
     caption: ""
+    rating: 1
   - name: "Counterfeit AT&T"
     img1: "/assets/images/Counterfeit ATnT 1.png"
     img2: "/assets/images/Counterfeit ATnT 2.png"
     bg: "hsl(30, 32%, 93%)"
     caption: ""
+    rating: 2
   - name: "Amazon Kindle Charger"
     img1: "/assets/images/Amazon 1.png"
     img2: "/assets/images/Amazon kindle 2.png"
     bg: "hsl(0, 32%, 93%)"
     caption: ""
+    rating: 1
   - name: "Apple HomePod Mini Charger"
     img1: "/assets/images/Apple Homepod Mini.png"
     img2: "/assets/images/Apple Homepod Mini 2.png"
     bg: "hsl(0, 32%, 93%)"
     caption: ""
+    rating: 1
   - name: "Vebner GaN 65W Charger"
     img1: "/assets/images/VEBNERgan.png"
     img2: "/assets/images/VEBNERgaqn2.png"
     bg: "hsl(0, 32%, 93%)"
     caption: ""
+    rating: 1
   - name: "Counterfeit Samsung"
     img1: "/assets/images/Counerfeit Samsung 1.png"
     img2: "/assets/images/Counerfeit Samsung 2.png"
     bg: "hsl(0, 32%, 93%)"
     caption: ""
+    rating: 1
 ---
 
 ## A Dozen Chargers in the Lab: Apple is Okay, but Not the Best
@@ -216,6 +235,16 @@ devices:
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+  }
+  .device-rating {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #444;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
     justify-content: space-between;
   }
   .device-card figcaption {
@@ -224,22 +253,24 @@ devices:
     color: #444;
     overflow-y: auto;
     word-wrap: break-word;
+    flex: 1;
   }
   .expand-btn {
     align-self: flex-end;
-    background: #808080;
-    color: #fff;
-    border: none;
+    background: transparent;
+    color: #808080;
+    border: 5px solid #808080;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 7.5px;
     cursor: pointer;
     font-size: 0.9em;
     font-weight: 600;
-    transition: background 0.2s ease;
+    transition: all 0.2s ease;
     margin-top: 15px;
   }
   .expand-btn:hover {
-    background: #666;
+    background: #808080;
+    color: #fff;
   }
 
   /* Modal Styles */
@@ -367,6 +398,13 @@ devices:
         {% endif %}
       </div>
       <div class="device-info">
+        <div class="device-rating">
+          <span style="font-weight: 700;">Overall rating:</span>
+          <span class="bolt-{{ item.rating }}" style="font-size: 1.25em;">
+            {% assign rating_num = item.rating | plus: 0 %}
+            {% for i in (1..rating_num) %}⚡︎{% endfor %}
+          </span>
+        </div>
         <figcaption>
           {{ item.caption }}
         </figcaption>
@@ -402,9 +440,16 @@ devices:
 
     document.getElementById('modal-title').textContent = item.name;
 
+    let bolts = '';
+    for(let i=0; i<item.rating; i++) bolts += '⚡︎';
+
     content.innerHTML = `
+      <div class="device-rating" style="margin-bottom: 25px; border-bottom: 1px solid #eee; padding-bottom: 15px; justify-content: flex-start;">
+        <span style="font-weight: 700; color: #666; font-size: 0.9em; text-transform: uppercase; letter-spacing: 1px;">Overall rating:</span>
+        <span class="bolt-${item.rating}" style="font-size: 1.5em; margin-left:15px;">${bolts}</span>
+      </div>
       <div class="modal-imgs">${imgsHtml}</div>
-      <p>${item.caption || ''}</p>
+      <p style="margin-top: 25px; font-size: 1.2em; line-height: 1.7;">${item.caption || ''}</p>
     `;
 
     // Set transform-origin to the card's position so it appears to grow from there
