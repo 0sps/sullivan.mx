@@ -15,28 +15,7 @@ I have been inspired by Ken Shirriff to make a writeup of different USB Chargers
   <img src="/assets/images/2-apple-retail.png" alt="Image 2" style="width: 48%;">
 </p>
 
-I tested a dozen chargers and i have some interesting opinions on them.
-
-- Technology and programming
-- Mathematics and algorithms
-- Interesting problems and solutions
-- Personal projects and experiments
-
-## Code Examples
-
-Here's a simple "Hello, World!" program in Python:
-
-```python
-def greet(name):
-    print(f"Hello, {name}!")
-
-if __name__ == "__main__":
-    greet("World")
-```
-
-## Formatting
-
-You can use **bold text**, *italic text*, and `inline code`. Lists work great too:
+I tested a dozeitalic text*, and `inline code`. Lists work great too:
 
 1. First item
 2. Second item
