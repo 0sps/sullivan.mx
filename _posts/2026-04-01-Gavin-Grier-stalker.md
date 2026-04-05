@@ -72,12 +72,12 @@ This number uses slang just like Gavin. “fkn” and “tmmr” are spellings t
 
  
 
-After weeks of stalking and unwanted texts, I finally got the number to call me using *67. I had changed the way my phone works so that when a number called me, it would unblock any *67 and show the real number that was calling. (See: Trapcall.com). It was at that moment, on April 15th, 2024, that I got a call from  *67 number. It resolved to be (937) 478-7106, a phone number corresponding to a gay man in Columbus, ohio named Aaron Zain Johnson. Aaron and I also had history, but I hadn’t spoken to him since 2023. At the time he wanted to hook up, but I had ghosted him. 
+After weeks of stalking and unwanted texts, I finally got the number to call me using *67. I had changed the way my phone works so that when a number called me, it would unblock any *67 and show the real number that was calling. (See: Trapcall.com). It was at that moment, on April 15th, 2024, that I got a call from  *67 number. It resolved to be ---------, a phone number corresponding to a gay man in Columbus, ohio named ----------. ------ and I also had history, but I hadn’t spoken to him since 2023. At the time he wanted to hook up, but I had ghosted him. 
 
-I woke up the morning of April 16, 2024, to missed calls from Aaron Johnson’s number. It was then that I received the following texts from the stalker. I replied, saying “Aaron Zain Johnson, do not contact me again.”
-I then followed the procedures at Ohio State for sexual harassment. I accused Aaron Johnson of being the stalker and sexually harassing me. Aaron contested that he never texted or called me. He had very convenient screenshots which showed someone named “chloe” was stalking him too! How convenient. 
-It is now my belief that Gavin told aaron, among others (there were many phone numbers) to call me. There were green bubbles, blue bubbles, phone calls and facetime calls.  One of the iPhones even said it was his cousin who asked him to ptank me. I believe that cousin is Gavin Grier. I have the name of this person as well, so if Gavin’s family can confirm this is indeed their cousin, we know Gavin gave him my number and told him to harass me. The person who owns this number also told me in a separate text that he is from Seattle, just like Gavin.
-I believe Gavin had his cousins, and his gay friends (Aaron) prank call and text me.
+I woke up the morning of April 16, 2024, to missed calls from --------. It was then that I received the following texts from the stalker. I replied, saying “----------, do not contact me again.”
+I then followed the procedures at Ohio State for sexual harassment. I accused ----------- of being the stalker and sexually harassing me. ------ contested that he never texted or called me. He had very convenient screenshots which showed someone named “chloe” was stalking him too! How convenient. 
+It is now my belief that Gavin told -----, among others (there were many phone numbers) to call me. There were green bubbles, blue bubbles, phone calls and facetime calls.  One of the iPhones even said it was his cousin who asked him to ptank me. I believe that cousin is Gavin Grier. I have the name of this person as well, so if Gavin’s family can confirm this is indeed their cousin, we know Gavin gave him my number and told him to harass me. The person who owns this number also told me in a separate text that he is from Seattle, just like Gavin.
+I believe Gavin had his cousins, and his gay friends prank call and text me.
 Notice the blue bubbles of the texts this page. This shows that it was a REAL number, attached to a REAL iphone, that called me. This is important because you can trace these numbers. Screenshot 1 was a fake number from an app. When it’s a green bubble and it says SMS, that means it could be a random number from an app like Pinger. But when it’s a blue bubble, it’s a real phone number tied to a REAL Apple ID.
 
 
@@ -274,7 +274,7 @@ Interestingly enough, the stalking got so much worse from this day forward.
  
 LATE JANUARY / EARLY FEBRUARY 2024.
 Gavin doesn’t text me, but the stalker does. threats, harassment, even VANDALISM of my car. 
-He texts this to my Google phone number (614-547-2312). He said to go look at my car. I thought there was a weapon or something left behind. I went to the parking garage, but was careful to not walk up to my car – I walked up to another SUV, and stared at it for a moment, and then peered at my car from across the garage. I walked out, and then received a text from the number saying that he now knows what kind of car I drive.
+He texts this to my Google phone number). He said to go look at my car. I thought there was a weapon or something left behind. I went to the parking garage, but was careful to not walk up to my car – I walked up to another SUV, and stared at it for a moment, and then peered at my car from across the garage. I walked out, and then received a text from the number saying that he now knows what kind of car I drive.
 
 
 In hindsight, I believe this was Gavin. Seeing as I just drove him to a concert days before, he now knew what kind of car I drove. 
