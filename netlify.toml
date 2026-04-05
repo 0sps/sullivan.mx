@@ -1,8 +1,11 @@
 [build]
-  # No build command needed for a plain HTML site
-  command = ""
-  # This tells Netlify to look for index.html in the root folder
-  publish = "."
+  command = "jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+  RUBY_VERSION = "3.2.0"
+
 # Optional: Custom headers for security
 [[headers]]
   for = "/*"
@@ -10,4 +13,3 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    
