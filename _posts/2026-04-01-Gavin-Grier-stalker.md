@@ -211,7 +211,7 @@ Prepare for a rollercoaster of screenshots…
 Now, by far the most creepy thing happens: The number starts calling me, and I answer. And I try to talk to the person on the other end. At first, they don’t respond, but then the number starts speaking.
 Moments into the call, I realize it’s a robot playing a pre recorded message. I get chils.
 
-See the recorded call here: https://youtu.be/9QgQPyUm_g0
+See the recorded call here: ----------
 It is disgusting.
 After that, I realize this person is very scary. They don’t even want me to know what their voice sounds like. All those photos I was sent, they have to be made up. It all has to be fake. This person had to have been catfishing me from the start.
 
