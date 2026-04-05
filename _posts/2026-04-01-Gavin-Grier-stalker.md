@@ -35,7 +35,7 @@ After that night, we stay in touch. Gavin wants to keep talking; he texts and su
 
 
 Around march 22nd, I lose cell service for three days. I call T-Mobile and work to get it resolved. I get cell service back on March 25th. 
-I text Gavin on the day I don’t have cell service, so the imessage comes through as “spsful@icloud.com”. That is why, in this screenshot, he says he thinks he was blocked. Anyway I follow up about plans because he wanted to do something on a Sunday. But as you can see, I didn’t text back and actually make the plans happen. The next text I sent was on April 4th.
+I text Gavin on the day I don’t have cell service, so the imessage comes through as “---------”. That is why, in this screenshot, he says he thinks he was blocked. Anyway I follow up about plans because he wanted to do something on a Sunday. But as you can see, I didn’t text back and actually make the plans happen. The next text I sent was on April 4th.
 
 
 
