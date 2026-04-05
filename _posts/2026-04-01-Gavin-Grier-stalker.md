@@ -41,7 +41,7 @@ I text Gavin on the day I don’t have cell service, so the imessage comes throu
 
 
 
-(Screenshots with blue borders mean they are coming from Gavin Grier – his number is 253-306-3084. I intentionally deleted his contact so you can see it is HIS phone number on every text.)
+(Screenshots with blue borders mean they are coming from Gavin Grier – his number is --------. I intentionally deleted his contact so you can see it is HIS phone number on every text.)
 
 
 On April 4th, I texted gavin asking if he wanted to go to my fraternity formal. I felt bad for leaving him hanging in the weeks prior. As you can see in the screenshot in the prior page, he texted back near instantly.
@@ -63,7 +63,7 @@ I now believe this to be Gavin. Notice the slang.. not many people say “fkn”
 
 
 
-The second image is a screenshot when I search imessage on my mac for “fkn”. You can see that even in january of 2025, Gavin (I deleted the contact so you can verify Gavin’s number there – his REAL number is 253-306-3084) texts me using that slang. He did in 2024, and he continued to in 2025. For the rest of this document, I’ll be marking screenshots with red borders if the text came from a stalker, and blue if the text came from Gavin himself.
+The second image is a screenshot when I search imessage on my mac for “fkn”. You can see that even in january of 2025, Gavin (I deleted the contact so you can verify Gavin’s number there – his REAL number is --------) texts me using that slang. He did in 2024, and he continued to in 2025. For the rest of this document, I’ll be marking screenshots with red borders if the text came from a stalker, and blue if the text came from Gavin himself.
  
 Around April 14th, 2024, I get constant texts from this number. Keep in mind, gavin and I haven’t spoken since that day on April 4th.
 
