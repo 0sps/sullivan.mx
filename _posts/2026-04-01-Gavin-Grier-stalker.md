@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Gavin Grier - My stalker"
+title: "Gavin Grier"
 date: 2026-04-01
 tags: [personal]
 
 ---
 
-### What did gavin grier do? Here’s a summary: 
+## What did gavin grier do? 
+
+### Here’s a summary: 
 
   I was stalked for a period spanning approximately 11 months from April 2024 to April 2025. I believe Gavin Grier perpetrated the stalking. He created over 30 different phone numbers to send me targeted harassment over text and call. Simultaneously, he allowed me to continue seeing him on dates, allowing me to believe he genuinely liked me. The stalking stopped in April when I sent Gavin’s personal number a long list of screenshots of all the harassment messages, and I indicated to him that I knew who sent them. I also sued Gavin, and won. Gavin Grier was found liable for stalking, harassment, and vandalism, and was ordered to pay me a fine plus court fees.
 
