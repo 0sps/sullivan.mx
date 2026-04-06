@@ -5,6 +5,10 @@ date: 2026-04-01
 tags: [personal]
 ---
 
+
+
+
+
 Hello, my name is Sean. I am putting this story out there so more people can understand what happened.
 
 ### Summary
