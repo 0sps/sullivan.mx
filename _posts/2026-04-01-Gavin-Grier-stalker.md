@@ -152,14 +152,15 @@ A few months later, I won in Fraknlin County municipal court, and magistrate jud
 
 ### Aftermath
 
-After hearing he still believes he doesn't owe any money, I personally served him a copy of the court order in April 2026. The court ordered him to pay everything I sued for, plus filing fees. 
-
+After hearing he still believes he doesn't owe any money, I personally served him a copy of the court order in April 2026. 
 *[ Insert audio: serving Gavin with the court order ]*
 
-His response on that recording made clear he already knew this was coming.
+His response made it absolutely clear that he does not care about what he did. He doesn't feel bad. No apology, no promise to do better, no promise to stay out of my life. Just acknowleding that he will pay what the court ordered him to.
 
-The reason I'm writing this is that it isn't over. Multiple people have reached out to me with their own versions of this story. I'm not going to identify them to protect them from what I went through. But the pattern is consistent, and the people who know Gavin have been willing to talk.
+The reason I'm writing this is that it isn't over. Multiple people have reached out to me with their own versions of this story. I'm not going to identify them to protect them from what I went through. But the pattern is consistent, and people who know Gavin have been willing to talk. He has been consistently stalking, harassing and messing with other guys. It needs to stop.
+
+---
 
 Every fact in this story is verifiable. If you've crossed paths with him, or if you're thinking about it, I hope this is useful.
 
-If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, that was the point.
+If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, take this information into account if you are considering dating him. Make the most informed decision according to your values. 
