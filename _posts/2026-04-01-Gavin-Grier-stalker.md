@@ -119,13 +119,14 @@ Within hours the stalker was back.
 
 The texts restarted immediately after I told Gavin I wasn't interested. This time they went to my Google Voice number too, not just my regular phone.
 
-Then the stalker told me to go look at my car.
+The stalker told me to go look at my car. He suggested there was a 'gift' for me, which made me think it was a bomb. I went down to my parking garage and checked from a distance, walking up to ANOTHER CAR and pretending to be looking at that one, only briefly glancing at my Kia from across the floor. I walked back to my apartment and told the stalker my car was fine. He said that now he knew what kind of car I drove. Except *no he didn't, anyone who watched me that night would have thought I owned this SUV I was standing next to.*
+I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone who was just driven to a concert in it.
 
-I went to the parking garage and checked from a distance, looking at another car nearby before slowly peering over at mine. It was vandalized.
+*I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
 
-I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just ridden in it four days earlier.
+After this, the harassment expanded. My roomate began to get texts too. The numbers claimed to know exactly where he was at different points throughout the day. Some numbers posed as coworkers of mine, others as insurance agents. One spoofed call came from an iPhone we were able to trace to a Snapchat account connected to one of Gavin's friends. Funny enough, we thought this might be Gavin, since Gavin is the ONLY person I have been romantically intertwined with who has had access to my roommate's phone number. We were all put into a group chat last year, when we all went out together with a big group.
 
-After that, the harassment expanded. Michael started getting texts too. The numbers claimed to know exactly where Michael was at different points throughout the day. Some numbers posed as coworkers of mine, others as insurance agents. One spoofed call came from an iPhone we were able to trace to a Snapchat account connected to one of Gavin's associates.
+[insert screenshot of group chat].
 
 ---
 
@@ -135,11 +136,17 @@ By February, Michael and I had a solid theory and were trying to confirm it.
 
 The location tracking texts were the clearest tell. Michael shared his Snap Map with friends, and Gavin was on his friends list. Once Michael turned off location sharing, the texts about where he was throughout the day stopped immediately.
 
-We also started feeding fake information to Kaylee, casually, nothing dramatic. Michael mentioned to her that he was moving out because he hated living with me after all the stalking stress. Within days, the stalker texted us with that exact information, framed as an insult.
+We also started feeding fake information to one of Gavin's friends who would regularly ask my roomate how we were doing. My roommate decided he would mention a fake scenario to this girl: he told her that he was moving out because he hated living with me after all the stalking. He told her that I 'didn't care' about the stalking and I was a terrible friend.. Within days, the stalker texted us with that exact information, framed as an insult.
 
-I filed suit in May 2025. The day I filed, the stalker texted me to let me know he had seen my boyfriend and me kissing in the park.
+[Insert text saying THIS HAS BEEN FUN. i'm thinking isabel next].
 
-Gavin moved back to Washington after learning about the lawsuit. People in his circle told me he left specifically to avoid being served. It didn't work. The courts reviewed the evidence and found him liable.
+I eventually continued seeing other guys, and had a boyfriend that summer. In may of 2025, the stalker texted me saying he saw us kissing in the park. Having known it was Gavin for months now, I decided it was time to act. I went to the Franklin county court and filed suit that same day. Plus I texted a group chat with me, my roommate, and Gavin, and dumped all the evidence into it. **Funny enough, we have never been stalked since this day.**
+
+Gavin moved back to Washington after learning about the lawsuit. People in his circle told me he left specifically to avoid being served. 
+
+A few months later, I won in Fraknlin County municipal court, and magistrate judge Kirk Lindsey ordered him to pay the amount I was suing for, plus court costs and filing fees.
+
+
 
 ---
 
