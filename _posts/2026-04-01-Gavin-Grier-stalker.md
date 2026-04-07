@@ -9,7 +9,6 @@ tags: [personal]
 
 
 
-Hello, my name is Sean. I am putting this story out there so more people can understand what happened.
 
 ### Summary
 Between April 2024 and April 2025, I was stalked by Gavin Grier for eleven months, receiving constant harassment by text and phone call from over 30 fake phone numbers. Eventually he vandalized my car, and harassed my boyfriend, which led me to sue him. 
