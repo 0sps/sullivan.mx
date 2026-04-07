@@ -6,9 +6,9 @@ tags: [personal]
 ---
 
 
+If you are reading this because you just Googled 'Gavin Grier' after a date in Ohio, or in Washington, please take five minutes to read my story. For 11 months, I was the target of a systematic campaign of harassment involving over 30 fake phone numbers, and threats to both me and my friends and family. My car was also vandalized. 
 
-
-
+The Franklin County Municipal Court of Ohio found him liable in 2025 for stalking and harassment in a civil judgement. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
 
 ### Summary
 Between April 2024 and April 2025, I was stalked by Gavin Grier for eleven months, receiving constant harassment by text and phone call from over 30 fake phone numbers. Eventually he vandalized my car, and harassed my boyfriend, which led me to sue him. 
@@ -19,7 +19,7 @@ In late 2025, Gavin Grier was found liable for stalking, harassment, and vandali
 
 I've sat on this for almost a year, thinking it would just go away, but unfortunately I have heard multiple examples of this individual hurting people around me in Ohio, so I feel obligated to share my story.
 
-Everything on this page is from my perspective. Similarly, I can back all of it up. To protect third parties, all personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). Screenshots are slowly being redacted and uploaded to this site, so please wait a few days to see those.
+Everything on this page is from my perspective. I also have the facts to back all of it up. *To protect third parties, all personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). Screenshots are slowly being redacted and uploaded to this site, so please wait a few days to see those.*
 
  If you have any questions, email me at questions(at)sullivan(dot)mx.
 
