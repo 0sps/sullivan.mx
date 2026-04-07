@@ -127,6 +127,21 @@ I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone
 
 *I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
 
+Then, in early March, my car was vandalized. The day after, one of the fake numbers texted me. The text read "Omg sean what happened last night".
+
+What happened was someone dumped a gallon of paint on my car. The paint they dumped caused permanent damage, requiring about $4000 in repairs to the hood. (It was a matte hood, so the paint had to be stripped and re-applied)
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/klein.png"><img src="/assets/klein.png" alt="Spencer and Sean" style="width: 100%;"></a>
+  <figcaption>Security camera footage from the vandalism.</figcaption>
+</figure>
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/omg.png"><img src="/assets/omg.png" alt="Spencer and Sean" style="width: 100%;"></a>
+  <figcaption>Security camera footage from the vandalism.</figcaption>
+</figure>
+
+
 After this, the harassment expanded. My roomate began to get texts too. The numbers claimed to know exactly where he was at different points throughout the day. Some numbers posed as coworkers of mine, others as insurance agents. One spoofed call came from an iPhone we were able to trace to a Snapchat account connected to one of Gavin's friends. Funny enough, we thought this might be Gavin, since Gavin is the ONLY person I have been romantically intertwined with who has had access to my roommate's phone number. We were all put into a group chat last year, when we all went out together with a big group.
 
 [insert screenshot of group chat].
