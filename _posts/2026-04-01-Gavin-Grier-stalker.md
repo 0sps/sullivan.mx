@@ -132,12 +132,12 @@ Then, in early March, my car was vandalized. The day after, one of the fake numb
 What happened was someone dumped a gallon of paint on my car. The paint they dumped caused permanent damage, requiring about $4000 in repairs to the hood. (It was a matte hood, so the paint had to be stripped and re-applied)
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/klein.png"><img src="/assets/klein.png" alt="Spencer and Sean" style="width: 100%;"></a>
+  <a href= "/assets/klein.png"><img src="/assets/klein.png" alt="Spencer and Sean" style="height: 50vh;"></a>
   <figcaption>Security camera footage from the vandalism.</figcaption>
 </figure>
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/omg.png"><img src="/assets/omg.png" alt="Spencer and Sean" style="width: 100%;"></a>
+  <a href= "/assets/omg.png"><img src="/assets/omg.png" alt="Spencer and Sean" style="height: 50vh;"></a>
   <figcaption>Security camera footage from the vandalism.</figcaption>
 </figure>
 
