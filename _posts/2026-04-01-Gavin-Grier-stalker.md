@@ -59,7 +59,7 @@ In early May, Gavin and I started messaging on Snapchat again.
 
 Right on cue, the harassment stopped. The last message from the stalker was April 17th.
 
-We were friendly again through May. In June he came into town; we went to dinner and later joined up with my roommate Michael and a group of his friends. Gavin met Michael that night, and he met a woman named Kaylee who was part of the friend group and lived in Chicago. After that night, Gavin and Kaylee started texting regularly.
+We were friendly again through May. In June he came into town; we went to dinner and later joined up with my roommate and a group of his friends. Gavin met that night, and he met a woman named ------ who was part of the friend group and lived in Chicago. After that night, Gavin and this friend started texting regularly.
 
 A few weeks later he told me he wanted something serious. I was honest with him: I didn't feel a romantic connection and wasn't interested in pursuing that. I suggested keeping things casual. He said no.
 
@@ -150,9 +150,9 @@ After this, the harassment expanded. My roomate began to get texts too. The numb
 
 ### March – May 2025
 
-By February, Michael and I had a theory that it was Gasvin, we were just trying to confirm it.
+By February, My roommate and I had a theory that it was Gavvin, we were just trying to confirm it.
 
-The location tracking texts Gavin would send us were the clearest tell. Michael shared his Snap Map with all his friends, Gavin included. Once Michael turned off location sharing, the texts about where he was throughout the day stopped immediately.
+The location tracking texts Gavin would send us were the clearest tell. My roommate shared his Snap Map with all his friends, Gavin included. Once my roommate turned off location sharing, the texts about where he was throughout the day stopped immediately.
 
 We also started feeding fake information to one of Gavin's friends who would regularly ask my roomate how we were doing. My roommate decided he would mention a fake scenario to this girl: he told her that he was moving out because he hated living with me after all the stalking. He told her that I 'didn't care' about the stalking and I was a terrible friend.. Within days, the stalker texted us with that exact information, framed as an insult.
 
