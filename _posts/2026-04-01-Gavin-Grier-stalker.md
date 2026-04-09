@@ -192,9 +192,9 @@ After this, the harassment expanded. My roomate began to get texts too. The numb
 
 ### March – May 2025
 
-By February, Michael and I had a theory that it was Gasvin, we were just trying to confirm it.
+By February, My roommate and I had a theory that it was Gavvin, we were just trying to confirm it.
 
-The location tracking texts Gavin would send us were the clearest tell. Michael shared his Snap Map with all his friends, Gavin included. Once Michael turned off location sharing, the texts about where he was throughout the day stopped immediately.
+The location tracking texts Gavin would send us were the clearest tell. My roommate shared his Snap Map with all his friends, Gavin included. Once my roommate turned off location sharing, the texts about where he was throughout the day stopped immediately.
 
 We also started feeding fake information to one of Gavin's friends who would regularly ask my roomate how we were doing. My roommate decided he would mention a fake scenario to this girl: he told her that he was moving out because he hated living with me after all the stalking. He told her that I 'didn't care' about the stalking and I was a terrible friend.. Within days, the stalker texted us with that exact information, framed as an insult.
 
