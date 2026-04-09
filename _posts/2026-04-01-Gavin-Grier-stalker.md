@@ -108,7 +108,7 @@ Something was off from the start. His photos had old Grindr watermarks, the kind
 
 I kept talking to him anyway. We texted for a few weeks. Eventually he asked about my history with guys.
 
-<figure style="max-width: 600px; text-align: center;">
+<figure style="max-width: 100%; text-align: center;">
   <a href= "/assets/river.png"><img src="/assets/river.png" alt="S" style="height: 50vh;"></a>
   <figcaption>"River", the fake profile Gavin used to catfish me in Fall 2024. These photos are actually for a male adult content creator.</figcaption>
 </figure>
@@ -155,7 +155,7 @@ What's interesting is the story I'm supposed to believe. I meet a guy on a datin
 
 ---
 
-After a few weeks, I eventually texted Gavin directly to ask how he was doing, partially because the stalker had made me feel so bad about the situation that I felt in the wrong for ever using the word narcisist in the first place. I had no self confidence left at this point, and every night after work I sat at home wondering why I had done this. Why I had called anyone a narcisist. Beating myself up over and over again. So I reached out to Gavin, and  he sent me screenshots of what "River" supposedly sent HIM. He seemed happy I reached out, and even apologized for how he acted in the past. 
+After a few days, I eventually text Gavin directly to ask how he was doing. He sent me screenshots of what "River" supposedly sent HIM. He seemed happy I reached out, and even apologized for how he acted in the past. 
 
 <figure style="max-width: 600px; text-align: center;">
   <a href= "/assets/river7.png"><img src="/assets/river7.png" alt="S" style="height: 50vh;"></a>
@@ -183,7 +183,11 @@ The first audio is more chilling. The second one has a lot of silence in it, but
   Your browser does not support the audio element.
 </audio>
 
-The texts kept coming through October and November. The angle had shifted: The stalker said I had ruined things with Gavin, I was the problem, I was "stuck up" and unlovable. I'm not going to pretend it didn't work... I lost a lot of confidence during that period. I started to wonder if maybe I really had been unfair to Gavin.
+You can also see this on YouTube if you prefer: https://youtu.be/9QgQPyUm_g0
+
+The texts kept coming through October and November. The angle had shifted: The stalker said I had ruined things with Gavin, I was the problem, I was "stuck up" and unlovable. I realized that this person is very scary. They don’t even want me to know what their voice sounds like. The stalker had made me feel so bad about the situation that I felt I was in the wrong for ever using the word narcisist in the first place. I had no self confidence left at this point, and every night after work I sat at home wondering why I had done this. Why I had called anyone a narcisist. Beating myself up over and over again.
+
+I started to wonder if maybe I really had been unfair to Gavin.
 
 So in mid-November I reached back out to him. Texted him and apologized, said I felt bad about how we'd left things.
 
