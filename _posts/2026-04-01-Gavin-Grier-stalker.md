@@ -114,24 +114,53 @@ I kept talking to him anyway. We texted for a few weeks. Eventually he asked abo
 </figure>
 
 
-I vented to this person about Gavin. I called him an asshole and said he was a narcissist. 
+I vented to this person about Gavin. I called him an asshole and said he was a narcissist. Within one day of that conversation, "River" completely changed. He called me "super stuck up" and said he was done talking to me. Then he told me he had tracked down Gavin's number through a 'flight school schedule' and texted him, sending along screenshots of everything I said. 
 
 <figure style="max-width: 600px; text-align: center;">
   <a href= "/assets/river2.png"><img src="/assets/river2.png" alt="S" style="height: 50vh;"></a>
-  <figcaption>"River", the fake profile Gavin used to catfish me in Fall 2024. These photos are actually for a male adult content creator.</figcaption>
+  <figcaption>Texting "River", the fake profile Gavin used to catfish me in Fall 2024. As you can see, the fake person mentioned he found Gavin's number online and texted him. This is impossible, since the flight school does NOT publish ANY contact info whatsoever on its website.</figcaption>
 </figure>
 
-Within one day of that conversation, "River" completely changed. He called me "super stuck up" and said he was done talking to me. Then he told me he had tracked down Gavin's number through a 'flight school schedule' and texted him, sending along screenshots of everything I said.
 
-*[ Insert screenshot: the conversation where I mention "narcissist" ]*
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river3.png"><img src="/assets/river3.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>"River" calling me stuck up right after I mention Gavin's name.</figcaption>
+</figure>
+
 
 I found this hard to believe on multiple levels. Flight school staff numbers aren't listed anywhere publicly, especially for MCA. And this person, who supposedly had no connection to Gavin, suddenly cared enough to go find him and forward him my private venting.
 
 Over the next few weeks, the stalker kept coming back specifically to bring up the word "narcissist." Not the other things I said but that specific word. He kept coming back to that one specifically, in a way that made me think it had actually hit something.
 
-*[ Insert screenshot: stalker repeatedly quoting "narcissist" ]*
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river4.png"><img src="/assets/river4.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>The tip of the iceberg. The very beginning of Gavin stalking me as "River".</figcaption>
+</figure>
 
-I eventually texted Gavin directly to ask how he was doing, partially because the stalker had made me feel so bad about the situation that I felt in the wrong for ever using the word narcisist in the first place. I reached out to Gavin, and he told me the stalker had reached out. He just sent me screenshots of what the stalker sent HIM. They were screenshots of *my messages* to the stalker saying I thought Gavin was a narcisist. For some reason he didn't seem super concerned by it. But he also said he didn't trust me anymore and didn't want to talk to me.
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river5.png"><img src="/assets/river5.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>"River" trying to convince me, with screenshots, that he was sending everything I sent to Gavin. He wanted to get a reaction out of me, so when I never replied, he said "Hello".</figcaption>
+</figure>
+
+
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river6.png"><img src="/assets/river6.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Gavin playing mind games with me, acting like he is "River" and pretending to text himself those screenshots to make Gavin supposedly hate me more. However, it was Gavin sending all of this the entire time.</figcaption>
+</figure>
+
+What's interesting is the story I'm supposed to believe. I meet a guy on a dating app, text him for a while, call someone a narcisist, and then IMMEDIATELY afterward I am the scum of the earth and deserve endless harassment. Furthermore, it's not enough to harrass me, this number has resolved that both me AND gavin have to be harrassed. Gavin specifically, no one else. **Why would a guy care so much about two gay men he has never even met?** If you were Gavin, you might be mad about the fact that I ghosted you previously, or that I went on a date with you and then told you afterward that I didn't enjoy it and didn't want to pursue things further. Then I called you a narcisist. If you are Gavin, that may have made you mad. Mad enough to stalk me...
+
+
+---
+
+After a few weeks, I eventually texted Gavin directly to ask how he was doing, partially because the stalker had made me feel so bad about the situation that I felt in the wrong for ever using the word narcisist in the first place. I had no self confidence left at this point, and every night after work I sat at home wondering why I had done this. Why I had called anyone a narcisist. Beating myself up over and over again. So I reached out to Gavin, and  he sent me screenshots of what "River" supposedly sent HIM. He seemed happy I reached out, and even apologized for how he acted in the past. 
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river7.png"><img src="/assets/river7.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Gavin being surprisingly understandable when I reach out. And somehow not really wondering how the stalker got his number.</figcaption>
+</figure>
 
 ---
 
