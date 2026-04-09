@@ -168,10 +168,20 @@ After a few weeks, I eventually texted Gavin directly to ask how he was doing, p
 
 At some point the stalker actually called me. There was no person on the line, just a prerecorded robotic voice reading a threatening message.
 
-*[ Insert audio: robot voice call ]*
+At first I thought it was a real person, but then I realized it was a robotic message playing over and over again. I don't think I've ever been so scared and creeped out in my entire life.
 
-At first I thought it was a real person, but then I realized it was a robotic message playing over and over again. I had a chill run down my spine. 
 
+The first audio is more chilling. The second one has a lot of silence in it, but it's still creepy. I recommend you take a listen to both.
+
+<audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
+  <source src="/assets/gavin1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
+  <source src="/assets/gavin2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 The texts kept coming through October and November. The angle had shifted: The stalker said I had ruined things with Gavin, I was the problem, I was "stuck up" and unlovable. I'm not going to pretend it didn't work... I lost a lot of confidence during that period. I started to wonder if maybe I really had been unfair to Gavin.
 
