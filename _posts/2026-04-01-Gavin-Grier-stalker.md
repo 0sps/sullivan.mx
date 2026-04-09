@@ -11,6 +11,7 @@ If you are reading this because you just Googled 'Gavin Grier' after a date in O
 The Franklin County Municipal Court of Ohio found him liable in 2025 for stalking and harassment in a civil judgement. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
 
 ### Summary
+
 Between April 2024 and April 2025, I was stalked by Gavin Grier for eleven months, receiving constant harassment by text and phone call from over 30 fake phone numbers. Eventually he vandalized my car, and harassed my boyfriend, which led me to sue him. 
 
 In late 2025, Gavin Grier was found liable for stalking, harassment, and vandalism by the Franklin County Municipal Court in Ohio. He was ordered to pay the amount I was suing for, plus court fees.
@@ -28,9 +29,9 @@ Everything on this page is from my perspective. I also have the facts to back al
 
 ### How we met (January – April 2024)
 
-I met Gavin on Grindr in January 2024. I was wrapping up my last year at Ohio State in Columbus, and had just moved from Seattle to attend flight school in Sidney, OH.
+I met Gavin in January 2024 from a dating app. I was wrapping up my last year of college, and had just moved from Seattle to attend flight school in Sidney, OH.
 
-We talked for a few weeks and eventually went on a real date on March 5th. He was enthusiastic after that, texting to make plans, following up when I didn't respond quickly. I was in my most demanding semester of school and told him I'd probably have more time after I graduated in May.
+We talked for a few weeks and eventually went on a real date on March 5th.
 
 Around April 4th I reached out and invited him to my fraternity formal that weekend. I texted him with one day of advance notice, but was surprised that he said he was free. I texted him back and said plans were changing so to not count on it 100% just yet. The next day I ended up canceling because it was too hard to coordinate that quickly. I stopped texting him after that. 
 
@@ -38,34 +39,64 @@ This is also the time when the stalking started.
 
 ---
 
-### April 2024
-
 The first messages came in right as I went quiet with Gavin. These messages consisted of homophobic slurs and aggressive texts.
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin1.png"><img src="/assets/gavin1.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>The stalker (Gavin) texting me. I had lost cell service for 3 days, and posted about it on my Snapchat story. At this point, I had Gavin added on Snapchat.</figcaption>
+</figure>
+
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin3.png"><img src="/assets/gavin3.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Another example of the texts I would receive. Notice how they use 'tmmr'.</figcaption>
+</figure>
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin4.png"><img src="/assets/gavin4.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>This is from Gavin. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else that I have texted has ever said 'tmmr'.</figcaption>
+</figure>
+
 
 What jumped out immediately was the slang they would use. The numbers kept spelling things "fkn" and "tmmr." I noticed those spellings specifically because Gavin used them in his own texts to me. It's not common shorthand.
 
-*[ Insert screenshot: stalker texts using "fkn" / "tmmr" ]*
-*[ Insert screenshot: Gavin's real texts with identical spellings ]*
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin2.png"><img src="/assets/gavin2.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>This is a screenshot from Gavin's REAL number. As you can see, even as of 2025 he talks like this. He uses the word 'fkn'. no one else I have texted has ever used this spelling before; I searched it in my messages.</figcaption>
+</figure>
 
-By mid-April I was trying to figure out who was behind it. Around late April, another phone number called me, but this was an iPhone. I searched the number and found it went to a man who lived in Seattle. I reached out, and this guy was very kind. He said that person said "his cousin" put him up to it. 
+By mid-April of 2024 I was trying to figure out who was behind it. I hadn't yet pieced together that it could be Gavin.
 
-Gavin is from Seattle. I think Gavin had recruited people from his life, including family, to make calls and send texts on his behalf to make mine all that much worse.
+ Around late April, another phone number called me, but this was an iPhone. I searched the number and found it went to a man who lived in Seattle. I reached out, and this guy was very kind. He said that person said "his cousin" put him up to it. 
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin5.png"><img src="/assets/gavin5.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>This is a screenshot from Gavin's cousin. I didn't know it at the time, but Gavin had his cousin prank call me. Like Gavin, this cousin is from seattle. I will not reveal his name for privacy purposes.</figcaption>
+</figure>
+
+
 
 ---
 
 ### May – August 2024
 
-In early May, Gavin and I started messaging on Snapchat again.
+In early May, Gavin and I started messaging on Snapchat again. I got back in touch with him, in the midst of all this stalking. I still didn't know who was doing it.
 
-Right on cue, the harassment stopped. The last message from the stalker was April 17th.
+However, right on cue, the harassment stopped. The last message from the stalker was April 17th.
 
-We were friendly again through May. In June he came into town; we went to dinner and later joined up with my roommate Michael and a group of his friends. Gavin met Michael that night, and he met a woman named Kaylee who was part of the friend group and lived in Chicago. After that night, Gavin and Kaylee started texting regularly.
+We were friendly again through May. In June he came into town; we went to dinner and later joined up with my roommate and a group of friends. Gavin met Michael that night, and he met a woman named K***** who was part of the friend group and lived in Chicago. After that night, Gavin and K***** started texting regularly.
 
-A few weeks later he told me he wanted something serious. I was honest with him: I didn't feel a romantic connection and wasn't interested in pursuing that. I suggested keeping things casual. He said no.
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin6.png"><img src="/assets/gavin6.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>A screenshot from the group chat Gavin was added to with my roommate and our friends, in summer 2024. You can see me adding him to the chat.</figcaption>
+</figure>
+
+
+A few weeks after this night out with me and my friends, he told me he wanted something serious. I was honest with him: I didn't feel a romantic connection and wasn't interested in pursuing that. I suggested keeping things casual. He said no.
 
 The last real conversation we had that summer was in July. I mentioned I was helping my parents move before a family trip to Europe. He said, "You can't just find some friends to replace them?"
 
-I remember being so mad at him for suggesting I eplace my parents on a family trip they were paying for. I blew up at him and he left me on read. We didn't talk for months.
+I remember being so mad at him for suggesting I eplace my parents on a family trip they were paying for. I blew up at him and he left me on read. We didn't talk for months. 
 
 ---
 
@@ -77,7 +108,18 @@ Something was off from the start. His photos had old Grindr watermarks, the kind
 
 I kept talking to him anyway. We texted for a few weeks. Eventually he asked about my history with guys.
 
-I vented about Gavin. I called him an asshole, said he was a narcissist and I thought he was a dick. 
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river.png"><img src="/assets/river.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>"River", the fake profile Gavin used to catfish me in Fall 2024. These photos are actually for a male adult content creator.</figcaption>
+</figure>
+
+
+I vented to this person about Gavin. I called him an asshole and said he was a narcissist. 
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river2.png"><img src="/assets/river2.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>"River", the fake profile Gavin used to catfish me in Fall 2024. These photos are actually for a male adult content creator.</figcaption>
+</figure>
 
 Within one day of that conversation, "River" completely changed. He called me "super stuck up" and said he was done talking to me. Then he told me he had tracked down Gavin's number through a 'flight school schedule' and texted him, sending along screenshots of everything I said.
 
@@ -156,7 +198,7 @@ The location tracking texts Gavin would send us were the clearest tell. Michael 
 
 We also started feeding fake information to one of Gavin's friends who would regularly ask my roomate how we were doing. My roommate decided he would mention a fake scenario to this girl: he told her that he was moving out because he hated living with me after all the stalking. He told her that I 'didn't care' about the stalking and I was a terrible friend.. Within days, the stalker texted us with that exact information, framed as an insult.
 
-[Insert text saying THIS HAS BEEN FUN. i'm thinking isabel next].
+[Insert text saying THIS HAS BEEN FUN. i'm thinking ----- next].
 
 I eventually continued seeing other guys, and had a boyfriend that summer. In may of 2025, the stalker texted me saying he saw us kissing in the park. Having known it was Gavin for months now, I decided it was time to act. I went to the Franklin county court and filed suit that same day. Plus I texted a group chat with me, my roommate, and Gavin, and dumped all the evidence into it. **Funny enough, we have never been stalked since this day.**
 
