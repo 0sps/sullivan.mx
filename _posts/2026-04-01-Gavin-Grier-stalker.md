@@ -42,11 +42,16 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 
 **For the rest of this article, I will use BLUE outlines to denote text messages that came from Gavin's REAL number. RED outlines will indicate fake phone numbers; ones that resolve to no caller ID, are impossible to track down, and are associated with online carriers like Pinger and TextNow. Again, tap on any image to open it in a new window.**
 
-<figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin1.png"><img src="/assets/gavin1.png" alt="S" style="max-height: 50vh;"></a>
-  <figcaption>The stalker (Gavin) texting me. I had lost cell service for 3 days, and posted about it on my Snapchat story. At this point, I had Gavin added on Snapchat.</figcaption>
-</figure>
-
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+    <a href= "/assets/gavin1.png"><img src="/assets/gavin1.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
+    <figcaption>The stalker (Gavin) texting me. I had lost cell service for 3 days, and posted about it on my Snapchat story. At this point, I had Gavin added on Snapchat.</figcaption>
+  </figure>
+  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+    <a href= "/assets/gavin2.png"><img src="/assets/gavin2.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
+    <figcaption>This is a screenshot from Gavin's REAL number. As you can see, even as of 2025 he talks like this. He uses the word 'fkn'. no one else I have texted has ever used this spelling before; I searched it in my messages.</figcaption>
+  </figure>
+</div>
 
 
 
@@ -63,14 +68,10 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 </div>
 
 
-What jumped out immediately was the slang they would use. The numbers kept spelling things "fkn" and "tmmr." I noticed those spellings specifically because Gavin used them in his own texts to me. It's not common shorthand.
+What jumped out months later was the slang they would use. I didn't realize it at the time, but these numbers kept spelling things "fkn" and "tmmr." I noticed those spellings specifically because Gavin used them in his own texts to me. It's not common shorthand.
 
-<figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin2.png"><img src="/assets/gavin2.png" alt="S" style="max-height: 50vh;"></a>
-  <figcaption>This is a screenshot from Gavin's REAL number. As you can see, even as of 2025 he talks like this. He uses the word 'fkn'. no one else I have texted has ever used this spelling before; I searched it in my messages.</figcaption>
-</figure>
 
-By mid-April of 2024 I was trying to figure out who was behind it. I hadn't yet pieced together that it could be Gavin.
+By mid-April of 2024 I was still trying to figure out who was behind it. I hadn't yet pieced together that it could be Gavin.
 
  Around late April, another phone number called me, but this was an iPhone. I searched the number and found it went to a man who lived in Seattle. I reached out, and this guy was very kind. He said that person said "his cousin" put him up to it. 
 
@@ -221,7 +222,7 @@ That same morning, I got this from Gavin:
 
 The stalker was now back. 
 
----
+
 
 ### Late January – March 2025
 
