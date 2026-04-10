@@ -116,6 +116,7 @@ noscript div {
   font-weight: bold;
 }
 
+/* Table of Contents - Base Styles */
 .dynamic-toc-wrapper {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -144,19 +145,23 @@ noscript div {
   margin-bottom: 0.5em;
 }
 
+/* Specific selectors to beat general theme rules in default.html */
 .dynamic-toc-wrapper a, 
-.dynamic-toc-wrapper a:link {
+.dynamic-toc-wrapper a:link,
+html[data-theme="light"] .dynamic-toc-wrapper a:link {
   text-decoration: none;
-  color: #444;
+  color: #444 !important; /* Ensure visibility against light background */
   transition: color 0.2s ease;
 }
 
-.dynamic-toc-wrapper a:visited {
-  color: #666;
+.dynamic-toc-wrapper a:visited,
+html[data-theme="light"] .dynamic-toc-wrapper a:visited {
+  color: #666 !important;
 }
 
-.dynamic-toc-wrapper a:hover {
-  color: #007aff;
+.dynamic-toc-wrapper a:hover,
+html[data-theme="light"] .dynamic-toc-wrapper a:hover {
+  color: #007aff !important;
   text-decoration: underline;
 }
 
@@ -168,7 +173,48 @@ noscript div {
   padding-left: 2em;
 }
 
-/* Dark mode styles for both OS preference and manual toggle */
+/* Dark mode styles - Only apply if NOT explicitly light mode */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) .dynamic-toc-wrapper {
+    background: #1e1e1e;
+    border-color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  html:not([data-theme="light"]) .dynamic-toc-title {
+    color: #eee;
+  }
+  html:not([data-theme="light"]) .dynamic-toc-wrapper a, 
+  html:not([data-theme="light"]) .dynamic-toc-wrapper a:link {
+    color: #9bf !important;
+  }
+  html:not([data-theme="light"]) .dynamic-toc-wrapper a:visited {
+    color: #a9f !important;
+  }
+  html:not([data-theme="light"]) .dynamic-toc-wrapper a:hover {
+    color: #bdf !important;
+  }
+}
+
+/* Explicit theme toggle overrides - Highest priority */
+html[data-theme="dark"] .dynamic-toc-wrapper {
+  background: #1e1e1e;
+  border-color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+html[data-theme="dark"] .dynamic-toc-title {
+  color: #eee;
+}
+html[data-theme="dark"] .dynamic-toc-wrapper a, 
+html[data-theme="dark"] .dynamic-toc-wrapper a:link {
+  color: #9bf !important;
+}
+html[data-theme="dark"] .dynamic-toc-wrapper a:visited {
+  color: #a9f !important;
+}
+html[data-theme="dark"] .dynamic-toc-wrapper a:hover {
+  color: #bdf !important;
+}
+
 @media (prefers-color-scheme: dark) {
   .soft img {
     opacity: 0.7;
@@ -188,45 +234,4 @@ noscript div {
   .hl {
     color: #f9c;
   }
-  
-  /* TOC Dark Mode - Fallback for prefers-color-scheme */
-  .dynamic-toc-wrapper {
-    background: #1e1e1e; /* Distinctly lighter than body #111 */
-    border-color: #333;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  }
-  .dynamic-toc-title {
-    color: #eee;
-  }
-  .dynamic-toc-wrapper a, 
-  .dynamic-toc-wrapper a:link {
-    color: #9bf; /* Light vibrant blue */
-  }
-  .dynamic-toc-wrapper a:visited {
-    color: #a9f;
-  }
-  .dynamic-toc-wrapper a:hover {
-    color: #bdf;
-    text-decoration: underline;
-  }
-}
-
-/* Explicit theme toggle overrides for TOC */
-html[data-theme="dark"] .dynamic-toc-wrapper {
-  background: #1e1e1e;
-  border-color: #333;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
-html[data-theme="dark"] .dynamic-toc-title {
-  color: #eee;
-}
-html[data-theme="dark"] .dynamic-toc-wrapper a, 
-html[data-theme="dark"] .dynamic-toc-wrapper a:link {
-  color: #9bf;
-}
-html[data-theme="dark"] .dynamic-toc-wrapper a:visited {
-  color: #a9f;
-}
-html[data-theme="dark"] .dynamic-toc-wrapper a:hover {
-  color: #bdf;
 }
