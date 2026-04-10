@@ -19,7 +19,7 @@ figure img, figure video {
   box-shadow: 0em 0em 0.5em #999;
 }
 figcaption {
-  font-size: medium;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 table {
