@@ -156,7 +156,7 @@ Over the next few weeks, the stalker kept coming back specifically to bring up t
   <figcaption>Gavin playing mind games with me, acting like he is "River" and pretending to text himself those screenshots to make Gavin supposedly hate me more. However, it was Gavin sending all of this the entire time.</figcaption>
 </figure>
 
-What's interesting is the story I'm supposed to believe. I meet a guy on a dating app, text him for a while, call someone a narcisist, and then IMMEDIATELY afterward I am the scum of the earth and deserve endless harassment. Furthermore, it's not enough to harrass me, this number has resolved that both me AND gavin have to be harrassed. Gavin specifically, no one else. **Why would a guy care so much about two gay men he has never even met?** If you were Gavin, you might be mad about the fact that I ghosted you previously, or that I went on a date with you and then told you afterward that I didn't enjoy it and didn't want to pursue things further. Then I called you a narcisist. If you are Gavin, that may have made you mad. Mad enough to stalk me...
+What's interesting is the story I'm supposed to believe. I meet a guy on a dating app, text him for a while, call someone a narcissist, and then IMMEDIATELY afterward I am the scum of the earth and deserve endless harassment. Furthermore, it's not enough to harrass me, this number has resolved that both me AND gavin have to be harrassed. Gavin specifically, no one else. **Why would a guy care so much about two gay men he has never even met?** If you were Gavin, you might be mad about the fact that I ghosted you previously, or that I went on a date with you and then told you afterward that I didn't enjoy it and didn't want to pursue things further. Then I called you a narcissist. If you are Gavin, that may have made you mad. Mad enough to stalk me...
 
 
 ---
@@ -192,7 +192,7 @@ The first audio is more chilling. The second one has a lot of silence in it, but
 
 You can also see this on YouTube if you prefer: https://youtu.be/9QgQPyUm_g0
 
-The texts kept coming through October and November. The angle had shifted: The stalker said I had ruined things with Gavin, I was the problem, I was "stuck up" and unlovable. I realized that this person is very scary. They don’t even want me to know what their voice sounds like. The stalker had made me feel so bad about the situation that I felt I was in the wrong for ever using the word narcisist in the first place. I had no self confidence left at this point, and every night after work I sat at home wondering why I had done this. Why I had called anyone a narcisist. Beating myself up over and over again.
+The texts kept coming through October and November. The angle had shifted: The stalker said I had ruined things with Gavin, I was the problem, I was "stuck up" and unlovable. I realized that this person is very scary. They don’t even want me to know what their voice sounds like. The stalker had made me feel so bad about the situation that I felt I was in the wrong for ever using the word narcissist in the first place. I had no self confidence left at this point, and every night after work I sat at home wondering why I had done this. Why I had called anyone a narcissist. Beating myself up over and over again.
 
 I started to wonder if maybe I really had been unfair to Gavin.
 
@@ -242,7 +242,7 @@ I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone
 What happened was someone dumped a gallon of paint on my car. The paint they dumped caused permanent damage, requiring about $4000 in repairs to the hood. (It was a matte hood, so the paint had to be stripped and re-applied)
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/klein.png"><img src="/assets/klein.png" alt="Sn" style="max-height: 50vh;"></a>
+  <a href= "/assets/klein.png"><img src="/assets/klein.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Security camera footage from the vandalism.</figcaption>
 </figure>
 
@@ -304,7 +304,7 @@ After receiving this text, we knew it was Gavin. Gavin's friends had told him th
 
 I eventually started to see other guys, and had a boyfriend that summer. In may of 2025, the stalker texted me saying he saw us kissing in the park. Having known it was Gavin for months now, I decided it was time to act. I went to the Franklin county court and filed suit that same day. Plus I texted a group chat with me, my roommate, and Gavin, and dumped all the evidence into it. **Funny enough, we have never been stalked since this day.**
 
-I also started reaching out to some people he had harass me. I followed leads on every single number, and found a few that were real. (Phone numbers that correspond to real people, not apps, have been redacted from this post)
+I also started reaching out to some people he had harassed me. I followed leads on every single number, and found a few that were real. (Phone numbers that correspond to real people, not apps, have been redacted from this post)
 
 Take a look:
 <figure style="max-width: 100%; text-align: center;">
@@ -330,7 +330,7 @@ I thought this was over, but then the months went by and he never paid me. Also,
 
 For that reason, I personally served him a copy of the court order in April 2026. 
 
-His response made it **absolutely clear that he does not care about what he did.** He doesn't feel bad. No apology, no promise to do better, no promise to stay out of my life. Just acknowleding that he will pay what the court ordered him to.
+His response made it **absolutely clear that he does not care about what he did.** He doesn't feel bad. No apology, no promise to do better, no promise to stay out of my life. Just acknowledging that he will pay what the court ordered him to.
 
 <audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
   <source src="/assets/gavinExcerpt_1.mp3" type="audio/mpeg">
@@ -343,7 +343,7 @@ His response made it **absolutely clear that he does not care about what he did.
 </audio>
 
 
-The reason I'm writing this is that it isn't over. Multiple people have reached out to me telling me they know about this story, becuase he told them. I'm not going to identify those people to protect them from what I went through. But the pattern is consistent. He has been consistently stalking, harassing and messing with other guys. It needs to stop.
+The reason I'm writing this is that it isn't over. Multiple people have reached out to me telling me they know about this story, because he told them. I'm not going to identify those people to protect them from what I went through. But the pattern is consistent. He has been consistently stalking, harassing and messing with other guys. It needs to stop.
 
 ---
 
