@@ -62,7 +62,7 @@ The first messages came in right as I went quiet with Gavin. These messages cons
     <figcaption>This is from Gavin. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else that I have texted has ever said 'tmmr'.</figcaption>
   </figure>
 </div>
-
+---
 
 What jumped out immediately was the slang they would use. The numbers kept spelling things "fkn" and "tmmr." I noticed those spellings specifically because Gavin used them in his own texts to me. It's not common shorthand.
 
