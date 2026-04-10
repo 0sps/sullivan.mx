@@ -347,7 +347,6 @@ His response made it **absolutely clear that he does not care about what he did.
 
 The reason I'm writing this is that it isn't over. Multiple people have reached out to me telling me they know about this story, because he told them. I'm not going to identify those people to protect them from what I went through. But the pattern is consistent. He has been consistently stalking, harassing and messing with other guys. It needs to stop.
 
----
 
 Every fact in this story is verifiable. If you've crossed paths with him, or if you're thinking about it, I hope this is useful.
 
