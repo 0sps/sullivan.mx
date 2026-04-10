@@ -21,9 +21,9 @@ I have learned that, unfortunately, Gavin has not stopped harassing others, and 
 *(You can verify this yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) and search "Gavin Grier.")*
 
 
-Everything on this page is from my perspective. I also have the facts to back all of it up. *To protect third parties, personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). I was able to identify whether a number was created by a legitimate carrier, or if it was created by an online service like like Pinger or Textnow. For the majority of those 30+ fake numbers that texted and called me, I will leave them on this website unredacted.*
+Everything on this page is from my perspective. I also have the facts to back all of it up. *To protect third parties, personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). I was able to identify whether a number was created by a legitimate carrier, or if it was created by an online service like like Pinger or Textnow. For the majority of those 30+ fake numbers that texted and called me, I will leave them on this website unredacted. Tap on any image to expand it in a new window.*
 
- If you have any questions, email me at questions(at)sullivan(dot)mx.
+ If you have questions, email me at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
 
 
 ---
