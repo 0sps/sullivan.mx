@@ -45,7 +45,7 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 **For the rest of this article, I will use BLUE outlines to denote text messages that came from Gavin's REAL number. RED outlines will indicate fake phone numbers; ones that resolve to no caller ID, are impossible to track down, and are associated with online carriers like Pinger and TextNow.**
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin1.png"><img src="/assets/gavin1.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/gavin1.png"><img src="/assets/gavin1.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>The stalker (Gavin) texting me. I had lost cell service for 3 days, and posted about it on my Snapchat story. At this point, I had Gavin added on Snapchat.</figcaption>
 </figure>
 
@@ -55,11 +55,11 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
   <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
-    <a href= "/assets/gavin3.png"><img src="/assets/gavin3.png" alt="S" style="height: 50vh; max-width: 100%; object-fit: contain;"></a>
+    <a href= "/assets/gavin3.png"><img src="/assets/gavin3.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
     <figcaption>Another example of the texts I would receive. Notice how they use 'tmmr'.</figcaption>
   </figure>
   <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
-    <a href= "/assets/gavin4.png"><img src="/assets/gavin4.png" alt="S" style="height: 50vh; max-width: 100%; object-fit: contain;"></a>
+    <a href= "/assets/gavin4.png"><img src="/assets/gavin4.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
     <figcaption>This is from Gavin. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else that I have texted has ever said 'tmmr'.</figcaption>
   </figure>
 </div>
@@ -68,7 +68,7 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 What jumped out immediately was the slang they would use. The numbers kept spelling things "fkn" and "tmmr." I noticed those spellings specifically because Gavin used them in his own texts to me. It's not common shorthand.
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin2.png"><img src="/assets/gavin2.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/gavin2.png"><img src="/assets/gavin2.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>This is a screenshot from Gavin's REAL number. As you can see, even as of 2025 he talks like this. He uses the word 'fkn'. no one else I have texted has ever used this spelling before; I searched it in my messages.</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ By mid-April of 2024 I was trying to figure out who was behind it. I hadn't yet 
  Around late April, another phone number called me, but this was an iPhone. I searched the number and found it went to a man who lived in Seattle. I reached out, and this guy was very kind. He said that person said "his cousin" put him up to it. 
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin5.png"><img src="/assets/gavin5.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/gavin5.png"><img src="/assets/gavin5.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>This is a screenshot from Gavin's cousin. I didn't know it at the time, but Gavin had his cousin prank call me. Like Gavin, this cousin is from seattle. I will not reveal his name for privacy purposes.</figcaption>
 </figure>
 
@@ -91,11 +91,11 @@ In early May, Gavin and I started messaging on Snapchat again. I got back in tou
 
 However, right on cue, the harassment stopped. The last message from the stalker was April 17th.
 
-We were friendly again through May. In June he came into town; we went to dinner and later joined up with my roommate and a group of friends. Gavin met Michael that night, and he met a woman named K***** who was part of the friend group and lived in Chicago. After that night, Gavin and K***** started texting regularly.
+We were friendly again through May. In June he came into town; we went to dinner and later joined up with my roommate and a group of friends. Gavin met my roommate as well as a woman named K***** who was part of the friend group and lived in Chicago. After that night, Gavin and K***** started texting regularly.
 
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin6.png"><img src="/assets/gavin6.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/gavin6.png"><img src="/assets/gavin6.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>A screenshot from the group chat Gavin was added to with my roommate and our friends, in summer 2024. You can see me adding him to the chat.</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Something was off from the start. His photos had old Grindr watermarks, the kind
 I kept talking to him anyway. We texted for a few weeks. Eventually he asked about my history with guys.
 
 <figure style="max-width: 100%; text-align: center;">
-  <a href= "/assets/river.png"><img src="/assets/river.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river.png"><img src="/assets/river.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>"River", the fake profile Gavin used to catfish me in Fall 2024. These photos are actually for a male adult content creator.</figcaption>
 </figure>
 
@@ -125,13 +125,13 @@ I kept talking to him anyway. We texted for a few weeks. Eventually he asked abo
 I vented to this person about Gavin. I called him an asshole and said he was a narcissist. Within one day of that conversation, "River" completely changed. He called me "super stuck up" and said he was done talking to me. Then he told me he had tracked down Gavin's number through a 'flight school schedule' and texted him, sending along screenshots of everything I said. 
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river2.png"><img src="/assets/river2.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river2.png"><img src="/assets/river2.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Texting "River", the fake profile Gavin used to catfish me in Fall 2024. As you can see, the fake person mentioned he found Gavin's number online and texted him. This is impossible, since the flight school does NOT publish ANY contact info whatsoever on its website.</figcaption>
 </figure>
 
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river3.png"><img src="/assets/river3.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river3.png"><img src="/assets/river3.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>"River" calling me stuck up right after I mention Gavin's name.</figcaption>
 </figure>
 
@@ -141,20 +141,20 @@ I found this hard to believe on multiple levels. Flight school staff numbers are
 Over the next few weeks, the stalker kept coming back specifically to bring up the word "narcissist." Not the other things I said but that specific word. He kept coming back to that one specifically, in a way that made me think it had actually hit something.
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river4.png"><img src="/assets/river4.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river4.png"><img src="/assets/river4.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>The tip of the iceberg. The very beginning of Gavin stalking me as "River".</figcaption>
 </figure>
 
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river5.png"><img src="/assets/river5.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river5.png"><img src="/assets/river5.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>"River" trying to convince me, with screenshots, that he was sending everything I sent to Gavin. He wanted to get a reaction out of me, so when I never replied, he said "Hello".</figcaption>
 </figure>
 
 
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river6.png"><img src="/assets/river6.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river6.png"><img src="/assets/river6.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Gavin playing mind games with me, acting like he is "River" and pretending to text himself those screenshots to make Gavin supposedly hate me more. However, it was Gavin sending all of this the entire time.</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ What's interesting is the story I'm supposed to believe. I meet a guy on a datin
 After a few days, I eventually text Gavin directly to ask how he was doing. He sent me screenshots of what "River" supposedly sent HIM. He seemed happy I reached out, and even apologized for how he acted in the past. 
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river7.png"><img src="/assets/river7.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river7.png"><img src="/assets/river7.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Gavin being surprisingly understandable when I reach out. And somehow not really wondering how the stalker got his number.</figcaption>
 </figure>
 
@@ -203,7 +203,7 @@ So in mid-November I reached back out to him. Texted him and apologized, said I 
 To my surprise, he responded, and stalker immediately went quiet.
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin9.png"><img src="/assets/gavin9.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/gavin9.png"><img src="/assets/gavin9.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Gavin being surprisingly understandable when I reach out, again.</figcaption>
 </figure>
 
@@ -217,7 +217,7 @@ And interestingly enough, **the stalker was back**. For the first time since I r
 That same morning, I got this from Gavin:
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin10.png"><img src="/assets/gavin10.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/gavin10.png"><img src="/assets/gavin10.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Gavin confronting me: conveniently, the stalker has returned immediately now that I have stopped responding to Gavin's constant messgaes, and have not initiated any more plans since the last hangout. Also, note that this text takes place on Jan 30, TWO DAYS after the concert. I'm no expert, but stalking someone because you didn't hear from them in two days seems a little clingy.</figcaption>
 </figure>
 
@@ -235,7 +235,7 @@ I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone
 *I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river9.jpg"><img src="/assets/river9.jpg" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river9.jpg"><img src="/assets/river9.jpg" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Two days after I drove Gavin to a concert, and he finally knows what kind of car I drive (since I got a new one), the stalker somehow found a way to know this, too.</figcaption>
 </figure>
 
@@ -244,12 +244,12 @@ I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone
 What happened was someone dumped a gallon of paint on my car. The paint they dumped caused permanent damage, requiring about $4000 in repairs to the hood. (It was a matte hood, so the paint had to be stripped and re-applied)
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/klein.png"><img src="/assets/klein.png" alt="Sn" style="height: 50vh;"></a>
+  <a href= "/assets/klein.png"><img src="/assets/klein.png" alt="Sn" style="max-height: 50vh;"></a>
   <figcaption>Security camera footage from the vandalism.</figcaption>
 </figure>
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/omg.png"><img src="/assets/omg.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/omg.png"><img src="/assets/omg.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>The stalker (Gavin) texting me the next day.</figcaption>
 </figure>
 
@@ -259,19 +259,19 @@ After this, the harassment expanded. My roomate began to get texts too. The numb
 Let's look at some of the harrassment:
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river10.png"><img src="/assets/river10.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river10.png"><img src="/assets/river10.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Pretending to be random people, just for the hell of it I suppose.</figcaption>
 </figure>
 
 
 
 <figure style="max-width: 100%; text-align: center;">
-  <a href= "/assets/river12.png"><img src="/assets/river12.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river12.png"><img src="/assets/river12.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>More harrassment.</figcaption>
 </figure>
 
 <figure style="max-width: 100%; text-align: center;">
-  <a href= "/assets/ricer13.png"><img src="/assets/ricer13.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/ricer13.png"><img src="/assets/ricer13.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>More harrassment.</figcaption>
 </figure>
 
@@ -296,7 +296,7 @@ The location tracking texts Gavin would send us were the clearest tell. My roomm
 We also started feeding fake information to one of Gavin's friends who would regularly ask my roomate how we were doing. My roommate decided he would mention a fake scenario to this girl: he told her that he was moving out because he hated living with me after all the stalking. He told her that I 'didn't care' about the stalking and I was a terrible friend.. Within days, the stalker texted us with that exact information, framed as an insult.
 
 <figure style="max-width: 100%; text-align: center;">
-  <a href= "/assets/river14.jpg"><img src="/assets/river14.jpg" alt="Screenshot of the stalker saying 'too easy, this has been fun'" style="height: 50vh;"></a>
+  <a href= "/assets/river14.jpg"><img src="/assets/river14.jpg" alt="Screenshot of the stalker saying 'too easy, this has been fun'" style="max-height: 50vh;"></a>
   <figcaption>Looks like he took the bait.</figcaption>
 </figure>
 
@@ -310,7 +310,7 @@ I also started reaching out to some people he had harass me. I followed leads on
 
 Take a look:
 <figure style="max-width: 100%; text-align: center;">
-  <a href= "/assets/friend.png"><img src="/assets/friend.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/friend.png"><img src="/assets/friend.png" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Gavin is so sloppy, he had both cousins AND friends call me.</figcaption>
 </figure>
 
@@ -320,7 +320,7 @@ Gavin moved back to Washington after learning about the lawsuit. People in his c
 A few months later, I won in Fraknlin County municipal court, and magistrate judge Kirk Lindsey ordered him to pay the amount I was suing for, plus court costs and filing fees.
 
 <figure style="max-width: 100%; text-align: center;">
-  <a href= "/assets/IMG_8912.JPG"><img src="/assets/IMG_8912.JPG" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/IMG_8912.JPG"><img src="/assets/IMG_8912.JPG" alt="S" style="max-height: 50vh;"></a>
   <figcaption>Got his ass.</figcaption>
 </figure>
 
