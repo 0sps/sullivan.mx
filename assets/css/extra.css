@@ -144,7 +144,7 @@ noscript div {
 
 .dynamic-toc-wrapper a {
   text-decoration: none;
-  color: #00e;
+  color: #555;
 }
 
 .dynamic-toc-wrapper a:hover {
@@ -186,6 +186,6 @@ noscript div {
     color: #ccc;
   }
   .dynamic-toc-wrapper a {
-    color: #9bf;
+    color: #aaa;
   }
 }
