@@ -10,6 +10,8 @@ If you are reading this because you just Googled 'Gavin Grier' after a date in O
 
 The Franklin County Municipal Court of Ohio **found Gavin Grier** liable in 2025 for **stalking and harassment** in a civil judgement that I filed. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
 
+<div id="toc-container"></div>
+
 ### Summary
 
 Between April 2024 and April 2025, I was stalked by Gavin Grier for eleven months, receiving constant harassment by text and phone call from over 30 fake phone numbers. Eventually he vandalized my car, and harassed my boyfriend, which led me to sue him. 

@@ -195,8 +195,38 @@ layout: default
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const headings = Array.from(document.querySelectorAll("main h1, main h2")).filter(h => h.innerText.trim() !== "");
+  const headings = Array.from(document.querySelectorAll("main h1, main h2, main h3")).filter(h => h.innerText.trim() !== "");
   if (headings.length < 2) return;
+
+  // Inline TOC injection
+  const tocContainer = document.getElementById("toc-container");
+  if (tocContainer) {
+    const tocWrapper = document.createElement("div");
+    tocWrapper.className = "dynamic-toc-wrapper";
+    
+    const tocTitle = document.createElement("div");
+    tocTitle.className = "dynamic-toc-title";
+    tocTitle.innerText = "Table of Contents";
+    tocWrapper.appendChild(tocTitle);
+    
+    const tocList = document.createElement("ul");
+    headings.forEach((h, i) => {
+      if (!h.id) h.id = 'toc-h-' + i;
+      const li = document.createElement("li");
+      li.className = "toc-" + h.tagName.toLowerCase();
+      const a = document.createElement("a");
+      a.href = "#" + h.id;
+      a.innerText = h.innerText;
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        h.scrollIntoView({ behavior: "smooth" });
+      });
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+    tocWrapper.appendChild(tocList);
+    tocContainer.appendChild(tocWrapper);
+  }
 
   const container = document.getElementById("mini-toc-scrollbar");
   const track = document.getElementById("mini-toc-track");
