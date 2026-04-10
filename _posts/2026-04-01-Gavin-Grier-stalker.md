@@ -6,9 +6,9 @@ tags: [personal]
 ---
 
 
-If you are reading this because you just Googled 'Gavin Grier' after a date in Ohio, or in Washington, please take five minutes to read my story. For 11 months, I was the target of a systematic campaign of harassment involving over 30 fake phone numbers, and threats to both me and my friends and family. My car was also vandalized. 
+If you are reading this because you just Googled 'Gavin Grier' after a date in Ohio, or in Washington, please take five minutes to read my story. Saddle up, because it is genuinely insane. **For 11 months, I was the target of a systematic campaign of harassment involving texts and calls from over 30 fake phone numbers, threats to both me and my friends, and vandalism damage to my car.**
 
-The Franklin County Municipal Court of Ohio found him liable in 2025 for stalking and harassment in a civil judgement. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
+The Franklin County Municipal Court of Ohio **found Gavin Grier** liable in 2025 for **stalking and harassment** in a civil judgement. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
 
 ### Summary
 
@@ -168,12 +168,13 @@ After a few days, I eventually text Gavin directly to ask how he was doing. He s
 
 ### November 2024 – January 2025
 
-At some point the stalker actually called me. There was no person on the line, just a prerecorded robotic voice reading a threatening message.
+The stalker had been asking to call for days now, and I felt like it might be the only way we could resolve this. Naively, **I agreed to calling.**
+Turns out, there was **no person on the line**, just a **prerecorded robotic voice** reading a threatening message.
 
-At first I thought it was a real person, but then I realized it was a robotic message playing over and over again. I don't think I've ever been so scared and creeped out in my entire life.
+At first I thought it was a person, but then recognized the robotic message playing over and over again. I don't think I've ever been so scared and creeped out in my entire life.
 
 
-The first audio is more chilling. The second one has a lot of silence in it, but it's still creepy. I recommend you take a listen to both.
+The first audio is more chilling. The second one has a lot of silence in it, but it's still creepy. **I recommend you take a listen to both.**
 
 <audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
   <source src="/assets/gavin1.mp3" type="audio/mpeg">
@@ -255,6 +256,21 @@ Let's look at some of the harrassment:
   <a href= "/assets/river10.png"><img src="/assets/river10.png" alt="S" style="height: 50vh;"></a>
   <figcaption>Pretending to be random people, just for the hell of it I suppose.</figcaption>
 </figure>
+
+
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river12.png"><img src="/assets/river12.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>More harrassment.</figcaption>
+</figure>
+
+
+The stalker had already crossed all kinds of boundaries, doing things like sending photos of me to my roommate behind my back, and texting people claiming to be a 'friend' who heard that Sean hates them and wants them to die.
+
+My favorite anecdote: He texts my roommate, and tells him that he is a friend, and "Sean says you are a bad roommate. You always leave your dishes out. He talks shit about you to other people"
+
+**This is funny because I texted him earlier that day to thank him for doing the dishes for me.**
+
 
 
 
