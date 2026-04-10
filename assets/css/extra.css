@@ -117,19 +117,21 @@ noscript div {
 }
 
 .dynamic-toc-wrapper {
-  background: #f9f9f9;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  padding: 1.25em;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 1.5em;
   margin: 2em 0;
   font-size: 0.95em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
 }
 
 .dynamic-toc-title {
   font-weight: bold;
   font-size: 1.1em;
   margin-bottom: 0.75em;
-  color: #333;
+  color: #111;
+  letter-spacing: -0.01em;
 }
 
 .dynamic-toc-wrapper ul {
@@ -142,12 +144,19 @@ noscript div {
   margin-bottom: 0.5em;
 }
 
-.dynamic-toc-wrapper a {
+.dynamic-toc-wrapper a, 
+.dynamic-toc-wrapper a:link {
   text-decoration: none;
-  color: #555;
+  color: #444;
+  transition: color 0.2s ease;
+}
+
+.dynamic-toc-wrapper a:visited {
+  color: #666;
 }
 
 .dynamic-toc-wrapper a:hover {
+  color: #007aff;
   text-decoration: underline;
 }
 
