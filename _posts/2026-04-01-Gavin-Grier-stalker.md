@@ -40,7 +40,7 @@ This is also the time when the stalking started.
 
 The first messages came in right as I went quiet with Gavin. These messages consisted of homophobic slurs and aggressive texts.
 
-**For the rest of this article, I will use BLUE outlines to denote text messages that came from Gavin's REAL number. RED outlines will indicate fake phone numbers; ones that resolve to no caller ID, are impossible to track down, and are associated with online carriers like Pinger and TextNow.**
+**For the rest of this article, I will use BLUE outlines to denote text messages that came from Gavin's REAL number. RED outlines will indicate fake phone numbers; ones that resolve to no caller ID, are impossible to track down, and are associated with online carriers like Pinger and TextNow. Again, tap on any image to open it in a new window.**
 
 <figure style="max-width: 600px; text-align: center;">
   <a href= "/assets/gavin1.png"><img src="/assets/gavin1.png" alt="S" style="max-height: 50vh;"></a>
