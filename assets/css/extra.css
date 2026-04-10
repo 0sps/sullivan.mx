@@ -4,10 +4,13 @@ audio {
 }
 figure {
   text-align: center;
-  margin: 1em 0;
+  margin: 2.5em 0;
+  padding-left: 1.5em;
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
 }
 figure img, figure video {
   max-width: 100%;
+  border-radius: 4px; /* Slight rounding for polish */
 }
 .stretch img {
   width: 100%;
@@ -20,7 +23,12 @@ figure img, figure video {
 }
 figcaption {
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 400;
+  font-style: italic;
+  color: #666;
+  margin-top: 1em;
+  line-height: 1.4;
+  text-align: left; /* Aligns nicely with the left border */
 }
 table {
   margin-top: 1em;
@@ -234,4 +242,18 @@ html[data-theme="dark"] .dynamic-toc-wrapper a:hover {
   .hl {
     color: #f9c;
   }
+  
+  html:not([data-theme="light"]) figure {
+    border-left-color: rgba(255, 255, 255, 0.2);
+  }
+  html:not([data-theme="light"]) figcaption {
+    color: #aaa;
+  }
+}
+
+html[data-theme="dark"] figure {
+  border-left-color: rgba(255, 255, 255, 0.2);
+}
+html[data-theme="dark"] figcaption {
+  color: #aaa;
 }
