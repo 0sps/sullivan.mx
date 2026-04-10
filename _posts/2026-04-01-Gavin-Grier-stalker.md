@@ -48,7 +48,7 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 </figure>
 
 
----
+
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
@@ -61,7 +61,7 @@ The first messages came in right as I went quiet with Gavin. These messages cons
     <figcaption>These messages are from Gavin's real number. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else shows up when i search 'tmmr'. No one uses that spelling.</figcaption>
   </figure>
 </div>
----
+
 
 What jumped out immediately was the slang they would use. The numbers kept spelling things "fkn" and "tmmr." I noticed those spellings specifically because Gavin used them in his own texts to me. It's not common shorthand.
 
@@ -168,7 +168,7 @@ After a few days, I eventually text Gavin directly to ask how he was doing. He s
   <figcaption>Gavin being surprisingly understandable when I reach out. And somehow not really wondering how the stalker got his number.</figcaption>
 </figure>
 
----
+
 
 ### November 2024 – January 2025
 
