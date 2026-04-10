@@ -42,16 +42,14 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 
 **For the rest of this article, I will use BLUE outlines to denote text messages that came from Gavin's REAL number. RED outlines will indicate fake phone numbers; ones that resolve to no caller ID, are impossible to track down, and are associated with online carriers like Pinger and TextNow. Again, tap on any image to open it in a new window.**
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+<div class="figure-group">
+  <figure>
     <a href= "/assets/gavin1.png"><img src="/assets/gavin1.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
     <figcaption>The stalker (Gavin) texting me. I had lost cell service for 3 days, and posted about it on my Snapchat story. At this point, I had Gavin added on Snapchat.</figcaption>
   </figure>
-  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+  <figure>
     <a href= "/assets/gavin2.png"><img src="/assets/gavin2.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
     <figcaption>This is a screenshot from Gavin's REAL number. As you can see, even as of 2025 he talks like this. He uses the word 'fkn'. no one else I have texted has ever used this spelling before; I searched it in my messages.
-     
-     .
     </figcaption>
   </figure>
 </div>
@@ -59,12 +57,12 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 
 
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
-  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+<div class="figure-group">
+  <figure>
     <a href= "/assets/gavin3.png"><img src="/assets/gavin3.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
     <figcaption>Another example of the texts I would receive. Notice how they use 'tmmr'.</figcaption>
   </figure>
-  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+  <figure>
     <a href= "/assets/gavin4.png"><img src="/assets/gavin4.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
     <figcaption>These messages are from Gavin's real number. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else shows up when i search 'tmmr'. No one uses that spelling.</figcaption>
   </figure>

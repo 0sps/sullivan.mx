@@ -8,6 +8,25 @@ figure {
   padding-left: 1.5em;
   border-left: 3px solid rgba(0, 0, 0, 0.1);
 }
+
+/* Grouped Figures (Side-by-side) */
+.figure-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2.5em 0;
+  padding-left: 1.5em;
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+}
+.figure-group figure {
+  flex: 1 1 300px;
+  max-width: 600px;
+  margin: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
 figure img, figure video {
   max-width: 100%;
   border-radius: 4px; /* Slight rounding for polish */
@@ -243,7 +262,8 @@ html[data-theme="dark"] .dynamic-toc-wrapper a:hover {
     color: #f9c;
   }
   
-  html:not([data-theme="light"]) figure {
+  html:not([data-theme="light"]) figure,
+  html:not([data-theme="light"]) .figure-group {
     border-left-color: rgba(255, 255, 255, 0.2);
   }
   html:not([data-theme="light"]) figcaption {
@@ -251,7 +271,8 @@ html[data-theme="dark"] .dynamic-toc-wrapper a:hover {
   }
 }
 
-html[data-theme="dark"] figure {
+html[data-theme="dark"] figure,
+html[data-theme="dark"] .figure-group {
   border-left-color: rgba(255, 255, 255, 0.2);
 }
 html[data-theme="dark"] figcaption {
