@@ -102,7 +102,7 @@ A few weeks after this night out with me and my friends, he told me he wanted so
 
 The last real conversation we had that summer was in July. I mentioned I was helping my parents move before a family trip to Europe. He said, "You can't just find some friends to replace them?"
 
-I remember being so mad at him for suggesting I eplace my parents on a family trip that they were paying for. I blew up at him and he left me on read. We didn't talk for months. 
+I remember being so mad at him for suggesting I replace my parents on a family trip that they were paying for. I blew up at him and he left me on read. We didn't talk for months. 
 
 ---
 
@@ -216,7 +216,7 @@ That same morning, I got this from Gavin:
 
 <figure style="max-width: 600px; text-align: center;">
   <a href= "/assets/gavin10.png"><img src="/assets/gavin10.png" alt="S" style="max-height: 50vh;"></a>
-  <figcaption>Gavin confronting me: conveniently, the stalker has returned immediately now that I have stopped responding to Gavin's constant messgaes, and have not initiated any more plans since the last hangout. Also, note that this text takes place on Jan 30, TWO DAYS after the concert. I'm no expert, but stalking someone because you didn't hear from them in two days seems a little clingy.</figcaption>
+  <figcaption>Gavin confronting me: conveniently, the stalker has returned immediately now that I have stopped responding to Gavin's constant messages, and have not initiated any more plans since the last hangout. Also, note that this text takes place on Jan 30, TWO DAYS after the concert. I'm no expert, but stalking someone because you didn't hear from them in two days seems a little clingy.</figcaption>
 </figure>
 
 The stalker was now back. 
@@ -254,7 +254,7 @@ What happened was someone dumped a gallon of paint on my car. The paint they dum
 
 After this, the harassment expanded. My roomate began to get texts too. The numbers claimed to know exactly where he was at different points throughout the day. Some numbers posed as coworkers of mine, others as insurance agents. One spoofed call came from an iPhone we were able to trace to a Snapchat account connected to one of Gavin's friends. Funny enough, we thought this might be Gavin, since Gavin is the ONLY person I have been romantically intertwined with who has had access to my roommate's phone number. We were all put into a group chat last year, when we all went out together with a big group (see the screenshots above).
 
-Let's look at some of the harrassment:
+Let's look at some of the harassment:
 
 <figure style="max-width: 600px; text-align: center;">
   <a href= "/assets/river10.png"><img src="/assets/river10.png" alt="S" style="max-height: 50vh;"></a>
@@ -265,12 +265,12 @@ Let's look at some of the harrassment:
 
 <figure style="max-width: 100%; text-align: center;">
   <a href= "/assets/river12.png"><img src="/assets/river12.png" alt="S" style="max-height: 50vh;"></a>
-  <figcaption>More harrassment.</figcaption>
+  <figcaption>More harassment.</figcaption>
 </figure>
 
 <figure style="max-width: 100%; text-align: center;">
   <a href= "/assets/ricer13.png"><img src="/assets/ricer13.png" alt="S" style="max-height: 50vh;"></a>
-  <figcaption>More harrassment.</figcaption>
+  <figcaption>More harassment.</figcaption>
 </figure>
 
 
@@ -315,7 +315,7 @@ Take a look:
 
 Gavin moved back to Washington after learning about the lawsuit. People in his circle told me he left specifically to avoid being served. 
 
-A few months later, I won in Fraknlin County municipal court, and magistrate judge Kirk Lindsey ordered him to pay the amount I was suing for, plus court costs and filing fees.
+A few months later, I won in Franklin County municipal court, and magistrate judge Kirk Lindsey ordered him to pay the amount I was suing for, plus court costs and filing fees.
 
 <figure style="max-width: 100%; text-align: center;">
   <a href= "/assets/IMG_8912.JPG"><img src="/assets/IMG_8912.JPG" alt="S" style="max-height: 50vh;"></a>
