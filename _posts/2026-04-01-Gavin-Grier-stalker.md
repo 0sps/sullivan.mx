@@ -28,7 +28,9 @@ Everything on this page is from my perspective. I also have the facts to back al
 
 ---
 
-### How we met (January – April 2024)
+### Intro & How we met (January – April 2024)
+
+As a quick intro, my name is Sean. I have a 9-5 like everyone else, and I graduated college fairly recently. I like to think of myself as relatively uninteresting aside from this.
 
 I met Gavin in January 2024 from a dating app. I was wrapping up my last year of college, and Gavin had just moved from Seattle to attend flight school in Sidney, OH. We talked for a few weeks and eventually went on a real date on March 5th. It was fine but I told him I was busy with my last semester and probably wouldn't be able to see him much.
 
