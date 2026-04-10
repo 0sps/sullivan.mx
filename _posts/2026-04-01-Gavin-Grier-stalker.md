@@ -18,7 +18,7 @@ In late 2025, Gavin Grier was found liable for stalking, harassment, and vandali
 
 *(You can verify this yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) and search "Gavin Grier.")*
 
-I've sat on this for almost a year, thinking it would just go away, but unfortunately I have heard multiple examples of this individual hurting people around me in Ohio, so I feel obligated to share my story.
+I've sat on this story for almost a year, thinking it would just go away, but unfortunately I have heard multiple examples of this individual hurting people around me in Ohio, so I feel obligated to share it.
 
 Everything on this page is from my perspective. I also have the facts to back all of it up. *To protect third parties, all personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). Screenshots are slowly being redacted and uploaded to this site, so please wait a few days to see those.*
 
