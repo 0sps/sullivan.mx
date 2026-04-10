@@ -29,7 +29,7 @@ Everything on this page is from my perspective. I also have the facts to back al
 
 ### How we met (January – April 2024)
 
-I met Gavin in January 2024 from a dating app. I was wrapping up my last year of college, and had just moved from Seattle to attend flight school in Sidney, OH.
+I met Gavin in January 2024 from a dating app. I was wrapping up my last year of college, and Gavin had just moved from Seattle to attend flight school in Sidney, OH.
 
 We talked for a few weeks and eventually went on a real date on March 5th.
 
