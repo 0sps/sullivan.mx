@@ -50,7 +50,8 @@ The first messages came in right as I went quiet with Gavin. These messages cons
   <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
     <a href= "/assets/gavin2.png"><img src="/assets/gavin2.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
     <figcaption>This is a screenshot from Gavin's REAL number. As you can see, even as of 2025 he talks like this. He uses the word 'fkn'. no one else I have texted has ever used this spelling before; I searched it in my messages.
-    
+     
+     .
     </figcaption>
   </figure>
 </div>
