@@ -49,6 +49,9 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 </figure>
 
 
+---
+
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
   <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
     <a href= "/assets/gavin3.png"><img src="/assets/gavin3.png" alt="S" style="height: 50vh; max-width: 100%; object-fit: contain;"></a>
