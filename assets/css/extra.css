@@ -20,6 +20,7 @@ figure img, figure video {
 }
 figcaption {
   font-size: medium;
+  font-weight: 600;
 }
 table {
   margin-top: 1em;
