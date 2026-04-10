@@ -236,7 +236,7 @@ I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone
 *I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
 
 <figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/river9.png"><img src="/assets/river9.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river9.jpg"><img src="/assets/river9.jpg" alt="S" style="height: 50vh;"></a>
   <figcaption>Two days after I drove Gavin to a concert, and he finally knows what kind of car I drive (since I got a new one), the stalker somehow found a way to know this, too.</figcaption>
 </figure>
 
