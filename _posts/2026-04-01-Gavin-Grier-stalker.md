@@ -49,14 +49,16 @@ The first messages came in right as I went quiet with Gavin. These messages cons
 </figure>
 
 
-<figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin3.png"><img src="/assets/gavin3.png" alt="S" style="height: 50vh;"></a>
-  <figcaption>Another example of the texts I would receive. Notice how they use 'tmmr'.</figcaption>
-</figure>
-<figure style="max-width: 600px; text-align: center;">
-  <a href= "/assets/gavin4.png"><img src="/assets/gavin4.png" alt="S" style="height: 50vh;"></a>
-  <figcaption>This is from Gavin. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else that I have texted has ever said 'tmmr'.</figcaption>
-</figure>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+    <a href= "/assets/gavin3.png"><img src="/assets/gavin3.png" alt="S" style="height: 50vh; max-width: 100%; object-fit: contain;"></a>
+    <figcaption>Another example of the texts I would receive. Notice how they use 'tmmr'.</figcaption>
+  </figure>
+  <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
+    <a href= "/assets/gavin4.png"><img src="/assets/gavin4.png" alt="S" style="height: 50vh; max-width: 100%; object-fit: contain;"></a>
+    <figcaption>This is from Gavin. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else that I have texted has ever said 'tmmr'.</figcaption>
+  </figure>
+</div>
 
 
 What jumped out immediately was the slang they would use. The numbers kept spelling things "fkn" and "tmmr." I noticed those spellings specifically because Gavin used them in his own texts to me. It's not common shorthand.
