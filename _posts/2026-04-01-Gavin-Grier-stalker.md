@@ -6,23 +6,22 @@ tags: [personal]
 ---
 
 
-If you are reading this because you just Googled 'Gavin Grier' after a date in Ohio, or in Washington, please take five minutes to read my story. Saddle up, because it is genuinely insane. **For 11 months, I was the target of a systematic campaign of harassment involving texts and calls from over 30 fake phone numbers, threats to both me and my friends, and vandalism damage to my car.**
+If you are reading this because you just Googled 'Gavin Grier' after a date in Ohio, or in Washington, please take five minutes to read this story.
 
-The Franklin County Municipal Court of Ohio **found Gavin Grier** liable in 2025 for **stalking and harassment** in a civil judgement that I filed. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
+### Summary
+**For 11 months, I was the target of a systematic campaign of harassment involving texts and calls from over 30 fake phone numbers, threats to both me and my friends, and vandalism damage to my car.**
+
+In late 2025, the Franklin County Municipal Court of Ohio **found Gavin Grier** liable in 2025 for **stalking and harassment** in a civil judgement that I filed. he was ordered to pay me for my damages and court fees.
+
+I have learned that, unfortunately, Gavin has not stopped harassing others, and continues to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
 
 <div id="toc-container"></div>
 
-### Summary
-
-Between April 2024 and April 2025, I was stalked by Gavin Grier for eleven months, receiving constant harassment by text and phone call from over 30 fake phone numbers. Eventually he vandalized my car, and harassed my boyfriend, which led me to sue him. 
-
-In late 2025, Gavin Grier was found liable for stalking, harassment, and vandalism by the Franklin County Municipal Court in Ohio. He was ordered to pay the amount I was suing for, plus court fees.
 
 *(You can verify this yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) and search "Gavin Grier.")*
 
-I've sat on this story for almost a year, thinking it would just go away, but unfortunately I have heard multiple examples of this individual hurting people around me in Ohio, so I feel obligated to share it.
 
-Everything on this page is from my perspective. I also have the facts to back all of it up. *To protect third parties, all personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). Screenshots are slowly being redacted and uploaded to this site, so please wait a few days to see those.*
+Everything on this page is from my perspective. I also have the facts to back all of it up. *To protect third parties, personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). I was able to identify whether a number was created by a legitimate carrier, or if it was created by an online service like like Pinger or Textnow. For the majority of those 30+ fake numbers that texted and called me, I will leave them on this website unredacted.*
 
  If you have any questions, email me at questions(at)sullivan(dot)mx.
 
