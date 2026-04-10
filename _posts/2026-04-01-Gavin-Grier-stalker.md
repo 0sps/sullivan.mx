@@ -8,7 +8,7 @@ tags: [personal]
 
 If you are reading this because you just Googled 'Gavin Grier' after a date in Ohio, or in Washington, please take five minutes to read my story. Saddle up, because it is genuinely insane. **For 11 months, I was the target of a systematic campaign of harassment involving texts and calls from over 30 fake phone numbers, threats to both me and my friends, and vandalism damage to my car.**
 
-The Franklin County Municipal Court of Ohio **found Gavin Grier** liable in 2025 for **stalking and harassment** in a civil judgement. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
+The Franklin County Municipal Court of Ohio **found Gavin Grier** liable in 2025 for **stalking and harassment** in a civil judgement that I filed. I have learned that, unfortunately, this individual has not stopped harassing others, and is continuing to talk about me to people he meets. I am therefore sharing this timeline and the evidence not out of spite, but because silence might just be allowing his pattern of behavior to continue. Here is how it happened.
 
 ### Summary
 
