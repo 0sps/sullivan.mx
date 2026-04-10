@@ -37,7 +37,7 @@ Around April 4th I reached out and invited him to my fraternity formal that week
 
 This is also the time when the stalking started.
 
----
+
 
 The first messages came in right as I went quiet with Gavin. These messages consisted of homophobic slurs and aggressive texts.
 
