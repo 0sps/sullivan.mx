@@ -259,8 +259,13 @@ Let's look at some of the harrassment:
 
 
 
-<figure style="max-width: 600px; text-align: center;">
+<figure style="max-width: 100%; text-align: center;">
   <a href= "/assets/river12.png"><img src="/assets/river12.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>More harrassment.</figcaption>
+</figure>
+
+<figure style="max-width: 100%; text-align: center;">
+  <a href= "/assets/ricer13.png"><img src="/assets/ricer13.png" alt="S" style="height: 50vh;"></a>
   <figcaption>More harrassment.</figcaption>
 </figure>
 
@@ -284,29 +289,60 @@ The location tracking texts Gavin would send us were the clearest tell. My roomm
 
 We also started feeding fake information to one of Gavin's friends who would regularly ask my roomate how we were doing. My roommate decided he would mention a fake scenario to this girl: he told her that he was moving out because he hated living with me after all the stalking. He told her that I 'didn't care' about the stalking and I was a terrible friend.. Within days, the stalker texted us with that exact information, framed as an insult.
 
-[Insert text saying THIS HAS BEEN FUN. i'm thinking ----- next].
+<figure style="max-width: 100%; text-align: center;">
+  <a href= "/assets/river14.png"><img src="/assets/river14.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Looks like he took the bait.</figcaption>
+</figure>
 
-I eventually continued seeing other guys, and had a boyfriend that summer. In may of 2025, the stalker texted me saying he saw us kissing in the park. Having known it was Gavin for months now, I decided it was time to act. I went to the Franklin county court and filed suit that same day. Plus I texted a group chat with me, my roommate, and Gavin, and dumped all the evidence into it. **Funny enough, we have never been stalked since this day.**
+After receiving this text, we knew it was Gavin. Gavin's friends had told him that the stalking issue had driven me and my roommate apart, and it ended up in the stalker's texts. He's not even that good of a stalker.
+
+---
+
+I eventually started to see other guys, and had a boyfriend that summer. In may of 2025, the stalker texted me saying he saw us kissing in the park. Having known it was Gavin for months now, I decided it was time to act. I went to the Franklin county court and filed suit that same day. Plus I texted a group chat with me, my roommate, and Gavin, and dumped all the evidence into it. **Funny enough, we have never been stalked since this day.**
+
+I also started reaching out to some people he had harass me. I followed leads on every single number, and found a few that were real. (Phone numbers that correspond to real people, not apps, have been redacted from this post)
+
+Take a look:
+<figure style="max-width: 100%; text-align: center;">
+  <a href= "/assets/friend.png"><img src="/assets/friend.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Gavin is so sloppy, he had both cousins AND friends call me.</figcaption>
+</figure>
+
 
 Gavin moved back to Washington after learning about the lawsuit. People in his circle told me he left specifically to avoid being served. 
 
 A few months later, I won in Fraknlin County municipal court, and magistrate judge Kirk Lindsey ordered him to pay the amount I was suing for, plus court costs and filing fees.
 
-
+<figure style="max-width: 100%; text-align: center;">
+  <a href= "/assets/IMG_8912.JPG"><img src="/assets/IMG_8912.JPG" alt="S" style="height: 50vh;"></a>
+  <figcaption>Got his ass.</figcaption>
+</figure>
 
 ---
 
 ### Aftermath
 
-After hearing he still believes he doesn't owe any money, I personally served him a copy of the court order in April 2026. 
-*[ Insert audio: serving Gavin with the court order ]*
+I thought this was over, but then the months went by and he never paid me. Also, I connected with some in his circle, and they told me that not only does he actively admit to doing all this to his friends, but he still believes he doesn't owe any money. 
 
-His response made it absolutely clear that he does not care about what he did. He doesn't feel bad. No apology, no promise to do better, no promise to stay out of my life. Just acknowleding that he will pay what the court ordered him to.
+For that reason, I personally served him a copy of the court order in April 2026. 
 
-The reason I'm writing this is that it isn't over. Multiple people have reached out to me with their own versions of this story. I'm not going to identify them to protect them from what I went through. But the pattern is consistent, and people who know Gavin have been willing to talk. He has been consistently stalking, harassing and messing with other guys. It needs to stop.
+His response made it **absolutely clear that he does not care about what he did.** He doesn't feel bad. No apology, no promise to do better, no promise to stay out of my life. Just acknowleding that he will pay what the court ordered him to.
+
+<audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
+  <source src="/assets/gavinExcerpt_1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
+  <source src="/assets/gavinexcerpt_2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+The reason I'm writing this is that it isn't over. Multiple people have reached out to me telling me they know about this story, becuase he told them. I'm not going to identify those people to protect them from what I went through. But the pattern is consistent. He has been consistently stalking, harassing and messing with other guys. It needs to stop.
 
 ---
 
 Every fact in this story is verifiable. If you've crossed paths with him, or if you're thinking about it, I hope this is useful.
 
-If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, take this information into account if you are considering dating him. Make the most informed decision according to your values. 
+If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, take this information into account if you are considering associating with him. Make the most informed decision according to your values. 
