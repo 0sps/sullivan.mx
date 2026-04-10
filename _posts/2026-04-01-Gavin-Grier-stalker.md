@@ -290,7 +290,7 @@ The location tracking texts Gavin would send us were the clearest tell. My roomm
 We also started feeding fake information to one of Gavin's friends who would regularly ask my roomate how we were doing. My roommate decided he would mention a fake scenario to this girl: he told her that he was moving out because he hated living with me after all the stalking. He told her that I 'didn't care' about the stalking and I was a terrible friend.. Within days, the stalker texted us with that exact information, framed as an insult.
 
 <figure style="max-width: 100%; text-align: center;">
-  <a href= "/assets/river14.png"><img src="/assets/river14.png" alt="S" style="height: 50vh;"></a>
+  <a href= "/assets/river14.jpg"><img src="/assets/river14.jpg" alt="S" style="height: 50vh;"></a>
   <figcaption>Looks like he took the bait.</figcaption>
 </figure>
 
