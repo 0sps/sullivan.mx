@@ -195,26 +195,44 @@ So in mid-November I reached back out to him. Texted him and apologized, said I 
 
 To my surprise, he responded, and stalker immediately went quiet.
 
-We texted through December and made plans. I went over in January, we talked, I spent the night. We went to a concert on January 28th. I drove us there in my car, a Kia sedan I'd bought the previous August. He stayed over again that night.
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin9.png"><img src="/assets/gavin9.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Gavin being surprisingly understandable when I reach out, again.</figcaption>
+</figure>
 
-Nothing happened either time, and the next morning I texted him directly: I didn't know where my head was, and nothing had changed romantically for me.
 
-*[ Insert screenshot: rejecting Gavin's romantic advances ]*
+We texted through December and made plans. I went over in January, we talked, I spent the night. Then he came to see me later in January. We went to a concert that night, on January 28th. **I drove us there in my brand new Kia sedan I'd bought four months ago**. He stayed at my new apartment for the first time that night.
 
-Within hours the stalker was back.
+After these nights, nothing had changed romantically for me. I felt good that we were talking again, but I realized my original assessment of him was the correct one, and that would not change. I wasn't into him. I stopped responding quickly, and stopped trying to initiate the next hangout. 
+
+And interestingly enough, **the stalker was back**. For the first time since I reached out in November, I received texts from the stalker again.
+
+That same morning, I got this from Gavin:
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/gavin10.png"><img src="/assets/gavin10.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Gavin confronting me: conveniently, the stalker has returned immediately now that I have stopped responding to Gavin's constant messgaes, and have not initiated any more plans since the last hangout. Also, note that this text takes place on Jan 30, TWO DAYS after the concert. I'm no expert, but stalking someone because you didn't hear from them in two days seems a little clingy.</figcaption>
+</figure>
+
+The stalker was now back. 
 
 ---
 
 ### Late January – March 2025
 
-The texts restarted immediately after I told Gavin I wasn't interested. This time they went to my Google Voice number too, not just my regular phone.
+The texts restarted immediately after I told Gavin I wasn't interested. These time they went to my Google Voice number too, not just my regular phone.
 
 The stalker told me to go look at my car. He suggested there was a 'gift' for me, which made me think it was a bomb. I went down to my parking garage and checked from a distance, walking up to ANOTHER CAR and pretending to be looking at that one, only briefly glancing at my Kia from across the floor. I walked back to my apartment and told the stalker my car was fine. He said that now he knew what kind of car I drove. Except *no he didn't, anyone who watched me that night would have thought I owned this SUV I was standing next to.*
 I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone who was just driven to a concert in it.
 
 *I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
 
-Then, in early March, my car was vandalized. The day after, one of the fake numbers texted me. The text read "Omg sean what happened last night".
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river9.png"><img src="/assets/river9.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Two days after I drove Gavin to a concert, and he finally knows what kind of car I drive (since I got a new one), the stalker somehow found a way to know this, too.</figcaption>
+</figure>
+
+**In early March, my car was vandalized.** The day after, one of the fake numbers texted me. The text read "Omg sean what happened last night".
 
 What happened was someone dumped a gallon of paint on my car. The paint they dumped caused permanent damage, requiring about $4000 in repairs to the hood. (It was a matte hood, so the paint had to be stripped and re-applied)
 
@@ -229,15 +247,22 @@ What happened was someone dumped a gallon of paint on my car. The paint they dum
 </figure>
 
 
-After this, the harassment expanded. My roomate began to get texts too. The numbers claimed to know exactly where he was at different points throughout the day. Some numbers posed as coworkers of mine, others as insurance agents. One spoofed call came from an iPhone we were able to trace to a Snapchat account connected to one of Gavin's friends. Funny enough, we thought this might be Gavin, since Gavin is the ONLY person I have been romantically intertwined with who has had access to my roommate's phone number. We were all put into a group chat last year, when we all went out together with a big group.
+After this, the harassment expanded. My roomate began to get texts too. The numbers claimed to know exactly where he was at different points throughout the day. Some numbers posed as coworkers of mine, others as insurance agents. One spoofed call came from an iPhone we were able to trace to a Snapchat account connected to one of Gavin's friends. Funny enough, we thought this might be Gavin, since Gavin is the ONLY person I have been romantically intertwined with who has had access to my roommate's phone number. We were all put into a group chat last year, when we all went out together with a big group (see the screenshots above).
 
-[insert screenshot of group chat].
+Let's look at some of the harrassment:
+
+<figure style="max-width: 600px; text-align: center;">
+  <a href= "/assets/river10.png"><img src="/assets/river10.png" alt="S" style="height: 50vh;"></a>
+  <figcaption>Pretending to be random people, just for the hell of it I suppose.</figcaption>
+</figure>
+
+
 
 ---
 
 ### March – May 2025
 
-By February, My roommate and I had a theory that it was Gavvin, we were just trying to confirm it.
+By February, My roommate and I had a theory that it was Gavin, we were just trying to confirm it.
 
 The location tracking texts Gavin would send us were the clearest tell. My roommate shared his Snap Map with all his friends, Gavin included. Once my roommate turned off location sharing, the texts about where he was throughout the day stopped immediately.
 
