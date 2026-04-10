@@ -58,7 +58,7 @@ The first messages came in right as I went quiet with Gavin. These messages cons
   </figure>
   <figure style="flex: 1 1 300px; max-width: 600px; text-align: center; margin: 0;">
     <a href= "/assets/gavin4.png"><img src="/assets/gavin4.png" alt="S" style="max-height: 50vh; max-width: 100%; object-fit: contain;"></a>
-    <figcaption>This is from Gavin. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else that I have texted has ever said 'tmmr'.</figcaption>
+    <figcaption>These messages are from Gavin's real number. Even as of 2025, he would text me using the spelling 'tmmr'. as you can see, no one else that I have texted has ever said 'tmmr'.</figcaption>
   </figure>
 </div>
 ---
