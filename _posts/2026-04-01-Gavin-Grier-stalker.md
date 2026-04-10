@@ -30,15 +30,13 @@ Everything on this page is from my perspective. I also have the facts to back al
 
 ### How we met (January – April 2024)
 
-I met Gavin in January 2024 from a dating app. I was wrapping up my last year of college, and Gavin had just moved from Seattle to attend flight school in Sidney, OH.
-
-We talked for a few weeks and eventually went on a real date on March 5th.
+I met Gavin in January 2024 from a dating app. I was wrapping up my last year of college, and Gavin had just moved from Seattle to attend flight school in Sidney, OH. We talked for a few weeks and eventually went on a real date on March 5th. It was fine but I told him I was busy with my last semester and probably wouldn't be able to see him much.
 
 Around April 4th I reached out and invited him to my fraternity formal that weekend. I texted him with one day of advance notice, but was surprised that he said he was free. I texted him back and said plans were changing so to not count on it 100% just yet. The next day I ended up canceling because it was too hard to coordinate that quickly. I stopped texting him after that. 
 
 This is also the time when the stalking started.
 
-
+---
 
 The first messages came in right as I went quiet with Gavin. These messages consisted of homophobic slurs and aggressive texts.
 
