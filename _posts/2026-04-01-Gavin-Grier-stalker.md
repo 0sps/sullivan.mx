@@ -98,7 +98,7 @@ A few weeks after this night out with me and my friends, he told me he wanted so
 
 The last real conversation we had that summer was in July. I mentioned I was helping my parents move before a family trip to Europe. He said, "You can't just find some friends to replace them?"
 
-I remember being so mad at him for suggesting I eplace my parents on a family trip they were paying for. I blew up at him and he left me on read. We didn't talk for months. 
+I remember being so mad at him for suggesting I eplace my parents on a family trip that they were paying for. I blew up at him and he left me on read. We didn't talk for months. 
 
 ---
 
