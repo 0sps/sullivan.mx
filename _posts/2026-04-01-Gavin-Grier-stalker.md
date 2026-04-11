@@ -16,12 +16,12 @@ In late 2025, I sued Gavin Grier in the Franklin County Municipal Court of Ohio 
 <div id="toc-container"></div>
 
 
-*(You can verify this yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) and search "Gavin Grier.")*
+*(You can verify the court decision yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) and search "Gavin Grier.")*
 
 
-Everything on this page is from my perspective. I also have the facts to back all of it up. *To protect third parties, personal information besides Gavin's name has been redacted (phone numbers, addresses, names, etc). I was able to identify whether a number was created by a legitimate carrier, or if it was created by an online service like like Pinger or Textnow. For the majority of those 30+ fake numbers that texted and called me, I will leave them on this website unredacted. Tap on any image to expand it in a new window.*
+Everything on this page is from my perspective, but I have also laid out evidence to back all of it up. *To protect third parties, the only personal information on this site is Gavin's name. All other personally identifiable info (phone numbers, addresses, names, etc) was redacted. If you see a phone number un-redacted, it means the phone number did not resolve to a real person; it was purchasesd online by an app like Pinger or TextNow, so it's not a 'real' number. I don't redact those.*
 
- If you have questions, email me at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
+Lastly, If you have questions, email me at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
 
 
 ---
