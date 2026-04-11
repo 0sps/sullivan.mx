@@ -305,9 +305,17 @@ After receiving this text, we knew it was Gavin. Gavin's friends had told him th
 
 ---
 
-I eventually started to see other guys, and had a boyfriend that summer. In may of 2025, the stalker texted me saying he saw us kissing in the park. Having known it was Gavin for months now, I decided it was time to act. I went to the Franklin county court and filed suit that same day. Plus I texted a group chat with me, my roommate, and Gavin, and dumped all the evidence into it. **Funny enough, we have never been stalked since this day.**
+I eventually started to see other guys, and had a boyfriend that summer. In may of 2025, the stalker texted me saying he saw us kissing in the park. Having known it was Gavin for months now, I decided it was time to act. I went to the Franklin county court and filed suit that same day. Plus I texted a group chat with me, my roommate, and Gavin, and dumped all the evidence into it. **Funny enough, we have never been stalked since the very day we texted Gavin.**
 
-I also started reaching out to some people he had harassed me. I followed leads on every single number, and found a few that were real. (Phone numbers that correspond to real people, not apps, have been redacted from this post)
+<figure style="max-width: 100%; text-align: center;">
+  <a href= "/assets/gavin99.png"><img src="/assets/gavin99.png" alt="S" style="max-height: 50vh;"></a>
+  <figcaption>The group chat I made with my roommate and Gavin. Since these texts are so old, my phone cleared out the storage, so the image isn't displaying. But I sent a screenshot of some of the harassment texts I was receiving.</figcaption>
+</figure>
+
+We heard from Gavin's friends that this message sent him into overdrive. He was 'freaking out', they said, and he wouldn't tell them why. Probably because if he explained it, he knew how horrible it would sound.
+<br>
+
+After I filed the lawsuit, I started reaching out to some of the people that called and texted me. Several of the numbers were iPhones, evidenced by the blue bubbles. I followed leads on every single one of these numbers, and had a few good conversations.
 
 Take a look:
 <figure style="max-width: 100%; text-align: center;">
@@ -315,10 +323,9 @@ Take a look:
   <figcaption>Gavin is so sloppy, he had both cousins AND friends call me.</figcaption>
 </figure>
 
+As we can see, more indisputable proof that Gavin was trying to harrass me.
 
-Gavin moved back to Washington after learning about the lawsuit. People in his circle told me he left specifically to avoid being served. 
-
-A few months later, I won in Franklin County municipal court, and magistrate judge Kirk Lindsey ordered him to pay the amount I was suing for, plus court costs and filing fees.
+I learned that Gavin moved back to Washington after seeing the lawsuit. People in his circle told me he left specifically to avoid being served. Despite this, a few months later, I won in Franklin County municipal court. Magistrate judge Kirk Lindsey ordered him to pay the amount I was suing for, plus court costs and filing fees.
 
 <figure style="max-width: 100%; text-align: center;">
   <a href= "/assets/IMG_8912.JPG"><img src="/assets/IMG_8912.JPG" alt="S" style="max-height: 50vh;"></a>
@@ -329,11 +336,11 @@ A few months later, I won in Franklin County municipal court, and magistrate jud
 
 ### Aftermath
 
-I thought this was over, but then the months went by and he never paid me. Also, I connected with some in his circle, and they told me that not only does he actively admit to doing all this to his friends, but he still believes he doesn't owe any money. 
+I thought this was over, but then the months went by and he never paid. Also, I connected with some in his circle periodically, and they told me that not only does he actively admit to doing this, but he still believes he doesn't owe any money. 
 
-For that reason, I personally served him a copy of the court order in April 2026. 
+**For that reason, I personally served him a copy of the court order in April 2026.**
 
-His response made it **absolutely clear that he does not care about what he did.** He doesn't feel bad. No apology, no promise to do better, no promise to stay out of my life. Just acknowledging that he will pay what the court ordered him to.
+His response made it clear that **he does not care about what he did**. No apology, no promise to do better, no promise to stay out of my life. Just acknowledging that he will pay what the court ordered him to.
 
 <audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
   <source src="/assets/gavinExcerpt_1.mp3" type="audio/mpeg">
@@ -346,7 +353,7 @@ His response made it **absolutely clear that he does not care about what he did.
 </audio>
 
 
-The reason I'm writing this is that it isn't over. Multiple people have reached out to me telling me they know about this story, because he told them. I'm not going to identify those people to protect them from what I went through. But the pattern is consistent. He has been consistently stalking, harassing and messing with other guys. It needs to stop.
+The reason I'm writing this is that it isn't over. Multiple people have reached out to me telling me they know about this story. Because he TOLD them. Why does he keep talking about me? Why is he so crazed over me? Why did he stalk me and then brag about it? And why is he messing with other guys, too? He has been consistently stalking, harassing and messing with other guys. It needs to stop.
 
 
 Every fact in this story is verifiable. If you've crossed paths with him, or if you're thinking about it, I hope this is useful.
