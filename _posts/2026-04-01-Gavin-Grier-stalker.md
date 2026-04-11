@@ -36,9 +36,9 @@ I met Gavin in January 2024 from a dating app. I was wrapping up my last year of
 Around April 4th I reached out and invited him to my fraternity formal that weekend. I texted him with one day of advance notice, but was surprised that he said he was free. I texted him back and said plans were changing so to not count on it 100% just yet. The next day I ended up canceling because it was too hard to coordinate that quickly. I stopped texting him after that. 
 
 This is also the time when the stalking started.
-
+<br>
 ---
-
+<br>
 The first messages came in right as I went quiet with Gavin. These messages consisted of homophobic slurs and aggressive texts.
 
 **For the rest of this article, I will use BLUE outlines to denote text messages that came from Gavin's REAL number. RED outlines will indicate fake phone numbers; ones that resolve to no caller ID, are impossible to track down, and are associated with online carriers like Pinger and TextNow. Again, tap on any image to open it in a new window.**
