@@ -23,8 +23,9 @@ Everything on this page is from my perspective, but I have also laid out evidenc
 
 Lastly, If you have questions, email me at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
 
-
+<br>
 ---
+<br>
 
 ### Intro & How we met (January – April 2024)
 
