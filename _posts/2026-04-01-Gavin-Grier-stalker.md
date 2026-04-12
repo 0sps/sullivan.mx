@@ -10,8 +10,7 @@ To avoid wasting your time, I'll get right into it:
 **For 11 months, I was the target of a systematic campaign of harassment involving texts and calls from over 30 fake phone numbers, threats to both me and my friends, and vandalism damage to my car.**
 
 In late 2025, I sued Gavin Grier in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism. **Gavin was found liable in 2025 for everything I sued him for in a civil judgement.** 
-**Unfortunately, Gavin has not paid the court-ordered fines, and he has not stopped harassing others. 
-**He also continues to talk about me to people he meets.** I am now sharing this timeline and the evidence to stop him this pattern of behavior for continuing. Here is how it happened.
+**Unfortunately, Gavin has not paid the court-ordered fines, and he has not stopped harassing others. I am now sharing this timeline and the evidence to stop him this pattern of behavior for continuing. Here is how it happened.
 
 <div id="toc-container"></div>
 
@@ -336,9 +335,7 @@ I learned that Gavin moved back to Washington after seeing the lawsuit. People i
 
 ### Aftermath
 
-I thought this was over, but then the months went by and he never paid. Also, I connected with some in his circle periodically, and they told me that not only does he actively admit to doing this, but he still believes he doesn't owe any money. 
-
-**For that reason, I personally served him a copy of the court order in April 2026.**
+I thought this was over, but then the months went by and he never paid. **For that reason, I personally served him a copy of the court order in April 2026.**
 
 His response made it clear that **he does not care about what he did**. No apology, no promise to do better, no promise to stay out of my life. Just acknowledging that he will pay what the court ordered him to.
 
@@ -353,9 +350,7 @@ His response made it clear that **he does not care about what he did**. No apolo
 </audio>
 
 
-The reason I'm writing this is that it isn't over. Multiple people have reached out to me telling me they know about this story. Because he TOLD them. Why does he keep talking about me? Why is he so crazed over me? Why did he stalk me and then brag about it? And why is he messing with other guys, too? He has been consistently stalking, harassing and messing with other guys. It needs to stop.
+The reason I'm writing this is that it seems to never end. Through learning he was the one who stalked me, I connected with at least three other individuals of which he has texted and called to harass. It seems as though he believes there will never be any consequences for these actions. I hope there are.
 
 
-Every fact in this story is verifiable. If you've crossed paths with him, or if you're thinking about it, I hope this is useful.
-
-If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, take this information into account if you are considering associating with him. Make the most informed decision according to your values. 
+Every fact in this story is verifiable. If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, take this information into account if you are considering associating with him. Make the most informed decision according to your values. 
