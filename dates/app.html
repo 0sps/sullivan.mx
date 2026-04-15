@@ -351,7 +351,7 @@
         /* List View (Inset Grouped) */
         .ios-list {
             position: relative;
-            border-radius: var(--radius-l);
+            border-radius: 20px;
             background: var(--surface-1);
             backdrop-filter: blur(20px) saturate(160%);
             -webkit-backdrop-filter: blur(20px) saturate(160%);
@@ -425,7 +425,7 @@
             background: var(--surface-1);
             backdrop-filter: blur(40px) saturate(200%);
             -webkit-backdrop-filter: blur(40px) saturate(200%);
-            aspect-ratio: 3 / 4;
+            min-height: 120px; /* Instead of rigid aspect ratio */
             border-radius: 20px;
             padding: 12px;
             display: flex;
@@ -1578,9 +1578,8 @@
         
 
         .interest-danger {
-            background: rgba(80, 10, 20, 0.25) !important;
-            border: 0.5px solid rgba(255, 59, 48, 0.6) !important;
-            box-shadow: inset 0 0 20px rgba(255, 30, 30, 0.15) !important;
+            background: rgba(140, 20, 30, 0.15) !important;
+            border-left: 2px solid rgba(255, 59, 48, 0.6) !important;
         }
 
         
