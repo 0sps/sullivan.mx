@@ -19,8 +19,8 @@
 
             /* OLED / Glassmorphism Dark Mode Tokens */
             --ios-bg: #000000;
-            --surface-1: rgba(28, 28, 30, 0.4);
-            --surface-2: rgba(44, 44, 46, 0.6);
+            --surface-1: rgba(20, 10, 30, 0.25); /* More translucent for colors */
+            --surface-2: rgba(44, 30, 60, 0.45);
             --surface-3: rgba(58, 58, 60, 0.6);
             
             --border-light: rgba(255, 255, 255, 0.1);
@@ -33,7 +33,7 @@
             --ios-gray: #8e8e93;
 
             --text-primary: #ffffff;
-            --text-secondary: rgba(255, 255, 255, 0.6);
+            --text-secondary: rgba(255, 255, 255, 0.85); /* Luminous silver */
             --text-tertiary: rgba(255, 255, 255, 0.3);
 
             --spring: cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -57,7 +57,11 @@
         /* Essential background gradient overlay */
         .ios-bg-wrapper {
             position: fixed; inset: 0; z-index: -10;
-            background: linear-gradient(180deg, #0f1115 0%, #000000 100%);
+            background: #0B0014;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(60, 10, 80, 0.8) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(20, 10, 50, 0.8) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, rgba(90, 10, 40, 0.4) 0%, transparent 60%);
         }
         
         .vignette {
@@ -1571,44 +1575,15 @@
         }
 
         /* Interest Level Danger Effect */
-        @keyframes chevrons {
-            0% {
-                background-position: 0 0;
-            }
-
-            100% {
-                background-position: 50px 0;
-            }
-        }
+        
 
         .interest-danger {
-            background: rgba(40, 10, 10, 0.4) !important;
-            border: 1px solid rgba(255, 59, 48, 0.4) !important;
-            box-shadow: 0 0 25px rgba(255, 59, 48, 0.15) !important;
-            position: relative;
-            overflow: hidden !important;
-            isolation: isolate;
-            /* Ensures z-index: -1 stays within this container */
+            background: rgba(80, 10, 20, 0.25) !important;
+            border: 0.5px solid rgba(255, 59, 48, 0.6) !important;
+            box-shadow: inset 0 0 20px rgba(255, 30, 30, 0.15) !important;
         }
 
-        .interest-danger::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background-image: linear-gradient(45deg,
-                    rgba(255, 59, 48, 0.08) 25%,
-                    transparent 25%,
-                    transparent 50%,
-                    rgba(255, 59, 48, 0.08) 50%,
-                    rgba(255, 59, 48, 0.08) 75%,
-                    transparent 75%,
-                    transparent);
-            background-size: 60px 60px;
-            animation: chevrons 3s linear infinite;
-            pointer-events: none;
-            z-index: -1;
-            /* Pushed behind everything */
-        }
+        
 
         .interest-danger .form-label,
         .interest-danger #interestValue {
