@@ -19,9 +19,9 @@
 
             /* OLED / Glassmorphism Dark Mode Tokens */
             --ios-bg: #000000;
-            --surface-1: rgba(20, 10, 30, 0.25); /* More translucent for colors */
-            --surface-2: rgba(44, 30, 60, 0.45);
-            --surface-3: rgba(58, 58, 60, 0.6);
+            --surface-1: rgba(10, 10, 12, 0.45); /* More translucent for colors */
+            --surface-2: rgba(20, 20, 24, 0.65);
+            --surface-3: rgba(30, 30, 36, 0.8);
             
             --border-light: rgba(255, 255, 255, 0.1);
             --border-highlight: rgba(255, 255, 255, 0.2);
@@ -59,9 +59,9 @@
             position: fixed; inset: 0; z-index: -10;
             background: #0B0014;
             background-image: 
-                radial-gradient(circle at 10% 20%, rgba(60, 10, 80, 0.8) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(20, 10, 50, 0.8) 0%, transparent 40%),
-                radial-gradient(circle at 50% 50%, rgba(90, 10, 40, 0.4) 0%, transparent 60%);
+                radial-gradient(circle at 10% 20%, rgba(30, 10, 50, 0.6) 0%, transparent 50%),
+                radial-gradient(circle at 90% 80%, rgba(10, 20, 40, 0.6) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(10, 10, 20, 0.8) 0%, transparent 80%);
         }
         
         .vignette {
@@ -348,57 +348,67 @@
             color: var(--text-primary);
         }
 
-        /* List View (Inset Grouped) */
+        /* List View (Obsidian Journal) */
         .ios-list {
             display: grid;
-            gap: var(--gap-md);
+            gap: 12px;
             padding: 0 20px;
         }
 
         .list-row {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-light);
-            border-radius: var(--radius-lg);
+            background: rgba(10, 5, 20, 0.7); /* Deep blacks/purples */
+            border: 1px solid rgba(255, 255, 255, 0.05); /* very subtle */
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
             padding: 16px 20px;
-            display: grid;
-            grid-template-columns: 1fr auto;
-            gap: var(--gap-md);
+            display: flex;
+            justify-content: space-between;
             align-items: center;
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
             touch-action: manipulation;
             transition: all 0.2s var(--spring);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        }
+        
+        /* Subtle ambient glow behind text based on state */
+        .list-row::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 10% 50%, var(--glow-color, transparent) 0%, transparent 60%);
+            opacity: 0.15;
+            pointer-events: none;
         }
 
         .list-row.animate-press {
             transform: scale(0.95);
-            background: rgba(255, 255, 255, 0.08);
+            background: rgba(20, 10, 30, 0.8);
             transition: transform 0.08s cubic-bezier(0.2, 0, 0, 1);
-        }
-
-        .list-row:last-child {
-            border-bottom: none;
-        }
-
-        .list-row:active {
-            transform: scale(0.98);
-            background: rgba(255, 255, 255, 0.08);
         }
 
         .row-content {
             display: flex;
             flex-direction: column;
-            gap: 4px;
-            overflow: hidden; /* Ensure long names truncate */
+            gap: 6px;
+            overflow: hidden;
         }
 
         .row-title {
-            font-size: 17px;
+            font-size: 19px;
             font-weight: 700;
             color: var(--text-primary);
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         .row-subtitle {
@@ -408,16 +418,18 @@
             align-items: center;
             font-weight: 500;
         }
-
+        
+        /* Rating Pill */
         .row-rating-badge {
-            background: rgba(255, 215, 0, 0.15);
-            color: #FFD700;
-            padding: 4px 12px;
-            border-radius: var(--radius-xl);
-            font-weight: 800;
+            background: rgba(255, 255, 255, 0.05);
+            color: rgba(255, 255, 255, 0.8);
+            padding: 6px 10px;
+            border-radius: 12px;
+            font-weight: 700;
             font-size: 14px;
-            border: 1px solid rgba(255, 215, 0, 0.3);
-            text-align: center;
+            border: 0.5px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
         }
 
         /* Grid View (Cards) */
@@ -545,7 +557,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: rgba(20, 20, 22, 0.85) !important;
+            background: rgba(10, 5, 20, 0.95) !important;
             backdrop-filter: blur(40px) saturate(200%) !important;
             -webkit-backdrop-filter: blur(40px) saturate(200%) !important;
             border-radius: 32px 32px 0 0;
@@ -556,8 +568,8 @@
             flex-direction: column;
             z-index: 1001;
             padding-bottom: calc(20px + env(safe-area-inset-bottom));
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            border-top: 2px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1.5px solid rgba(255, 255, 255, 0.2);
             border-bottom: none;
             opacity: 0;
             box-shadow: 0 -12px 64px rgba(0, 0, 0, .8);
@@ -613,11 +625,13 @@
 
         /* iOS Form Group */
         .form-group-container {
-            border-radius: 12px;
-            background: var(--surface-2);
+            border-radius: 20px;
+            background: rgba(30, 15, 40, 0.5);
+            backdrop-filter: blur(20px);
             overflow: hidden;
             margin-bottom: 24px;
-            border: 0.5px solid var(--border-light);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
 
         .form-row {
@@ -851,11 +865,12 @@
             position: absolute;
             left: -24px;
             top: 6px;
-            width: 10px;
-            height: 10px;
+            width: 12px;
+            height: 12px;
             border-radius: 50%;
             background: var(--ios-blue);
-            box-shadow: 0 0 10px var(--ios-blue);
+            box-shadow: 0 0 15px var(--ios-blue);
+            border: 2px solid #000;
         }
 
         .log-date {
@@ -928,28 +943,8 @@
             gap: var(--gap-md);
         }
 
-        .plus-badge {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.08);
-            color: var(--ios-blue);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 22px;
-            font-weight: 500;
-            border: 0.5px solid rgba(255, 255, 255, 0.15);
-            transition: all 0.2s;
-            touch-action: manipulation;
-            line-height: 0;
-            padding-bottom: 3px;
-        }
-
-        .plus-badge:active {
-            background: var(--ios-blue-glow);
-            color: white;
-        }
+        /* Hide plus badge unused now */
+        .plus-badge { display: none; }
 
         .loading-overlay {
             position: fixed;
@@ -1302,38 +1297,16 @@
             width: 100%;
         }
 
-        .interest-slider {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 100%;
-            height: 28px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 14px;
-            outline: none;
-            padding: 0 4px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .interest-slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 24px;
-            height: 24px;
-            background: #ffffff;
-            border-radius: 50%;
+        .heat-block {
+            flex: 1;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.1);
             cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-            border: 0.5px solid rgba(0, 0, 0, 0.04);
+            transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
-
-        .interest-slider::-moz-range-thumb {
-            width: 24px;
-            height: 24px;
-            background: #ffffff;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-            border: 0.5px solid rgba(0, 0, 0, 0.04);
+        .heat-block.active {
+            transform: scale(1.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         /* Custom Status Picker */
@@ -1601,14 +1574,9 @@
         }
 
         /* Interest Level Danger Effect */
-        
-
         .interest-danger {
-            background: rgba(140, 20, 30, 0.15) !important;
-            border-left: 2px solid rgba(255, 59, 48, 0.6) !important;
+            --glow-color: rgba(255, 59, 48, 0.8);
         }
-
-        
 
         .interest-danger .form-label,
         .interest-danger #interestValue {
@@ -1863,34 +1831,14 @@
         <span id="toastText">Saved!</span>
     </div>
 
-    <!-- Global Header Banner (Dynamic Island) -->
+    <!-- Global Header Banner -->
     <div class="app-header-banner">
-        <div class="header-top-row">
-            <div class="header-left"></div>
-            <div class="header-title">Dates</div>
-            <div class="header-actions">
-                <button class="nav-btn" onclick="openAddModal()" aria-label="Add Date">
-                    <img src="add.svg" alt="Add">
-                </button>
-                <button class="nav-btn" onclick="signOut()" aria-label="Sign Out">
-                    <img src="exit.svg" alt="Log Out">
-                </button>
-            </div>
-        </div>
-        <div class="header-bottom-row">
-            <div class="segmented-control glass-segment" style="margin: 0;">
-                <button id="segList" class="segment-btn active" onclick="setMode('list')" aria-label="List View">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line>
-                        <line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line>
-                    </svg>
-                </button>
-                <button id="segGrid" class="segment-btn" onclick="setMode('grid')" aria-label="Card View">
-                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
-                    </svg>
-                </button>
-            </div>
+        <div class="header-left"></div>
+        <div class="header-title">Dates</div>
+        <div class="header-actions">
+            <button class="nav-btn" onclick="signOut()" aria-label="Sign Out">
+                <img src="exit.svg" alt="Log Out">
+            </button>
         </div>
     </div>
 
@@ -1982,8 +1930,24 @@
 
     <!-- Bottom Navigation -->
     <div class="bottom-nav">
-        <button class="nav-tab active" id="tabDates" onclick="switchTab('dates')">Dates</button>
-        <button class="nav-tab" id="tabStats" onclick="switchTab('stats')">Stats</button>
+        <button class="nav-tab active" id="tabDates" onclick="switchTab('dates')">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px; vertical-align:middle; margin-top:-2px;">
+                <line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line>
+            </svg>
+            Dates
+        </button>
+        <button class="nav-tab action-add" onclick="openAddModal()" style="background: var(--ios-blue); color: white; border-radius: 50%; width: 44px; height: 44px; padding: 0; display: flex; align-items: center; justify-content: center; margin: 0 4px; box-shadow: 0 4px 12px rgba(10, 132, 255, 0.4);">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+        </button>
+        <button class="nav-tab" id="tabStats" onclick="switchTab('stats')">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px; vertical-align:middle; margin-top:-2px;">
+                <path d="M12 20V10"></path>
+                <path d="M18 20V4"></path>
+                <path d="M6 20v-4"></path>
+            </svg>
+            Stats
+        </button>
     </div>
 
     <!-- LOG SHEET MODAL -->
@@ -2192,19 +2156,18 @@
                                 </div>
                             </div>
                             <div class="slider-container" style="position: relative; z-index: 1;">
-                                <input type="range" id="interestLevel" class="interest-slider" min="1" max="10" step="1"
-                                    value="5" oninput="updateInterestUI(this.value);">
-                                <div class="slider-stops">
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
+                                <input type="hidden" id="interestLevel" value="5">
+                                <div id="heatmapBlocks" style="display: flex; gap: 4px; width: 100%; height: 32px;">
+                                    <div class="heat-block" data-val="1" onclick="updateInterestUI(1)"></div>
+                                    <div class="heat-block" data-val="2" onclick="updateInterestUI(2)"></div>
+                                    <div class="heat-block" data-val="3" onclick="updateInterestUI(3)"></div>
+                                    <div class="heat-block" data-val="4" onclick="updateInterestUI(4)"></div>
+                                    <div class="heat-block" data-val="5" onclick="updateInterestUI(5)"></div>
+                                    <div class="heat-block" data-val="6" onclick="updateInterestUI(6)"></div>
+                                    <div class="heat-block" data-val="7" onclick="updateInterestUI(7)"></div>
+                                    <div class="heat-block" data-val="8" onclick="updateInterestUI(8)"></div>
+                                    <div class="heat-block" data-val="9" onclick="updateInterestUI(9)"></div>
+                                    <div class="heat-block" data-val="10" onclick="updateInterestUI(10)"></div>
                                 </div>
                             </div>
                         </div>
@@ -2734,7 +2697,6 @@
                             </div>
                             <div class="list-row-actions">
                                 <div class="row-rating-badge" onclick="event.stopPropagation(); openEdit('${p.id}')">${calculateAvg(p)}</div>
-                                <div class="plus-badge" onclick="event.stopPropagation(); openLog('${p.id}')" aria-label="Add Log Entry">+</div>
                             </div>
                         </div>`;
             }).join('')}
@@ -3469,6 +3431,7 @@ AppState.data.currentEditId = id;
         }
 
         window.updateInterestUI = function (val) {
+            document.getElementById('interestLevel').value = val;
             const container = document.getElementById('interestLevelContainer');
             const badge = document.getElementById('interestBadge');
             const iconContainer = document.getElementById('interestIcon');
@@ -3477,6 +3440,31 @@ AppState.data.currentEditId = id;
             if (!container || !badge || !iconContainer || !valueSpan) return;
 
             valueSpan.textContent = val;
+
+            const blocks = document.querySelectorAll('.heat-block');
+            blocks.forEach(b => {
+                const bval = parseInt(b.dataset.val);
+                if (bval <= val) {
+                    b.classList.add('active');
+                    if (val == 1) {
+                        b.style.background = '#ff453a';
+                        b.style.boxShadow = '0 2px 8px rgba(255, 69, 58, 0.4)';
+                    } else if (val <= 4) {
+                        b.style.background = '#ff9f0a';
+                        b.style.boxShadow = '0 2px 8px rgba(255, 159, 10, 0.4)';
+                    } else if (val <= 8) {
+                        b.style.background = '#0a84ff';
+                        b.style.boxShadow = '0 2px 8px rgba(10, 132, 255, 0.4)';
+                    } else {
+                        b.style.background = '#32d74b';
+                        b.style.boxShadow = '0 2px 8px rgba(50, 215, 75, 0.4)';
+                    }
+                } else {
+                    b.classList.remove('active');
+                    b.style.background = 'rgba(255, 255, 255, 0.1)';
+                    b.style.boxShadow = 'none';
+                }
+            });
 
             let iconHtml = '';
 
