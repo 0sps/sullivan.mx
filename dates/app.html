@@ -527,14 +527,14 @@
         }
 
         .grid-card:active {
-            transform: scale(0.98);
+            transform: scale(0.96);
             transition: transform 0.1s ease-out;
         }
 
         .grid-card.animate-press {
-            transform: scale( 0.96 );
+            transform: scale(0.92);
             background: rgba(255, 255, 255, 0.08);
-            transition: transform  0.1 s cubic-bezier(0.2, 0, 0, 1);
+            transition: transform 0.08s cubic-bezier(0.2, 0, 0, 1);
         }
 
         /* View Containers */
@@ -601,7 +601,7 @@
             opacity: 0;
             visibility: hidden;
             pointer-events: none;
-            transition: opacity 0.2s var(--spring), visibility 0.2s;
+            transition: opacity 0.4s var(--spring), visibility 0.4s;
         }
 
         .sheet-overlay.show {
@@ -621,7 +621,7 @@
             border-radius: 32px 32px 0 0;
             height: 94vh;
             transform: translateY(100%) scale(0.95);
-            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s var(--spring);
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s var(--spring);
             display: flex;
             flex-direction: column;
             z-index: 1001;
@@ -675,7 +675,6 @@
 
         .sheet-content {
             overflow-y: auto;
-            -webkit-overflow-scrolling: touch;
             flex: 1;
             background: transparent;
             padding: 32px 20px;
@@ -1934,7 +1933,16 @@
 <body>
     <!-- iOS 26 Safari Fix: This fixed element will be sampled for address bar color -->
     <div class="ios-bg-wrapper" id="iosBgWrapper"></div>
+    <div class="nebula"></div>
     <div class="vignette"></div>
+    <div class="bg-layer" id="dynamicBg">
+        <div class="sun-container" id="sun">
+            <div class="sun"></div>
+            <div class="sun-rays"></div>
+        </div>
+        <div id="particles-container"></div>
+    </div>
+    <div class="grain"></div>
 
     <!-- Splash Loader -->
     <div id="splashLoader" class="loading-overlay">
@@ -2888,7 +2896,6 @@
 
         /* ----- LOG ACTIONS ----- */
         window.openLog = function (id) {
-            document.body.style.overflow = "hidden";
             AppState.data.currentEditId = id;
             AppState.data.editingLogIdx = -1; // Reset log editing state
             const p = AppState.data.allPeople.find(x => x.id === id);
@@ -2964,7 +2971,6 @@
         window.closeLogModal = function (e) {
             if (e && e.target !== document.getElementById('logOverlay')) return;
             document.getElementById('logOverlay').classList.remove('show');
-            document.body.style.overflow = "";
         }
 
         let editingLogIdx = -1;
@@ -3109,8 +3115,7 @@
 
         /* ----- ACTIONS ----- */
         window.openAddModal = function () {
-            document.body.style.overflow = "hidden";
-AppState.data.currentEditId = null;
+            AppState.data.currentEditId = null;
             document.getElementById('modalTitle').textContent = 'New Date';
             document.getElementById('deleteContainer').style.display = 'none';
             document.getElementById('personForm').reset();
@@ -3138,8 +3143,7 @@ AppState.data.currentEditId = null;
         }
 
         window.openEdit = function (id) {
-            document.body.style.overflow = "hidden";
-AppState.data.currentEditId = id;
+            AppState.data.currentEditId = id;
             const p = AppState.data.allPeople.find(x => x.id === id);
             if (!p) return;
 
@@ -3178,7 +3182,6 @@ AppState.data.currentEditId = id;
         window.closeModal = function (e) {
             if (e && e.target !== document.getElementById('sheetOverlay')) return;
             document.getElementById('sheetOverlay').classList.remove('show');
-            document.body.style.overflow = "";
         }
 
         window.savePerson = async function () {
@@ -3584,7 +3587,17 @@ AppState.data.currentEditId = id;
         }
 
         /* Light Particle Engine */
-        
+        function createParticles() {
+            const container = document.getElementById('particles-container');
+            if (!container) return;
+
+            // Clear existing particles to prevent memory leaks
+            container.innerHTML = '';
+            const particleCount = 30;
+
+            for (let i = 0; i < particleCount; i++) {
+                spawnParticle(container);
+            }
         }
 
         function spawnParticle(container) {
