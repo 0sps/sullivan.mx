@@ -12,34 +12,31 @@
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
         rel="stylesheet">
     <style>
-        :root {
+                :root {
             /* Fonts */
             --font-heading: 'Outfit', sans-serif;
             --font-body: 'Plus Jakarta Sans', sans-serif;
 
-            /* iOS System Colors - Dark Mode Base */
-            --ios-bg: #000814;
-            --ios-card: rgba(28, 28, 30, 0.7);
-            --ios-card-grouped: rgba(28, 28, 30, 0.7);
-            --ios-nav-bar: rgba(0, 0, 0, 0.3);
-            --ios-separator: rgba(255, 255, 255, 0.1);
+            /* OLED / Glassmorphism Dark Mode Tokens */
+            --ios-bg: #000000;
+            --surface-1: rgba(10, 10, 12, 0.45); /* More translucent for colors */
+            --surface-2: rgba(20, 20, 24, 0.65);
+            --surface-3: rgba(30, 30, 36, 0.8);
+            
+            --border-light: rgba(255, 255, 255, 0.1);
+            --border-highlight: rgba(255, 255, 255, 0.2);
+            --border-inset: rgba(0, 0, 0, 0.4);
+
             --ios-blue: #0a84ff;
             --ios-red: #ff453a;
+            --ios-green: #32d74b;
             --ios-gray: #8e8e93;
-            --ios-gray2: #636366;
-            --ios-gray3: #48484a;
-            --ios-gray4: #1c1c1e;
-            --ios-gray5: #0a0a0a;
-            --ios-gray6: #0a0a0a;
 
             --text-primary: #ffffff;
-            --text-secondary: rgba(255, 255, 255, 0.6);
+            --text-secondary: rgba(255, 255, 255, 0.85); /* Luminous silver */
             --text-tertiary: rgba(255, 255, 255, 0.3);
 
-            --radius-l: 16px;
-            --radius-xl: 24px;
-
-            --spring: cubic-bezier(0.25, 1, 0.5, 1);
+            --spring: cubic-bezier(0.2, 0.8, 0.2, 1);
         }
 
         * {
@@ -50,40 +47,29 @@
             font-family: var(--font-body);
         }
 
-        html {
-            min-height: 100dvh;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            /* Background will be set via JS - applied to html for iOS 26 Safari */
-            transition: background 5s ease;
-            background-attachment: fixed;
-        }
-
-        body {
-            min-height: 100dvh;
-            width: 100%;
-            margin: 0;
-            padding: 0;
+        html, body {
             background-color: transparent;
-            overflow-x: hidden;
             color: var(--text-primary);
-            font-size: 17px;
-            line-height: 1.4;
+            overflow-x: hidden;
+            min-height: 100dvh;
         }
 
-        /* iOS 26 Safari Fix: Fixed wrapper for address bar color sampling */
+        /* Essential background gradient overlay */
         .ios-bg-wrapper {
+            position: fixed; inset: 0; z-index: -10;
+            background: #0B0014;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(30, 10, 50, 0.6) 0%, transparent 50%),
+                radial-gradient(circle at 90% 80%, rgba(10, 20, 40, 0.6) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(10, 10, 20, 0.8) 0%, transparent 80%);
+        }
+        
+        .vignette {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 100vh;
-            z-index: -10;
+            inset: 0;
+            z-index: -2;
+            background: radial-gradient(circle at 50% 50%, transparent 40%, rgba(0, 0, 0, 0.7) 100%);
             pointer-events: none;
-            /* Background will be set via JS */
         }
 
         #main-scroll-view {
@@ -131,71 +117,7 @@
             }
         }
 
-        /* Grain Effect */
-        .grain {
-            position: fixed;
-            inset: 0;
-            pointer-events: none;
-            z-index: -2;
-            opacity: 0.05;
-            background-color: transparent;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-            mix-blend-mode: overlay;
-        }
-
-        /* Celestial Sky Elements */
-        .sun-container {
-            position: fixed;
-            top: 15%;
-            right: 15%;
-            width: 200px;
-            height: 200px;
-            z-index: -2;
-            pointer-events: none;
-            transition: opacity 2s ease, transform 2s ease;
-        }
-
-        .sun {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 140px;
-            height: 140px;
-            background: radial-gradient(circle, #ffffff 30%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 70%);
-            border-radius: 50%;
-            filter: blur(40px);
-            box-shadow:
-                0 0 80px 20px rgba(255, 204, 51, 0.4),
-                0 0 150px 40px rgba(255, 204, 51, 0.2);
-            z-index: 2;
-        }
-
-        .sun-rays {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 1200px;
-            height: 1200px;
-            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 60%),
-                conic-gradient(from 0deg, transparent 0deg, rgba(255, 255, 255, 0.05) 30deg, transparent 60deg, rgba(255, 255, 255, 0.03) 90deg, transparent 180deg);
-            border-radius: 50%;
-            animation: rotate-rays 60s linear infinite reverse;
-            mix-blend-mode: overlay;
-        }
-
-        @keyframes rotate-rays {
-            from {
-                transform: translate(-50%, -50%) rotate(0deg);
-            }
-
-            to {
-                transform: translate(-50%, -50%) rotate(360deg);
-            }
-        }
-
-        /* Light Particles */
+        
         #particles-container {
             position: fixed;
             inset: 0;
@@ -233,26 +155,27 @@
             }
         }
 
-        /* Pinned Header Banner */
+        /* Floating Nav Pill */
         .app-header-banner {
             position: fixed;
-            top: calc(10px + env(safe-area-inset-top));
-            left: calc(20px + env(safe-area-inset-left));
-            right: calc(20px + env(safe-area-inset-right));
-            height: 80px;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
-            backdrop-filter: blur(30px) saturate(140%) brightness(0.9);
-            -webkit-backdrop-filter: blur(30px) saturate(140%) brightness(0.9);
-            border-radius: 24px;
+            top: env(safe-area-inset-top, 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            width: 92%;
+            max-width: 600px;
+            height: 60px;
+            background: var(--surface-1);
+            backdrop-filter: blur(40px) saturate(200%);
+            -webkit-backdrop-filter: blur(40px) saturate(200%);
+            border-radius: 30px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 20px;
+            padding: 0 16px;
             z-index: 900;
-            /* Lower than modals */
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-top: 1.5px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 12px 40px -12px rgba(0, 0, 0, 0.5);
+            border: 0.5px solid var(--border-light);
+            border-top: 1px solid var(--border-highlight);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
         }
 
         .header-left,
@@ -331,9 +254,9 @@
             padding: 3px;
             display: flex;
             position: relative;
-            height: 38px;
-            width: 240px;
-            margin: 32px auto;
+            height: 34px;
+            width: 200px;
+            margin: 20px auto;
             isolation: isolate;
             touch-action: pan-y;
             user-select: none;
@@ -425,84 +348,103 @@
             color: var(--text-primary);
         }
 
-        /* List View (Inset Grouped) */
+        /* List View (Obsidian Journal) */
         .ios-list {
-            position: relative;
-            border-radius: var(--radius-l);
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
-            backdrop-filter: blur(20px) saturate(160%);
-            -webkit-backdrop-filter: blur(20px) saturate(160%);
-            overflow: hidden;
-            margin-bottom: 32px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-top: 1.2px solid rgba(255, 255, 255, 0.12);
+            display: grid;
+            gap: 12px;
+            padding: 0 20px;
         }
 
         .list-row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            background: rgba(10, 5, 20, 0.7); /* Deep blacks/purples */
+            border: 1px solid rgba(255, 255, 255, 0.05); /* very subtle */
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
             padding: 16px 20px;
-            border-bottom: 0.5px solid var(--ios-separator);
-            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
             touch-action: manipulation;
-            transition: background 0.2s, transform 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+            transition: all 0.2s var(--spring);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        }
+        
+        /* Subtle ambient glow behind text based on state */
+        .list-row::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 10% 50%, var(--glow-color, transparent) 0%, transparent 60%);
+            opacity: 0.15;
+            pointer-events: none;
         }
 
         .list-row.animate-press {
             transform: scale(0.95);
-            background: rgba(255, 255, 255, 0.08);
+            background: rgba(20, 10, 30, 0.8);
             transition: transform 0.08s cubic-bezier(0.2, 0, 0, 1);
-        }
-
-        .list-row:last-child {
-            border-bottom: none;
-        }
-
-        .list-row:active {
-            background: rgba(255, 255, 255, 0.05);
         }
 
         .row-content {
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 6px;
+            overflow: hidden;
         }
 
         .row-title {
-            font-size: 18px;
-            font-weight: 600;
-            letter-spacing: -0.2px;
-            font-family: var(--font-heading);
+            font-size: 19px;
+            font-weight: 700;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         .row-subtitle {
             font-size: 14px;
             color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            font-weight: 500;
         }
-
+        
+        /* Rating Pill */
         .row-rating-badge {
-            font-size: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            color: rgba(255, 255, 255, 0.8);
+            padding: 6px 10px;
+            border-radius: 12px;
             font-weight: 700;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 6px 12px;
-            border-radius: 8px;
-            color: white;
+            font-size: 14px;
+            border: 0.5px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
         }
 
         /* Grid View (Cards) */
         .ios-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-            gap: 20px;
-            margin-bottom: 32px;
+            grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
         }
 
         .grid-card {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            aspect-ratio: 3 / 4;
+            background: var(--surface-1);
+            backdrop-filter: blur(40px) saturate(200%);
+            -webkit-backdrop-filter: blur(40px) saturate(200%);
+            min-height: 120px; /* Instead of rigid aspect ratio */
             border-radius: 20px;
             padding: 12px;
             display: flex;
@@ -615,9 +557,9 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: linear-gradient(180deg, rgba(15, 23, 42, 0.5) 0%, rgba(0, 8, 20, 0.255) 100%) !important;
-            backdrop-filter: blur(10px) saturate(100%) brightness(0.85) !important;
-            -webkit-backdrop-filter: blur(10px) saturate(100%) brightness(0.85) !important;
+            background: rgba(10, 5, 20, 0.95) !important;
+            backdrop-filter: blur(40px) saturate(200%) !important;
+            -webkit-backdrop-filter: blur(40px) saturate(200%) !important;
             border-radius: 32px 32px 0 0;
             height: 94vh;
             transform: translateY(100%) scale(0.95);
@@ -626,8 +568,8 @@
             flex-direction: column;
             z-index: 1001;
             padding-bottom: calc(20px + env(safe-area-inset-bottom));
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            border-top: 2px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1.5px solid rgba(255, 255, 255, 0.2);
             border-bottom: none;
             opacity: 0;
             box-shadow: 0 -12px 64px rgba(0, 0, 0, .8);
@@ -682,23 +624,22 @@
 
         /* iOS Form Group */
         .form-group-container {
-            border-radius: 16px;
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            background: rgba(30, 15, 40, 0.5);
+            backdrop-filter: blur(20px);
             overflow: hidden;
             margin-bottom: 24px;
             border: 1px solid rgba(255, 255, 255, 0.1);
-            border-top: 1.2px solid rgba(255, 255, 255, 0.15);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
 
         .form-row {
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            padding: 12px 16px;
-            border-bottom: 0.5px solid var(--ios-separator);
-            min-height: 56px;
-            gap: 12px;
+            padding: 0 16px;
+            min-height: 60px; /* Golden Ratio iOS Native */
+            border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
         }
 
         .form-row:last-child {
@@ -706,23 +647,24 @@
         }
 
         .form-label {
-            flex: 0 0 100px;
-            font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: var(--ios-gray2);
-            letter-spacing: 0.3px;
-            white-space: nowrap;
+            font-size: 17px;
+            color: var(--text-primary);
+            font-weight: 500;
+            flex-basis: 120px; /* Rigorous left alignment */
+            flex-shrink: 0;
+            text-transform: none; /* Revert uppercase changes */
+            letter-spacing: normal;
         }
 
         .form-input {
-            flex: 1;
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 10px;
+            background: transparent;
+            border: none;
             color: var(--ios-blue);
             font-size: 17px;
-            text-align: left;
+            text-align: right;
+            outline: none;
+            flex-grow: 1;
+            font-family: inherit;
             padding: 10px 14px;
             outline: none;
             min-height: 40px;
@@ -733,8 +675,8 @@
         }
 
         .form-input:focus {
-            background: rgba(10, 132, 255, 0.05);
-            border-color: rgba(10, 132, 255, 0.3);
+            background: transparent;
+            border-color: transparent;
         }
 
         .form-input::placeholder {
@@ -796,7 +738,7 @@
         }
 
         .summary-header {
-            padding: 16px 20px;
+            padding: 12px 16px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -922,11 +864,12 @@
             position: absolute;
             left: -24px;
             top: 6px;
-            width: 10px;
-            height: 10px;
+            width: 12px;
+            height: 12px;
             border-radius: 50%;
             background: var(--ios-blue);
-            box-shadow: 0 0 10px var(--ios-blue);
+            box-shadow: 0 0 15px var(--ios-blue);
+            border: 2px solid #000;
         }
 
         .log-date {
@@ -996,30 +939,11 @@
         .list-row-actions {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: var(--gap-md);
         }
 
-        .plus-badge {
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding-bottom: 2px;
-            font-size: 20px;
-            font-weight: 500;
-            border: 0.5px solid rgba(255, 255, 255, 0.3);
-            transition: all 0.2s;
-            touch-action: manipulation;
-        }
-
-        .plus-badge:active {
-            background: rgba(255, 255, 255, 0.2);
-            color: white;
-        }
+        /* Hide plus badge unused now */
+        .plus-badge { display: none; }
 
         .loading-overlay {
             position: fixed;
@@ -1162,23 +1086,23 @@
             height: 18px;
         }
 
-        /* Bottom Navigation */
+        /* Bottom Navigation Island */
         .bottom-nav {
             position: fixed;
-            bottom: calc(32px + env(safe-area-inset-bottom));
+            bottom: calc(20px + env(safe-area-inset-bottom));
             left: 50%;
             transform: translateX(-50%);
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.04) 100%);
-            backdrop-filter: blur(30px) saturate(140%) brightness(0.9);
-            -webkit-backdrop-filter: blur(30px) saturate(140%) brightness(0.9);
+            background: var(--surface-2);
+            backdrop-filter: blur(40px) saturate(200%);
+            -webkit-backdrop-filter: blur(40px) saturate(200%);
             display: flex;
-            gap: 8px;
-            padding: 6px;
+            gap: 4px;
+            padding: 4px;
             border-radius: 30px;
             z-index: 1000;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-top: 1.2px solid rgba(255, 255, 255, 0.15);
-            box-shadow: 0 16px 48px -12px rgba(0, 0, 0, 0.6);
+            border: 0.5px solid var(--border-light);
+            border-top: 1px solid var(--border-highlight);
+            box-shadow: 0 16px 48px -12px rgba(0, 0, 0, 0.8);
         }
 
         .bottom-nav.tab-stats::before {
@@ -1250,15 +1174,30 @@
         }
 
         .stat-card-lg {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
-            backdrop-filter: blur(24px) saturate(180%);
-            -webkit-backdrop-filter: blur(24px) saturate(180%);
-            border-radius: 24px;
+            /* Lively Dynamic Gradient Backgrounds for Stats */
+            background: linear-gradient(135deg, rgba(138, 43, 226, 0.15) 0%, rgba(10, 132, 255, 0.1) 100%);
+            backdrop-filter: blur(24px) saturate(200%);
+            -webkit-backdrop-filter: blur(24px) saturate(200%);
+            border-radius: var(--radius-xl);
             padding: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-top: 1.5px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid var(--border-light);
+            border-top: 1.5px solid var(--border-highlight);
             text-align: center;
             box-shadow: 0 8px 32px -8px rgba(0, 0, 0, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Inner mesh glow for stats */
+        .stat-card-lg::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.08) 0%, transparent 60%);
+            pointer-events: none;
         }
 
         .stat-label {
@@ -1357,38 +1296,16 @@
             width: 100%;
         }
 
-        .interest-slider {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 100%;
-            height: 28px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 14px;
-            outline: none;
-            padding: 0 4px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .interest-slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 24px;
-            height: 24px;
-            background: #ffffff;
-            border-radius: 50%;
+        .heat-block {
+            flex: 1;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.1);
             cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-            border: 0.5px solid rgba(0, 0, 0, 0.04);
+            transition: all 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
         }
-
-        .interest-slider::-moz-range-thumb {
-            width: 24px;
-            height: 24px;
-            background: #ffffff;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-            border: 0.5px solid rgba(0, 0, 0, 0.04);
+        .heat-block.active {
+            transform: scale(1.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         /* Custom Status Picker */
@@ -1516,23 +1433,25 @@
         .toolbar {
             display: flex;
             padding: 0 20px 16px;
-            gap: 10px;
+            gap: var(--gap-md);
             align-items: center;
         }
 
         .search-container {
             flex: 1;
             position: relative;
+            height: 44px; /* Unify height to Golden Ratio standard */
         }
 
         .search-bar {
             width: 100%;
+            height: 100%;
             background: rgba(255, 255, 255, 0.08);
             border: 0.5px solid rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            padding: 10px 12px 10px 36px;
+            border-radius: var(--radius-md);
+            padding: 0 12px 0 36px;
             color: white;
-            font-size: 15px;
+            font-size: 16px;
             outline: none;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
@@ -1553,11 +1472,11 @@
         }
 
         .toolbar-btn {
-            width: 40px;
-            height: 40px;
+            width: 44px; /* Unify height */
+            height: 44px;
             background: rgba(255, 255, 255, 0.08);
             border: 0.5px solid rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
+            border-radius: var(--radius-md);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1654,43 +1573,8 @@
         }
 
         /* Interest Level Danger Effect */
-        @keyframes chevrons {
-            0% {
-                background-position: 0 0;
-            }
-
-            100% {
-                background-position: 50px 0;
-            }
-        }
-
         .interest-danger {
-            background: rgba(40, 10, 10, 0.4) !important;
-            border: 1px solid rgba(255, 59, 48, 0.4) !important;
-            box-shadow: 0 0 25px rgba(255, 59, 48, 0.15) !important;
-            position: relative;
-            overflow: hidden !important;
-            isolation: isolate;
-            /* Ensures z-index: -1 stays within this container */
-        }
-
-        .interest-danger::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background-image: linear-gradient(45deg,
-                    rgba(255, 59, 48, 0.08) 25%,
-                    transparent 25%,
-                    transparent 50%,
-                    rgba(255, 59, 48, 0.08) 50%,
-                    rgba(255, 59, 48, 0.08) 75%,
-                    transparent 75%,
-                    transparent);
-            background-size: 60px 60px;
-            animation: chevrons 3s linear infinite;
-            pointer-events: none;
-            z-index: -1;
-            /* Pushed behind everything */
+            --glow-color: rgba(255, 59, 48, 0.8);
         }
 
         .interest-danger .form-label,
@@ -1718,8 +1602,8 @@
             gap: 5px;
             background: rgba(10, 132, 255, 0.15);
             border: 1px solid rgba(10, 132, 255, 0.4);
-            border-radius: 10px;
-            height: 40px;
+            border-radius: var(--radius-md);
+            height: 44px;
             color: var(--ios-blue);
             font-size: 13px;
             font-weight: 600;
@@ -1957,17 +1841,9 @@
 
     <!-- Global Header Banner -->
     <div class="app-header-banner">
-        <div class="header-left">
-            <button class="nav-btn" id="themeToggleBtn" onclick="toggleTheme()"
-                style="width: 44px; height: 44px; justify-content: center; padding: 0;">
-                <!-- SVG Injected by JS -->
-            </button>
-        </div>
+        <div class="header-left"></div>
         <div class="header-title">Dates</div>
         <div class="header-actions">
-            <button class="nav-btn" onclick="openAddModal()" aria-label="Add Date">
-                <img src="add.svg" alt="Add">
-            </button>
             <button class="nav-btn" onclick="signOut()" aria-label="Sign Out">
                 <img src="exit.svg" alt="Log Out">
             </button>
@@ -1975,37 +1851,11 @@
     </div>
 
     <div id="main-scroll-view">
-        <div class="container" style="padding-top: calc(100px + env(safe-area-inset-top));">
+        <div class="container" style="padding-top: calc(140px + env(safe-area-inset-top));">
 
             <!-- DATES VIEW -->
             <div id="dates-view">
-                <!-- View Segment Control -->
-                <!-- View Segment Control -->
-                <div style="text-align: center; margin-bottom: 12px;">
-                    <div class="segmented-control">
-                        <button id="segList" class="segment-btn active" onclick="setMode('list')"
-                            aria-label="List View">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
-                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                <line x1="8" y1="6" x2="21" y2="6"></line>
-                                <line x1="8" y1="12" x2="21" y2="12"></line>
-                                <line x1="8" y1="18" x2="21" y2="18"></line>
-                                <line x1="3" y1="6" x2="3.01" y2="6"></line>
-                                <line x1="3" y1="12" x2="3.01" y2="12"></line>
-                                <line x1="3" y1="18" x2="3.01" y2="18"></line>
-                            </svg>
-                        </button>
-                        <button id="segGrid" class="segment-btn" onclick="setMode('grid')" aria-label="Card View">
-                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
-                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="3" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="14" width="7" height="7"></rect>
-                                <rect x="3" y="14" width="7" height="7"></rect>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
+
 
                 <!-- Search & Sort Toolbar -->
                 <div class="toolbar">
@@ -2088,8 +1938,24 @@
 
     <!-- Bottom Navigation -->
     <div class="bottom-nav">
-        <button class="nav-tab active" id="tabDates" onclick="switchTab('dates')">Dates</button>
-        <button class="nav-tab" id="tabStats" onclick="switchTab('stats')">Stats</button>
+        <button class="nav-tab active" id="tabDates" onclick="switchTab('dates')">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px; vertical-align:middle; margin-top:-2px;">
+                <line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line>
+                <line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line>
+            </svg>
+            Dates
+        </button>
+        <button class="nav-tab action-add" onclick="openAddModal()" style="background: var(--ios-blue); color: white; border-radius: 50%; width: 44px; height: 44px; padding: 0; display: flex; align-items: center; justify-content: center; margin: 0 4px; box-shadow: 0 4px 12px rgba(10, 132, 255, 0.4);">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+        </button>
+        <button class="nav-tab" id="tabStats" onclick="switchTab('stats')">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:6px; vertical-align:middle; margin-top:-2px;">
+                <path d="M12 20V10"></path>
+                <path d="M18 20V4"></path>
+                <path d="M6 20v-4"></path>
+            </svg>
+            Stats
+        </button>
     </div>
 
     <!-- LOG SHEET MODAL -->
@@ -2298,19 +2164,18 @@
                                 </div>
                             </div>
                             <div class="slider-container" style="position: relative; z-index: 1;">
-                                <input type="range" id="interestLevel" class="interest-slider" min="1" max="10" step="1"
-                                    value="5" oninput="updateInterestUI(this.value);">
-                                <div class="slider-stops">
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
-                                    <div class="stop-mark"></div>
+                                <input type="hidden" id="interestLevel" value="5">
+                                <div id="heatmapBlocks" style="display: flex; gap: 4px; width: 100%; height: 32px;">
+                                    <div class="heat-block" data-val="1" onclick="updateInterestUI(1)"></div>
+                                    <div class="heat-block" data-val="2" onclick="updateInterestUI(2)"></div>
+                                    <div class="heat-block" data-val="3" onclick="updateInterestUI(3)"></div>
+                                    <div class="heat-block" data-val="4" onclick="updateInterestUI(4)"></div>
+                                    <div class="heat-block" data-val="5" onclick="updateInterestUI(5)"></div>
+                                    <div class="heat-block" data-val="6" onclick="updateInterestUI(6)"></div>
+                                    <div class="heat-block" data-val="7" onclick="updateInterestUI(7)"></div>
+                                    <div class="heat-block" data-val="8" onclick="updateInterestUI(8)"></div>
+                                    <div class="heat-block" data-val="9" onclick="updateInterestUI(9)"></div>
+                                    <div class="heat-block" data-val="10" onclick="updateInterestUI(10)"></div>
                                 </div>
                             </div>
                         </div>
@@ -2840,7 +2705,6 @@
                             </div>
                             <div class="list-row-actions">
                                 <div class="row-rating-badge" onclick="event.stopPropagation(); openEdit('${p.id}')">${calculateAvg(p)}</div>
-                                <div class="plus-badge" onclick="event.stopPropagation(); openLog('${p.id}')" aria-label="Add Log Entry">+</div>
                             </div>
                         </div>`;
             }).join('')}
@@ -2848,35 +2712,23 @@
         }
 
         function renderGrid(container, people) {
-            container.innerHTML = `<div class="ios-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; padding: 0 20px 20px;">
+            container.innerHTML = `<div class="ios-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; padding: 0 20px 20px;">
                 ${people.map(p => {
                 const { isPremium, isDanger, isTalking } = getPersonStatus(p);
                 const safeName = escapeHtml(p.name);
-                const safeJob = escapeHtml(p.occupation || 'No Job');
                 const safeStatus = escapeHtml(p.relationshipStatus || 'Talking');
                 const statusClass = 'status-' + (p.relationshipStatus || 'talking').toLowerCase().split(' ')[0];
                 const avg = calculateAvg(p);
-                const crown = isPremium ? `<svg viewBox="0 0 24 24" width="14" height="14" fill="#FFD700" style="display:inline-block; vertical-align:middle; margin-left:4px; filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.4));"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>` : '';
+                const crown = isPremium ? `<svg viewBox="0 0 24 24" width="14" height="14" fill="#FFD700" style="display:inline-block; vertical-align:middle; margin-left:4px;"><path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>` : '';
 
                 return `
                         <div class="grid-card ${isDanger ? 'interest-danger' : ''}" onclick="handleCardClick(this, '${p.id}')">
-                            <div class="card-name" style="margin-bottom: 2px;">${safeName}${crown}</div>
-                            <div class="card-detail">${safeJob}</div>
+                            <div class="card-name" style="font-size: 16px; margin-bottom: 4px;">${safeName}${crown}</div>
                             
-                            <div class="card-meta-row">
+                            <div class="card-meta-row" style="margin-top: auto; padding-top: 8px; border-top: 0.5px solid rgba(255,255,255,0.1);">
                                 <div class="card-status-pill ${statusClass}">${safeStatus}</div>
                                 <div class="card-rating-badge">${avg} ★</div>
                             </div>
-                            
-                            <div class="card-meta-row" style="margin-top: 4px;">
-                                <div class="card-interest-indicator">
-                                    <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-                                    ${p.interestLevel || 5}
-                                </div>
-                                <div class="card-last-active">${timeAgo(p.lastUpdated)}</div>
-                            </div>
-
-                            <div class="plus-badge" style="position:absolute; top:8px; right:8px; width: 28px; height: 28px; font-size: 18px; z-index: 10;" onclick="event.stopPropagation(); openLog('${p.id}')" aria-label="Add Log Entry">+</div>
                         </div>`;
             }).join('')}
             </div>`;
@@ -3804,6 +3656,7 @@
         }
 
         window.updateInterestUI = function (val) {
+            document.getElementById('interestLevel').value = val;
             const container = document.getElementById('interestLevelContainer');
             const badge = document.getElementById('interestBadge');
             const iconContainer = document.getElementById('interestIcon');
@@ -3812,6 +3665,31 @@
             if (!container || !badge || !iconContainer || !valueSpan) return;
 
             valueSpan.textContent = val;
+
+            const blocks = document.querySelectorAll('.heat-block');
+            blocks.forEach(b => {
+                const bval = parseInt(b.dataset.val);
+                if (bval <= val) {
+                    b.classList.add('active');
+                    if (val == 1) {
+                        b.style.background = '#ff453a';
+                        b.style.boxShadow = '0 2px 8px rgba(255, 69, 58, 0.4)';
+                    } else if (val <= 4) {
+                        b.style.background = '#ff9f0a';
+                        b.style.boxShadow = '0 2px 8px rgba(255, 159, 10, 0.4)';
+                    } else if (val <= 8) {
+                        b.style.background = '#0a84ff';
+                        b.style.boxShadow = '0 2px 8px rgba(10, 132, 255, 0.4)';
+                    } else {
+                        b.style.background = '#32d74b';
+                        b.style.boxShadow = '0 2px 8px rgba(50, 215, 75, 0.4)';
+                    }
+                } else {
+                    b.classList.remove('active');
+                    b.style.background = 'rgba(255, 255, 255, 0.1)';
+                    b.style.boxShadow = 'none';
+                }
+            });
 
             let iconHtml = '';
 
@@ -3855,46 +3733,8 @@
             }
         }
 
-        /* ----- THEME TOGGLE LOGIC ----- */
-        window.toggleTheme = function () {
-            if (AppState.ui.manualTheme === 'auto') AppState.ui.manualTheme = 'day';
-            else if (AppState.ui.manualTheme === 'day') AppState.ui.manualTheme = 'night';
-            else AppState.ui.manualTheme = 'auto';
-
-            localStorage.setItem('sullivan_dates_theme', AppState.ui.manualTheme);
-            updateDynamicBackground();
-            updateThemeIcon();
-            showToast(`Theme: ${AppState.ui.manualTheme.charAt(0).toUpperCase() + AppState.ui.manualTheme.slice(1)}`);
-        }
-
-        function updateThemeIcon() {
-            const btn = document.getElementById('themeToggleBtn');
-            if (!btn) return;
-
-            let svg = '';
-            const color = 'white';
-            const size = 22; // Slightly larger
-            const weight = 3; // Thicker stroke
-
-            if (AppState.ui.manualTheme === 'day') {
-                // Sun Icon
-                svg = `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${weight}" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>`;
-            } else if (AppState.ui.manualTheme === 'night') {
-                // Moon Icon
-                svg = `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${weight}" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
-            } else {
-                // Auto/Contrast Icon (Circle with half fill)
-                svg = `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="${weight}" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"/><path d="M12 3a9 9 0 0 0 0 18V3z" fill="${color}"/></svg>`;
-            }
-
-            btn.innerHTML = svg;
-        }
-
-        // Initialize state
-        updateThemeIcon();
-        updateDynamicBackground();
-        setInterval(updateDynamicBackground, CONFIG.BG_UPDATE_INTERVAL);
-
+        
+            
         // Escape key to close modals
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
