@@ -355,7 +355,7 @@ His response made it clear that **he does not care about what he did**. No apolo
 </audio>
 
 
-The reason I'm writing this is that it seems to never end. Through learning he was the one who stalked me, I connected with at least three other individuals of which he has texted and called to harass. It seems as though he believes there will never be any consequences for these actions. I hope there are.
+The reason I'm writing this is that it seems to never end. Through learning he was the one who stalked me, I connected with at least **three other individuals of which he has also harrassed**. It seems as though he believes there will never be any consequences for these actions. I hope there are.
 
 
 Every fact in this story is verifiable. If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, take this information into account if you are considering associating with him. Make the most informed decision according to your values. 
