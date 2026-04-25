@@ -7,13 +7,11 @@ tags: [personal]
 
 
 ### Summary
-**For 11 months, Gavin Grier was the architect of a systematic campaign of harassment designed to intimidate an Ohio man who was not interested in him. His harassment involved texts and calls from over 30 fake phone numbers, threats to both Sean and his friends, and vandalism damage to his car.**
+For 11 months, **Gavin Grier was the architect of a systematic campaign of harassment designed to intimidate an Ohio man who was not interested in him.** His harassment involved texts and calls from over 30 fake phone numbers, threats to both Sean and his friends, and vandalism damage to his car.
 
-In late 2025, Gavin was found liable in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism [1].
+In late 2025, **Gavin was found liable in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism** [1].
 
-**Unfortunately, he has not paid the court-ordered fines, and has not stopped harassing others. 
- 
-
+Unfortunately, he has not paid the court-ordered fines, and has not stopped harassing others. 
 This timeline and evidence of behavior is being shared to stop him this pattern of behavior for continuing. Here is how it happened.
 
 <div id="toc-container"></div>
@@ -25,9 +23,9 @@ This timeline and evidence of behavior is being shared to stop him this pattern 
 
 
 
-Everything on this page is from my perspective, but I have also laid out evidence to back all of it up. *To protect third parties, the only personal information on this site is Gavin's name. All other personally identifiable info (phone numbers, addresses, names, etc) was redacted. If you see a phone number un-redacted, it means the phone number did not resolve to a real person; it was purchasesd online by an app like Pinger or TextNow, so it's not a 'real' number. I don't redact those.*
+Everything on this page is from my perspective, but presented with evidence to back all of it up. *To protect third parties, the only personal information on this site is Gavin's name. All other personally identifiable info (phone numbers, addresses, names, etc) was redacted. If you see a phone number un-redacted, it means the phone number did not resolve to a real person; it was purchasesd online by an app like Pinger or TextNow, so it's not a 'real' number. I don't redact those.*
 
-Lastly, If you have questions, email me at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
+Lastly, If you have questions, email them at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
 
 <br>
 ---
