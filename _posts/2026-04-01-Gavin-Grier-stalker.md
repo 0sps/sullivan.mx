@@ -7,11 +7,11 @@ tags: [personal]
 
 
 ### Summary
-**For 11 months, Gavin Grier was the architect of a systematic campaign of harassment designed to intimidate an Ohio man who was not interested in him. His harassment involved texts and calls from over 30 fake phone numbers, threats to both Sean and his friends, and vandalism damage to my car.**
+**For 11 months, Gavin Grier was the architect of a systematic campaign of harassment designed to intimidate an Ohio man who was not interested in him. His harassment involved texts and calls from over 30 fake phone numbers, threats to both Sean and his friends, and vandalism damage to his car.**
 
-In late 2025, Gavin Grier was found liable in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism. 
+In late 2025, Gavin was found liable in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism [1].
 
-**Unfortunately, Gavin has not paid the court-ordered fines, and has not stopped harassing others. 
+**Unfortunately, he has not paid the court-ordered fines, and has not stopped harassing others. 
  
 
 This timeline and evidence of behavior is being shared to stop him this pattern of behavior for continuing. Here is how it happened.
@@ -19,8 +19,7 @@ This timeline and evidence of behavior is being shared to stop him this pattern 
 <div id="toc-container"></div>
 
 
-*(You can verify the court decision yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) and search "Gavin Grier.")*
-
+*[1] You can verify the court decision yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view and search "Gavin Grier."*
 
 
 
