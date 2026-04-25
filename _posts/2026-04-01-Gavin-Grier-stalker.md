@@ -5,17 +5,25 @@ date: 2026-04-01
 tags: [personal]
 ---
 
-To avoid wasting your time, I'll get right into it:
-### Summary
-**For 11 months, I was the target of a systematic campaign of harassment involving texts and calls from over 30 fake phone numbers, threats to both me and my friends, and vandalism damage to my car.**
 
-In late 2025, I sued Gavin Grier in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism. **Gavin was found liable in 2025 for everything I sued him for in a civil judgement.** 
-**Unfortunately, Gavin has not paid the court-ordered fines, and he has not stopped harassing others. I am now sharing this timeline and the evidence to stop him this pattern of behavior for continuing. Here is how it happened.
+### Summary
+**For 11 months, Gavin Grier was the architect of a systematic campaign of harassment designed to intimidate an Ohio man who was not interested in him. His harassment involved texts and calls from over 30 fake phone numbers, threats to both Sean and his friends, and vandalism damage to my car.**
+
+In late 2025, Gavin Grier was found liable in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism. 
+
+**Unfortunately, Gavin has not paid the court-ordered fines, and has not stopped harassing others. 
+ 
+
+This timeline and evidence of behavior is being shared to stop him this pattern of behavior for continuing. Here is how it happened.
 
 <div id="toc-container"></div>
 
 
 *(You can verify the court decision yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) and search "Gavin Grier.")*
+
+
+
+
 
 
 Everything on this page is from my perspective, but I have also laid out evidence to back all of it up. *To protect third parties, the only personal information on this site is Gavin's name. All other personally identifiable info (phone numbers, addresses, names, etc) was redacted. If you see a phone number un-redacted, it means the phone number did not resolve to a real person; it was purchasesd online by an app like Pinger or TextNow, so it's not a 'real' number. I don't redact those.*
