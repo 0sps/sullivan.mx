@@ -237,7 +237,7 @@ The texts restarted immediately after I told Gavin I wasn't interested. These ti
 The stalker told me to go look at my car. He suggested there was a 'gift' for me, which made me think it was a bomb. I went down to my parking garage and checked from a distance, walking up to ANOTHER CAR and pretending to be looking at that one, only briefly glancing at my Kia from across the floor. I walked back to my apartment and told the stalker my car was fine. He said that now he knew what kind of car I drove. Except *no he didn't, anyone who watched me that night would have thought I owned this SUV I was standing next to.*
 I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone who was just driven to a concert in it.
 
-*I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
+*I had traded in my old red Jeep in August 2024, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
 
 <figure style="max-width: 600px; text-align: center;">
   <a href= "/assets/river9.jpg"><img src="/assets/river9.jpg" alt="S" style="max-height: 50vh;"></a>
