@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gavin-grier-found-liable"
-date: 2026-04-02
+title: "Gavin Grier found liable for stalking and harassment"
+date: 2026-04-01
 tags: [personal]
 ---
 
@@ -318,7 +318,7 @@ I thought the stalking orderal would be over after court, but it wasn't.
 
 Months went by and Gavin did not pay. In April 2026, I personally served him a copy of the court order to make sure he knew he was on notice to pay me. I have been vying to garnish his wages if he does not pay, as he has racked up nearly one year of interest payments on top of the money he already accrued.
 
-If you want to hear what he said when I served him, prepare to be disappointed. His response showed that he has no promise to stop, and no indication that he understood why any of this mattered. He only acknowledged that he would pay what the court ordered him to pay.
+If you want to hear what he said when I served him, prepare to be disappointed. His response showed that he has no promise to stop, and no indication that he understood why any of this mattered. He only acknowledged that he would pay what the court ordered him to pay. 
 
 <audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
   <source src="/assets/gavinExcerpt_1.mp3" type="audio/mpeg">
@@ -332,8 +332,10 @@ If you want to hear what he said when I served him, prepare to be disappointed. 
 
 ### Why I'm publishing this
 
-I am writing this because it seems to never end. After I realized Gavin was the person behind what happened to me, I connected with other people who described similar harassment from him.
+I am writing this because it seems to never end. After I realized Gavin was the person behind what happened to me, I connected with other people who described similar harassment from him. I have learned that he continues to talk about me, and therefore I must be allowed to respond. This is my story.
 
 It seems like he believes there will never be consequences for this. I hope there are.
 
-Every fact in this story is verifiable. If you found this page by searching Gavin Grier, pilot, Sidney Ohio, or Seattle, take this information into account before deciding whether to associate with him.
+Lastly: *Every* fact in this story is verifiable. If you have any questions or concerns, having read this article, please REACH OUT using the email above, and I can address any questions.
+
+Stay safe and use this knowledge to better protect yourself in case you too are being stalked.
