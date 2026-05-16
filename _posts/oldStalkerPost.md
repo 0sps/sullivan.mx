@@ -1,31 +1,30 @@
 ---
 layout: post
-title: "Gavin Grier found liable for stalking and harassment"
-date: 2026-04-01
+title: "Gavin Grier found liable for stalking and harassment BACKUP"
+date: 2026-04-30
 tags: [personal]
+published: false
 ---
 
-
+To avoid wasting your time, I'll get right into it:
 ### Summary
-For 11 months, **Gavin Grier was the architect of a systematic campaign of harassment designed to intimidate an Ohio man who was not interested in him.** His harassment involved texts and calls from over 30 fake phone numbers, threats to both Sean and his friends, and vandalism damage to his car.
+*For eleven months, Gavin Grier texted me from over 30 fake numbers, catfished me on Grindr, played me a robotic death threat over the phone, and poured a gallon of paint on my car. An Ohio court found him civilly liable for it, and he still hasn’t paid the judgment.*
+---
+Everything in this account is from my perspective and backed by screenshots, audio recordings, and court documents. Third-party names and contact details are redacted. Phone numbers left unredacted belong to virtual carriers like Pinger or TextNow, so real person is attached to them. 
+To verify the court records, go to fcmcclerk.com and search Gavin Grier. 
+Questions? Email me at questions(at)sullivan(dot)mx.
+---
 
-In late 2025, **Gavin was found liable in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism** [1].
-
-Unfortunately, he has not paid the court-ordered fines, and has not stopped harassing others. 
-This timeline and evidence of behavior is being shared to stop him this pattern of behavior for continuing. Here is how it happened.
+In late 2025, I sued Gavin Grier in the Franklin County Municipal Court of Ohio for stalking, harassment, and vandalism. **Gavin was found liable in 2025 for everything I sued him for in a civil judgement.** 
+**Unfortunately, Gavin has not paid the court-ordered fines, and he has not stopped harassing others. I am now sharing this timeline and the evidence to stop  this pattern of behavior for continuing. 
 
 <div id="toc-container"></div>
 
 
-*[1] You can verify the court decision yourself: go to [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view and search "Gavin Grier."*
 
+Everything on this page is from my perspective, but I have also laid out evidence to back all of it up. *To protect third parties, the only personal information on this site is Gavin's name. All other personally identifiable info (phone numbers, addresses, names, etc) was redacted. If you see a phone number un-redacted, it means the phone number did not resolve to a real person; it was purchasesd online by an app like Pinger or TextNow, so it's not a 'real' number. I don't redact those.*
 
-
-
-
-Everything on this page is from my perspective, but presented with evidence to back all of it up. *To protect third parties, the only personal information on this site is Gavin's name. All other personally identifiable info (phone numbers, addresses, names, etc) was redacted. If you see a phone number un-redacted, it means the phone number did not resolve to a real person; it was purchasesd online by an app like Pinger or TextNow, so it's not a 'real' number. I don't redact those.*
-
-Lastly, If you have questions, email them at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
+Lastly, If you have questions, email me at questions(at)sullivan(dot)mx. This is a REAL email, so reach out if you are confused or unclear on anything.
 
 <br>
 ---
@@ -237,7 +236,7 @@ The texts restarted immediately after I told Gavin I wasn't interested. These ti
 The stalker told me to go look at my car. He suggested there was a 'gift' for me, which made me think it was a bomb. I went down to my parking garage and checked from a distance, walking up to ANOTHER CAR and pretending to be looking at that one, only briefly glancing at my Kia from across the floor. I walked back to my apartment and told the stalker my car was fine. He said that now he knew what kind of car I drove. Except *no he didn't, anyone who watched me that night would have thought I owned this SUV I was standing next to.*
 I said oh yeah, what car. He said a grey Kia sedan. This tracks well for someone who was just driven to a concert in it.
 
-*I had traded in my old red Jeep in August 2024, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
+*I had traded in my old red Jeep in August 2025, after Gavin and I had stopped hanging out. Almost nobody knew I had a new car. Gavin had just taken a ride in it four days earlier.*
 
 <figure style="max-width: 600px; text-align: center;">
   <a href= "/assets/river9.jpg"><img src="/assets/river9.jpg" alt="S" style="max-height: 50vh;"></a>
@@ -355,7 +354,7 @@ His response made it clear that **he does not care about what he did**. No apolo
 </audio>
 
 
-The reason I'm writing this is that it seems to never end. Through learning he was the one who stalked me, I connected with at least **three other individuals of which he has also harrassed**. It seems as though he believes there will never be any consequences for these actions. I hope there are.
+The reason I'm writing this is that it seems to never end. Through learning he was the one who stalked me, I connected with at least three other individuals of which he has texted and called to harass. It seems as though he believes there will never be any consequences for these actions. I hope there are.
 
 
 Every fact in this story is verifiable. If you've Googled him (Gavin Grier, pilot, Sidney Ohio, Seattle) and ended up here, take this information into account if you are considering associating with him. Make the most informed decision according to your values. 
