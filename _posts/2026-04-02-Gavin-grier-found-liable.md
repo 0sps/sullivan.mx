@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gavin Grier found liable for stalking and harassment"
-date: 2026-04-01
+title: "Gavin-grier-found-liable"
+date: 2026-04-02
 tags: [personal]
 published: false
 ---
