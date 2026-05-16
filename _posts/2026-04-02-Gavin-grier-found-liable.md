@@ -3,7 +3,6 @@ layout: post
 title: "Gavin-grier-found-liable"
 date: 2026-04-02
 tags: [personal]
-published: true
 ---
 
 To avoid wasting your time, I'll get right into it.
