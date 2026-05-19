@@ -5,17 +5,20 @@ date: 2026-04-01
 tags: [personal]
 ---
 
-### Summary
+## Summary
+**For eleven months, Gavin Grier texted me from over 30 fake numbers, catfished me on Grindr, played me a robotic death threat over the phone, and poured a gallon of paint on my car. In late 2025, the Franklin County Municipal Court of Ohio found him liable for damages from stalking, vandalism, and harrassment, ordering him to pay the amount I was suing for and court fees.**
 
-For eleven months, Gavin Grier texted me from over 30 fake numbers, catfished me on Grindr, played me a robotic death threat over the phone, and poured a gallon of paint on my car. In late 2025, the Franklin County Municipal Court of Ohio found him liable for damages from stalking, vandalism, and harrassment, ordering him to pay the amount I was suing for and court fees.
 
-He has not paid the judgment. I thought this would be over after court, but it wasn't.
+What follows below is a LONG article detailing exactly how it happened, but this is the summary. The important point to note is that, to this date, he STILL hasn't paid the court fine.
 
 You can verify the court decision yourself at [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) by searching "Gavin Grier."
 
-Everything below is from my perspective, with screenshots, audio, and court records included where I have them. Third-party names, phone numbers, addresses, and other identifying details are redacted. If a phone number is not redacted, it is because it did not resolve to a real person and appears to come from a virtual-number service like Pinger or TextNow.
+The rest of this page is dedicated to explaining exactly what happened, the extent to which Gavin stalked me, and the extent to which I pursued legal remedies. **Everything** below is from my perspective, but I have **screenshots, audio, and court records** included to back everything up. Third-party names, phone numbers, addresses, and other identifying details will be redacted on this post. If a phone number is *not* redacted, this is because it didn't resolve to a real person, it's just a fake number that comes from a virtual-number service like the Pinger or TextNow apps. Those numbers are fake and can be obtained instantly by anyone who downloads those apps, so I don't redact them.
 
-If you have questions, email me at questions(at)sullivan(dot)mx.
+
+Lastly, if you have questions, email me at questions(at)sullivan(dot)mx.
+
+Let's get into it.
 
 <div id="toc-container"></div>
 
