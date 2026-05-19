@@ -162,13 +162,13 @@ After a few days, I texted Gavin directly to ask how he was doing. He sent me sc
 
 ---
 
-### November 2024 to January 2025: The calls
+### November 2024 to January 2025
 
-The stalker had been asking to call for days. I thought a call might help me figure out who it was, so I agreed.
+Sometime this winter, the stalker had been asking to call for days. I thought that even if he just yelled at me or harassed me over the phone, a call *might* help me figure out who it was, so I agreed.
 
-Unforunately, I was played yet again. There was no person on the line, it was just a prerecorded robotic voice. It read this threatening message over and over. At first I thought it might be a person, then I realized the same message was repeating, and quickly hung up.
+Unforunately, I was played yet again. There was no person on the line, it was just a prerecorded robotic voice. It read this threatening message over and over. At first I thought it might be a person, then I realized the same message was repeating, and so I quickly hung up.
 
-The calls were recorded, so you can listen to them below. The first audio is the clearer one. The second has more silence, but it is still part of the same pattern.
+At this point I wasn't stupid, so I recorded the calls. so you can listen to them below. The first audio is the clearer one. The second has more silence, but it is still part of the same pattern.
 
 <audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
   <source src="/assets/gavin1.mp3" type="audio/mpeg">
