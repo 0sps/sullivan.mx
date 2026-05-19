@@ -37,11 +37,11 @@ The court record is the shortest version of this story. I filed suit in Franklin
 
 ### January to April 2024: How we met
 
-My name is Sean. I have a regular job, and I graduated college fairly recently. I met Gavin in January 2024 on a dating app. He had just moved from Seattle to attend flight school in Sidney, Ohio.
+My name is Sean. I have a regular job, and I graduated college fairly recently. I met Gavin in January 2024 on a dating app. He had just moved, coming from Seattle, WA to Sidney, OH to join this small flight school. I think his goal was to graduate in 6 months and then move on to be a pilot elsewhere in the country. (Future Sean here: That is really funny, becuase he still there when I served him the final court order in early 2026, putting him on notice that he owes me all the money i won in court)
 
-We talked for a few weeks and went on one date on March 5. It was fine. I told him I was busy with my last semester and probably would not be able to see him much.
+After texting for a few weeks, we went on one date on March 5, 2024. It was fine. I told him I was busy with my last semester and probably would not be able to see him much.
 
-Around April 4, I invited him to my fraternity formal with about a day of notice. I was surprised he said he was free. I texted him back and said plans were changing, so not to count on it yet. The next day I canceled because it was too hard to coordinate that quickly. I stopped texting him after that.
+Around April 4 (2024), I invited him to my fraternity formal with about a day of notice. I was surprised he said he was free. I texted him back and said plans were changing, so not to count on it yet. The next day I canceled because it was too hard to coordinate that quickly. I stopped texting him after that.
 
 That is when the first of the messages started.
 
@@ -335,10 +335,10 @@ If you want to hear what he said when I served him, prepare to be disappointed. 
 
 ### Why I'm publishing this
 
-I am writing this because it seems to never end. After I realized Gavin was the person behind what happened to me, I connected with other people who described similar harassment from him. I have learned that he continues to talk about me, and therefore I must be allowed to respond. This is my story.
+I am writing this because it seems to never end. After I realized Gavin was the person behind what happened to me, I connected with other people who described similar harassment from him. Turns out, he's harassed FIVE people that I know of. It's gotten to the point where **we literally text each other when either Gavin or a fake number reaches out to us.** Also, I have learned that he continues to talk about me, to this very day! So therefore I must be allowed to respond. This is my story.
 
-It seems like he believes there will never be consequences for this. I hope there are.
+It geuinely seems like Gavin believes there will never be consequences for this, but I hope there are.
 
-Lastly: *Every* fact in this story is verifiable. If you have any questions or concerns, having read this article, please REACH OUT using the email above, and I can address any questions.
+Last thing: *Every* fact in this story is verifiable. If you have any questions or concerns, having read this article, please REACH OUT using the email above, and I can address any questions.
 
-Stay safe and use this knowledge to better protect yourself in case you too are being stalked.
+Stay safe and use this knowledge to better protect yourself in case you too are being stalked. 
