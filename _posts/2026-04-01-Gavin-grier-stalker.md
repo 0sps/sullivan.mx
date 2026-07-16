@@ -6,7 +6,7 @@ tags: [personal]
 ---
 
 ## Summary
-**For eleven months, Gavin Grier texted me from over 30 fake numbers, catfished me on Grindr, played me a robotic death threat over the phone, and poured a gallon of paint on my car. In late 2025, the Franklin County Municipal Court of Ohio found him liable for damages from stalking, vandalism, and harrassment, ordering him to pay the amount I was suing for and court fees.**
+**For eleven months, Gavin Grier texted me from over 30 fake numbers, catfished me on Grindr, played me a robotic death threat over the phone, and poured a gallon of paint on my car. In late 2025, the Franklin County Municipal Court of Ohio found him liable for damages from stalking, vandalism, and harrassment, ordering him to pay the amount I was suing for and court fees. Since then, others have come forward to me and talked about their experinces, and i decided to put my story in the public to keep others safe.**
 
 
 What follows below is a LONG article detailing exactly how it happened, but this is the summary. The important point to note is that, to this date, he STILL hasn't paid the court fine.
