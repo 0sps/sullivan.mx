@@ -339,6 +339,6 @@ I am writing this because it seems to never end. After I realized Gavin was the 
 
 It geuinely seems like Gavin believes there will never be consequences for this, but I hope there are.
 
-Last thing: *Every* fact in this story is verifiable. If you have any questions or concerns, having read this article, please REACH OUT using the email above, and I can address any questions.
+Last thing: *Every* fact in this story is verifiable. If you have any questions or concerns, having read this article, please REACH OUT using the email above or on socials (only one i really have is ig - seansullivan2), and I can address any questions.
 
 Stay safe and use this knowledge to better protect yourself in case you too are being stalked. 
