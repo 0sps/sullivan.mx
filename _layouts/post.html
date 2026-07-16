@@ -182,6 +182,36 @@ layout: default
     background: transparent;
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9), 0px 0px 2px rgba(0, 0, 0, 1);
   }
+
+  /* Mobile hint tooltip that points at the dock */
+  #mini-toc-tooltip {
+    position: fixed;
+    right: 56px; /* sits just left of the dock (15 + 32 + gap) */
+    z-index: 9998;
+    background: rgba(40, 40, 40, 0.92);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    padding: 6px 10px;
+    border-radius: 8px;
+    white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+
+  #mini-toc-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    transform: translateY(-50%);
+    border-width: 6px 0 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgba(40, 40, 40, 0.92);
+  }
 </style>
 
 <div id="mini-toc-scrollbar" title="Table of Contents">
@@ -486,6 +516,143 @@ document.addEventListener("DOMContentLoaded", function() {
     const scrollTarget = (boundedY / rect.height) * docHeight - (window.innerHeight / 2);
     window.scrollTo({ top: scrollTarget, behavior: 'smooth' });
   });
+
+  // ---- Mobile-only reveal sequence (desktop untouched) ----
+  // On mobile the dock is hidden by default. Reveal it 3s after load with a
+  // fade-in, hold it fully interactive for 5s, then dismiss it permanently.
+  // Any tap/interaction within the 5s window resets the 5s timer (keep-alive).
+  if (window.matchMedia('(max-width: 799px)').matches) {
+    let dismissed = false;
+    let dismissTimer = null;
+
+    // Build the little hint tooltip that points at the dock.
+    const tip = document.createElement('div');
+    tip.id = 'mini-toc-tooltip';
+    tip.textContent = 'Scroll through the article';
+    document.body.appendChild(tip);
+
+    function showTip() {
+      const r = container.getBoundingClientRect();
+      tip.style.top = (r.top + r.height / 2) + 'px';
+      tip.style.transition = 'opacity 0.5s ease';
+      tip.style.opacity = '1';
+    }
+    function hideTip() {
+      tip.style.transition = 'opacity 0.4s ease';
+      tip.style.opacity = '0';
+    }
+
+    function dismissMobileToc() {
+      if (dismissed) return;
+      dismissed = true;
+      clearTimeout(dismissTimer);
+      hideTip();
+      container.style.transition = 'opacity 0.6s ease';
+      container.style.opacity = '0';
+      setTimeout(() => {
+        if (!dismissed) return;
+        container.style.display = 'none';
+        container.classList.remove('is-active-area');
+      }, 650);
+    }
+
+    function scheduleDismiss() {
+      clearTimeout(dismissTimer);
+      dismissTimer = setTimeout(dismissMobileToc, 5000);
+    }
+
+    function keepAlive() {
+      if (dismissed) return;
+      hideTip(); // first interaction clears the hint
+      scheduleDismiss(); // reset the 5s countdown
+    }
+
+    // Capture phase so label taps (which call stopPropagation) still register.
+    container.addEventListener('touchstart', keepAlive, { passive: true, capture: true });
+    container.addEventListener('click', keepAlive, true);
+
+    // --- Tap-and-drag scrubbing: drag a finger down the dock to scroll. ---
+    let scrubbing = false;
+    let scrubMoved = false;
+    let touchStartY = 0;
+
+    function scrubToTouch(clientY) {
+      const inner = document.getElementById('mini-toc-inner');
+      const rect = inner.getBoundingClientRect();
+      const y = Math.max(0, Math.min(rect.height, clientY - rect.top));
+      const docHeight = document.documentElement.scrollHeight;
+      const maxScroll = docHeight - window.innerHeight;
+      window.scrollTo(0, (y / rect.height) * maxScroll);
+    }
+
+    container.addEventListener('touchstart', (e) => {
+      if (dismissed) return;
+      scrubbing = true;
+      scrubMoved = false;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    container.addEventListener('touchmove', (e) => {
+      if (!scrubbing || dismissed) return;
+      const y = e.touches[0].clientY;
+      // Once the finger clearly moves, treat it as a scrub (not a tap-to-jump).
+      if (!scrubMoved && Math.abs(y - touchStartY) < 6) return;
+      scrubMoved = true;
+      e.preventDefault(); // stop the page from scrolling normally while scrubbing
+      scrubToTouch(y);
+      keepAlive();
+    }, { passive: false });
+
+    container.addEventListener('touchend', () => {
+      scrubbing = false;
+    }, { passive: true });
+
+    // --- Scroll-up re-summon: bring the dock back when user scrolls up >480px ---
+    const summonScrollUpThreshold = 480;
+    let summonLastScrollY = window.scrollY;
+    let summonScrollUpAccum = 0;
+
+    function summonDock() {
+      dismissed = false;
+      container.style.display = 'block';
+      container.style.opacity = '0';
+      void container.offsetWidth;
+      container.style.transition = 'opacity 0.5s ease';
+      container.style.opacity = '1';
+      update();
+      scheduleDismiss(); // 5s timer, keep-alive taps still reset it
+    }
+
+    window.addEventListener('scroll', () => {
+      if (!dismissed) { summonLastScrollY = window.scrollY; return; }
+      const y = window.scrollY;
+      const dy = y - summonLastScrollY;
+      summonLastScrollY = y;
+
+      if (dy >= 0) {
+        // scrolling down or idle - reset accumulator
+        summonScrollUpAccum = 0;
+      } else {
+        // scrolling up
+        summonScrollUpAccum += Math.abs(dy);
+        if (summonScrollUpAccum > summonScrollUpThreshold) {
+          summonScrollUpAccum = 0;
+          summonDock();
+        }
+      }
+    }, { passive: true });
+
+    setTimeout(() => {
+      if (dismissed) return;
+      container.style.display = 'block';
+      container.style.opacity = '0';
+      void container.offsetWidth; // force reflow so the fade-in animates
+      container.style.transition = 'opacity 0.8s ease';
+      container.style.opacity = '1';
+      scheduleDismiss(); // start the 5s hold-then-dismiss timer
+      setTimeout(showTip, 400); // tooltip eases in just after the dock
+    }, 3000);
+  }
 
 });
 </script>
