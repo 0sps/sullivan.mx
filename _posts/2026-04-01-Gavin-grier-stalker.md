@@ -130,11 +130,10 @@ I told this person about Gavin, calling him an asshole and a narcissist. The nex
 
 The idea that this man somehow got Gavin's number from the internet is impossible. Flight school instructor numbers are **not listed publicly**, especially for MCA (Midwest Corporate Air). And this person, who supposedly had no connection to either me or gavin, suddenly cared enough to track Gavin down and forward him screenshots? It makes no sense. I checked for months after tese messages were sent and can confirm, MCA has *never* posted contact phone numbers for ANY instructors or students of their flight school on the internet.
 
-### The story I was supposed to believe
 
 The story I was supposed to believe was that a stranger from Grindr found Gavin's private number from a source that did not exist, texted him screenshots of things I said, and then spent weeks harassing both of us.
 
-What actually kept coming up was the word 'narcisist'. For some reason, this random person who found me on the internet was so concnerned that I'd call Gavin a narcisist. It also didn't matter that I'd maybe said unkind thigns about other people, this number ONLY cared about what I said about Gavin.
+The stalker also kept mentioning the word 'narcisist'. For some reason, this random person who found me on the internet was so concnerned that I had called Gavin a narcisist. It also didn't matter that I'd maybe said unkind thigns about other people, this number ONLY seemed to care about Gavin. I didn't realize it then, but this was because it was clearly him the whole time.
 
 <figure style="max-width: 600px; text-align: center;">
   <a href="/assets/river4.png"><img src="/assets/river4.png" alt="River harassment screenshot" style="max-height: 50vh;"></a>
@@ -162,9 +161,9 @@ After a few days, I texted Gavin directly to ask how he was doing. He sent me sc
 
 ---
 
-### November 2024 to January 2025
+### November 2024
 
-Sometime this winter, the stalker had been asking to call for days. I thought that even if he just yelled at me or harassed me over the phone, a call *might* help me figure out who it was, so I agreed.
+Sometime in the fall/winter, the stalker had been asking to call for days on end. I thought that even if he just yelled at me or harassed me over the phone, a call *might* help me figure out who it was, so I agreed.
 
 Unforunately, I was played yet again. There was no person on the line, it was just a prerecorded robotic voice. It read this threatening message over and over. At first I thought it might be a person, then I realized the same message was repeating, and so I quickly hung up.
 
@@ -182,12 +181,11 @@ At this point I wasn't stupid, so I recorded the calls. so you can listen to the
 
 You can also listen on YouTube here: https://youtu.be/9QgQPyUm_g0
 
-So after this the texts kept coming through, evenn into October and November. The angle had shifted, though: the stalker said I had ruined things with Gavin, that I was the problem, that I was "stuck up" and unlovable. It got to me. I started wondering whether I had been unfair to Gavin, or whether I had caused all of this by calling him a narcissist.
+So after this the texts kept coming through, evenn into October and November. The stalker would say I had ruined things with Gavin, that I was the problem, that I was "stuck up" and unlovable. It really did get to me. I started wondering whether I had been unfair to Gavin, or whether I had caused all of this by calling him a narcissist.
 
 
 Unfortunately at this point in my life, having just graduated and dealt with many changes both in my professional life, my personal life, and with my family, I was already extremely extressed. Because of this, I didn't really have any defense against what was happening. I started to believe all the messages Gavin sent me. I had no self-confidence left at that point, and sometimes I would come home from work and think about it all night.
 
-### The point where I thought I had been unfair to him
 
 In mid-November, I reached back out to Gavin. I apologized and said I felt bad about how we had left things. I genuinely believed everything this stalker said, that calling someone a narcisist was such a bad thing to do that I deserved death for it. 
 
@@ -213,7 +211,7 @@ I got this from Gavin:
 
 ---
 
-### Late January to March 2025: The car
+### Late January to March 2025
 
 The texts restarted after I pulled back from Gavin. This time they went to my backup AND my main number. I'd given "River" my backup phone number, thinking that I shouldn't give out my real number to a stranger I met on the internet. But somehow, he had my real number too. (*How did he get that?*)
 
@@ -243,7 +241,6 @@ The next day, one of these fake numbers texted me: "Omg sean what happened last 
   <figcaption>The fake number texting me the next day.</figcaption>
 </figure>
 
-### Then my roommate started getting texts
 
 After the vandalism, the harassment expanded. My roommate started getting texts too. The numbers claimed to know where *he* was during the day as well. Somehow the stalker knew where my roommate was at all hours of the day. It was extremely strange. The interesting thing about this, is that when we went out the previous summer, *Gavin was added into that group chat with both me and my roommate. Scroll up to see the screenshots from earlier. Gavin had my roommate's phone nummber, AND his Snapchat, too.*
 
@@ -269,7 +266,7 @@ One of the stranger moments was a text to my roommate claiming I talked badly ab
 
 ---
 
-### March to May 2025: How we tested it
+### March to May 2025 
 
 By February, my roommate and I believed it was Gavin, and were trying to confirm it.
 
@@ -288,7 +285,7 @@ That was the point where we knew, unequivocally. It was him.
 
 ---
 
-### May to December 2025: Filing the lawsuit
+### May to December 2025 (lawsuit time)
 
 In May 2025, I had a boyfriend. The stalker texted me one day, saying he saw us kissing in a park. By this point, my roomate and I had more than enough evidence, but we had just sat on it to keep collecting, lest Gavin dig himself further into his grave. He texted my boyfriend, too. I talked to my boyfriend and learned that Gavin had actually met him months prior, so Gavin DID have his phone number already.
 
@@ -315,7 +312,7 @@ I learned that Gavin moved back to Washington because of this very lawsuit. Thre
 
 ---
 
-### After court
+### Post-court
 
 I thought the stalking orderal would be over after court, but it wasn't.
 
@@ -333,7 +330,7 @@ If you want to hear what he said when I served him, prepare to be disappointed. 
   Your browser does not support the audio element.
 </audio>
 
-### Why I'm publishing this
+### Why
 
 I am writing this because it seems to never end. After I realized Gavin was the person behind what happened to me, I connected with other people who described similar harassment from him. Turns out, he's harassed FIVE people that I know of. It's gotten to the point where **we literally text each other when either Gavin or a fake number reaches out to us.** Also, I have learned that he continues to talk about me, to this very day! So therefore I must be allowed to respond. This is my story.
 
