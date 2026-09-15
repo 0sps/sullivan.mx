@@ -341,4 +341,31 @@ It geuinely seems like Gavin believes there will never be consequences for this,
 
 Last thing: *Every* fact in this story is verifiable. If you have any questions or concerns, having read this article, please REACH OUT using the email above or on socials (only one i really have is ig - seansullivan2), and I can address any questions.
 
-Stay safe and use this knowledge to better protect yourself in case you too are being stalked. 
+Stay safe and use this knowledge to better protect yourself in case you too are being stalked.
+
+---
+
+### REFERENCE
+
+The following phone numbers are associated with the harassment and derogatory messages detailed above. For all intents and purposes, these are numbers known for spam and defammatory content. do not communicate with them if you receive any texts or calls.
+
+- +1 (812) 438-6332
+- +1 (502) 823-0729
+- +1 (614) 454-1503
+- +1 (952) 243-7423
+- +1 (502) 556-4506
+- +1 (440) 283-1845
+- +1 (740) 240-2285
+- +1 (440) 782-3303
+- +1 (440) 973-2679
+- +1 (260) 265-8961
+- +1 (502) 556-4756
+- +1 (440) 374-1054
+- +1 (220) 258-1337
+- +1 (502) 922-5674
+- +1 (249) 389-1714
+- +1 (502) 270-3535
+- +1 (937) 658-0988
+- +1 (707) 467-7402
+- +1 (206) 753-9173
+
