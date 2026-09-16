@@ -11,12 +11,9 @@ tags: [personal]
 
 You can verify the court decision yourself at [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) by searching "Gavin Grier."
 
-The rest of this page is dedicated to explaining exactly what happened, the extent to which Gavin stalked me, and the extent to which I pursued legal remedies. **Everything** below is from my perspective, but I have **screenshots, audio, and court records** included to back everything up. Third-party names, phone numbers, addresses, and other identifying details will be redacted on this post. If a phone number is *not* redacted, this is because it didn't resolve to a real person, it's just a fake number that comes from a virtual-number service like the Pinger or TextNow apps. Those numbers are fake and can be obtained instantly by anyone who downloads those apps, so I don't redact them.
+The rest of this page explains exactly how Gavin stalked me, how I found out it was him, and how I sued him and won. Everything below is from my perspective, but I have **screenshots, audio, and court records** included to back everything up. Other people's names and phone numbers are redacted on this post, but any number that participated in the stalking or harassment is unredacted.
 
-
-Lastly, if you have questions, email me at questions(at)sullivan(dot)mx.
-
-Let's get into it.
+If you have questions, email me at questions(at)sullivan(dot)mx.
 
 <div id="toc-container"></div>
 
@@ -24,28 +21,22 @@ Let's get into it.
 ---
 <br>
 
-### Court record
-
-The court record is the shortest version of this story. I filed suit in Franklin County Municipal Court, and won in 2025. This was a civil case, so I am not saying he was criminally convicted. 
-
 <figure style="max-width: 100%; text-align: center;">
   <a href="/assets/IMG_8912.JPG"><img src="/assets/IMG_8912.JPG" alt="Court order in the civil case" style="max-height: 50vh;"></a>
   <figcaption>The Franklin County Municipal Court order. The public docket can be searched through the clerk's website.</figcaption>
 </figure>
 
-### January to April 2024: How we met
+### January to April 2024 (How we met)
 
-My name is Sean. I have a regular job, and I graduated college fairly recently. I met Gavin in January 2024 on a dating app. He had just moved, coming from Seattle, WA to Sidney, OH to join this small flight school. I think his goal was to graduate in 6 months and then move on to be a pilot elsewhere in the country. (Future Sean here: That is really funny, becuase he still there when I served him the final court order in early 2026, putting him on notice that he owes me all the money i won in court)
+I graduated college fairly recently, back in 2024. Before my last semester, I met Gavin in January 2024/december 2023 on a dating app. He had just moved, coming from Seattle, WA to Sidney Ohio to join this small flight school. I think his goal was to graduate in 6 months and then move on to be a pilot elsewhere in the country. (This is really funny, becuase he still there when I served him the final court order in early 2026 to notify him he was ordered to pay me $. It was interesting to see he was still there for so long)
 
-After texting for a few weeks, we went on one date on March 5, 2024. It was fine. I told him I was busy with my last semester and probably would not be able to see him much.
+After texting for a few weeks, we went on one date on March 5 of 2024. It was fine. I told him I was busy with my last semester and probably would not be able to see him much.
 
-Around April 4 (2024), I invited him to my fraternity formal with about a day of notice. I was surprised he said he was free. I texted him back and said plans were changing, so not to count on it yet. The next day I canceled because it was too hard to coordinate that quickly. I stopped texting him after that.
+Around April 4 (2024), I invited him to my fraternity formal with about a day of notice. I was surprised he said he was free. Plans were changing, so the next day I canceled because it was too hard to coordinate that quickly. I stopped texting him after that. That is coincidentally when the first of the messages started.
 
-That is when the first of the messages started.
+### First msgs
 
-### The first messages
-
-The first texts came in right as I stopped texting with Gavin. The messages were aggressive and full of homophobic slurs. At the time, I did not know who was sending them.
+The first texts came in right as I stopped texting with Gavin. The messages were aggressive and full of homophobic slurs. At the time I did not know who was sending them.
 
 For the rest of this post, screenshots with blue outlines are messages from Gavin's real number. Screenshots with red outlines are messages from fake or untraceable numbers, usually virtual numbers from services like Pinger or TextNow. You can tap any image to open it in a new window.
 
@@ -71,7 +62,7 @@ For the rest of this post, screenshots with blue outlines are messages from Gavi
   </figure>
 </div>
 
-I did not notice those spellings right away. Months later, when I was going back through everything, they stood out. The fake numbers were using slang like "fkn" and "tmmr.", all things Gavin would say. I searched every text message I had received since 2018, and he was the only person to ever use this slang.
+ I did not notice those spellings right away, like 'tmmr' and 'fkn'. Months later, when I was going back through everything, they stood out. The fake numbers were using that exact slank all things Gavin would say. I actually still have all my texts going back 9 years now, so I searched every single one of them and the only people who used this slang were Gavin and the stalker phone #s. Another interesting thing.
 
 By late April, I was still trying to figure out who was behind the fake numbers. One number FaceTimed me one night, from an iPhone. I traced the number and found it resolved a man who lived in Seattle. I reached out, and the man **informed me that his cousin from Seattle, who now lives in Ohio, had told him to prank call my number.**
 
@@ -82,11 +73,11 @@ By late April, I was still trying to figure out who was behind the fake numbers.
 
 ---
 
-### May to August 2024: It stops when we talk, and it starts when we don't
+### May to August 2024
 
 In early May, Gavin and I started messaging on Snapchat again. I got back in touch with him while the stalking was happening. I still did not know who was doing it at this point.
 
-Interestingly, the harassment stopped almost immediately. The last message from that first round of texts and calls was April 17.
+Interestingly, the harassment stopped almost immediately once I started snapping Gavin. The last message from that first round of texts and calls was April 17.
 
 Gavin and I were friendly through May. In June, he came into town, and we met up with my roommate and a group of friends. Gavin met my roommate that night as well as a woman named K***** (full name hidden for privacy) who was part of the friend group and lived in Chicago. After that night, Gavin and K***** started texting regularly.
 
@@ -95,7 +86,7 @@ Gavin and I were friendly through May. In June, he came into town, and we met up
   <figcaption>The group chat from summer 2024. This is when Gavin was added to a chat with me, my roommate, and our friends.</figcaption>
 </figure>
 
-A few weeks after that night, Gavin told me he wanted something serious. I told him I did not feel a romantic connection and was not interested in pursuing that. I suggested keeping things casual, and he said no, that he would rather not talk.
+A few weeks after that night, Gavin told me he wanted something serious. I told him I did not feel a romantic connection and was not interested in pursuing that. I suggested keeping things casual, and he said no, that he would rather we not talk. I said that was fine.
 
 The last real conversation we had that summer was in July. I mentioned that I was helping my parents move before a family trip to Europe, so we'd be cancelling the trip. He made an extremely disrespectful comment about my parents, so I called him out for it and he left me on opened.
 
@@ -114,7 +105,7 @@ I kept talking to him for a little while, and he asked about my history with guy
   <figcaption>"River," the fake profile that messaged me in fall 2024. The photos appear to be from a male adult content creator.</figcaption>
 </figure>
 
-I told this person about Gavin, calling him an asshole and a narcissist. The next day day, "River" changed completely. He called me "super stuck up" and said he was done talking to me. Then he said he had found Gavin's number through a flight school schedule and claimed to now be texting Gavin. River told me he was going to send Gavin copies of everything I said about him.
+I told this person about Gavin, calling Gavin an asshole and a narcissist. The next day day, "River" changed completely. He called me "super stuck up" and said he was done talking to me. Then he said he had found Gavin's number through a flight school schedule and claimed to now be texting Gavin. River told me he was going to send Gavin copies of everything I said.
 
 <figure style="max-width: 600px; text-align: center;">
   <a href="/assets/river2.png"><img src="/assets/river2.png" alt="River claiming he found Gavin's number" style="max-height: 50vh;"></a>
@@ -126,12 +117,11 @@ I told this person about Gavin, calling him an asshole and a narcissist. The nex
   <figcaption>"River" calling me stuck up right after I mentioned Gavin.</figcaption>
 </figure>
 
-The idea that this man somehow got Gavin's number from the internet is impossible. Flight school instructor numbers are **not listed publicly**, especially for MCA (Midwest Corporate Air). And this person, who supposedly had no connection to either me or gavin, suddenly cared enough to track Gavin down and forward him screenshots? It makes no sense. I checked for months after tese messages were sent and can confirm, MCA has *never* posted contact phone numbers for ANY instructors or students of their flight school on the internet.
+It is literally impossible to get Gavin's number from the Flight school website. I checked, the flight school instructor numbers are **not listed publicly**, especially for MCA (Midwest Corporate Air). I called the front desk and they told me the same thing, there is no way to get anyone's number from their website, and they don't publish that info.
 
+So this person, who supposedly had no connection to either me or gavin, somehow was able to impossibly get Gavin's number and send him these screenshots of things that I said. It made no sense. I checked for months after tese messages were sent and can confirm, MCA has *never* posted contact phone numbers for ANY instructors or students of their flight school on the internet.
 
-The story I was supposed to believe was that a stranger from Grindr found Gavin's private number from a source that did not exist, texted him screenshots of things I said, and then spent weeks harassing both of us.
-
-The stalker also kept mentioning the word 'narcisist'. For some reason, this random person who found me on the internet was so concnerned that I had called Gavin a narcisist. It also didn't matter that I'd maybe said unkind thigns about other people, this number ONLY seemed to care about Gavin. I didn't realize it then, but this was because it was clearly him the whole time.
+The stalker also kept mentioning the word 'narcisist'. For some reason, the stalker was so concnerned that I had called Gavin a narcisist. It also didn't matter that I'd said unkind thigns about other people, this number ONLY seemed to care about Gavin. I didn't realize it then, but that was because it was all Gavin the entire time.
 
 <figure style="max-width: 600px; text-align: center;">
   <a href="/assets/river4.png"><img src="/assets/river4.png" alt="River harassment screenshot" style="max-height: 50vh;"></a>
@@ -148,9 +138,7 @@ The stalker also kept mentioning the word 'narcisist'. For some reason, this ran
   <figcaption>"River" pretending to text Gavin screenshots of what I had said.</figcaption>
 </figure>
 
-I want to be clear about this part: the "River" account is based on timing, the impossible flight-school-number story, and the way the messages kept circling back to Gavin. It is not the strongest evidence by itself. It is one piece of the larger pattern.
-
-After a few days, I texted Gavin directly to ask how he was doing. He sent me screenshots of what "River" had supposedly sent him. He seemed happy I reached out and even apologized for how he had acted in the past.
+After a few days, I texted Gavin directly to ask how he was doing. He sent me screenshots of what "River" had supposedly sent him. He seemed happy I reached out and even apologized for how he had acted in the past. I thought it was strange how nice he was being.
 
 <figure style="max-width: 600px; text-align: center;">
   <a href="/assets/river7.png"><img src="/assets/river7.png" alt="Gavin responding after River messages" style="max-height: 50vh;"></a>
@@ -161,11 +149,11 @@ After a few days, I texted Gavin directly to ask how he was doing. He sent me sc
 
 ### November 2024
 
-Sometime in the fall/winter, the stalker had been asking to call for days on end. I thought that even if he just yelled at me or harassed me over the phone, a call *might* help me figure out who it was, so I agreed.
+Sometime in the fall/winter, the stalker had been texting me, sking to call for days on end, to "put it all out there". I thought that even if he just yelled at me or harassed me over the phone, a call might help me figure out who it was, so I agreed.
 
-Unforunately, I was played yet again. There was no person on the line, it was just a prerecorded robotic voice. It read this threatening message over and over. At first I thought it might be a person, then I realized the same message was repeating, and so I quickly hung up.
+Unforunately I was played yet again. There was no person on the line, it was just a prerecorded robotic voice. It read this threatening message over and over. At first I thought it might be a person, then I realized the same message was repeating, and so I quickly hung up.
 
-At this point I wasn't stupid, so I recorded the calls. so you can listen to them below. The first audio is the clearer one. The second has more silence, but it is still part of the same pattern.
+At this point I wasn't as stupid as before, so I recorded the calls. you can listen to them below. The first audio is easier to hear, the second has more silence but is still pretty creepy.
 
 <audio controls style="width: 100%; max-width: 600px; display: block; margin: 1rem auto;">
   <source src="/assets/gavin1.mp3" type="audio/mpeg">
@@ -179,22 +167,20 @@ At this point I wasn't stupid, so I recorded the calls. so you can listen to the
 
 You can also listen on YouTube here: https://youtu.be/9QgQPyUm_g0
 
-So after this the texts kept coming through, evenn into October and November. The stalker would say I had ruined things with Gavin, that I was the problem, that I was "stuck up" and unlovable. It really did get to me. I started wondering whether I had been unfair to Gavin, or whether I had caused all of this by calling him a narcissist.
+So after this the texts kept coming through, even into October and November. The stalker would say I had ruined things with Gavin, that I was the problem, that I was "stuck up" and unlovable. It really did get to me. I started wondering whether I had been unfair to Gavin, or whether I had caused all of this by calling him a narcissist.
 
-
-Unfortunately at this point in my life, having just graduated and dealt with many changes both in my professional life, my personal life, and with my family, I was already extremely extressed. Because of this, I didn't really have any defense against what was happening. I started to believe all the messages Gavin sent me. I had no self-confidence left at that point, and sometimes I would come home from work and think about it all night.
-
+Unfortunately at this point in my life, having just graduated and dealt with many changes both in my professional life, personal life, and with my family, I was already extremely extressed. Because of this, I didn't really have any defense against what was happening. I started to believe all the messages Gavin sent me. I had no self-confidence left at this point.
 
 In mid-November, I reached back out to Gavin. I apologized and said I felt bad about how we had left things. I genuinely believed everything this stalker said, that calling someone a narcisist was such a bad thing to do that I deserved death for it. 
 
-Gavin replied quite fast, and of course, the stalker went quiet again.
+Gavin replied quite fast, and of course, the stalker went quiet again. How funny is that. When I text gavin, the stalker stops reaching out.
 
 <figure style="max-width: 600px; text-align: center;">
   <a href="/assets/gavin9.png"><img src="/assets/gavin9.png" alt="Gavin responding after November apology" style="max-height: 50vh;"></a>
   <figcaption>Gavin responding after I reached out in November.</figcaption>
 </figure>
 
-Gavin and I texted through December and made plans for early in the next year. I went over to see him in January. Later in January, on the 28th, he came to see me. That date is important because I drove us to this concert in my Kia sedan, which I had bought the previous August. At this point, we hadn't seen each other since last summer, so he had *no idea I drove a Kia sedan* until January 28. Keep this in mind.
+Gavin and I texted through December and made plans for early in the next year. I went over to see him in January. Later in January, on the 28th, he came to see me. That date is important because I drove us to this concert in my Kia sedan, which I had bought the previous August. At this point, we hadn't seen each other since last summer, so he had *no idea I drove a brand new Kia sedan* until January 28, 2025. Keep this in mind.
 
 After the night at Gavin's, and the night out at the concert, I realized nothing had changed romantically for me. I felt better that we were talking again, but I still was not into him. I stopped responding as quickly (still responding, though) and stopped initiating plans.
 
@@ -211,7 +197,7 @@ I got this from Gavin:
 
 ### Late January to March 2025
 
-The texts restarted after I pulled back from Gavin. This time they went to my backup AND my main number. I'd given "River" my backup phone number, thinking that I shouldn't give out my real number to a stranger I met on the internet. But somehow, he had my real number too. (*How did he get that?*)
+The stalker texts restarted after I pulled back from Gavin. This time they went to my backup AND my main number. I'd given "River" my backup phone number, thinking that I shouldn't give out my real number to a stranger I met on the internet. But somehow, he had my real number too. (*How did he get that?*)
 
 This new tranche of messages was the worst by far. One of the first messages told me to go look at my car, saying there was a "gift" for me, which made me afraid there might be something dangerous waiting. I went down to my parking garage and checked *from a distance*, approaching a different car and pretending to look at THAT one, only briefly glancing at my Kia from across the floor.
 
@@ -266,9 +252,9 @@ One of the stranger moments was a text to my roommate claiming I talked badly ab
 
 ### March to May 2025 
 
-By February, my roommate and I believed it was Gavin, and were trying to confirm it.
+By February, my roommate and I believed it was Gavin. At this point we were just looking for enough evidence to confirm it.
 
-The location texts were the clearest test, as my roommate had told me he shared his location with everyone on Snapchat. I told him to unadd Gavin, because I thought this was how the stalker was getting his location. My roommate kept Snap Map on, but removed Gavin Grier, nobody esle. The texts about his location stopped immediately.
+We thought Gavin had my roommate's location as he shared it with everyone on Snapchat. I told my roommate to unadd Gavin, to see if he stopped getting those location-specific texts (like "how was your trip to target" or whatever he would send). My roommate kept Snap Map on, but removed Gavin Grier, nobody esle. Crazy enough, the texts about his location stopped immediately.
 
 We also fed fake information to one of Gavin's friends who regularly asked my roommate how we were doing. (This is K**** from earlier) My roommate told her a bunch of mean things, that he was moving out because the stalking had driven us apart, that I (Sean) did not care about the stalking, and that I was being a terrible friend to him.
 
@@ -279,34 +265,31 @@ Within days, the stalker texted us with *that exact fake story*, framed as an in
   <figcaption>The fake story coming back to us through the stalker.</figcaption>
 </figure>
 
-That was the point where we knew, unequivocally. It was him.
+At this point we knew it was him.
 
 ---
 
 ### May to December 2025 (lawsuit time)
 
-In May 2025, I had a boyfriend. The stalker texted me one day, saying he saw us kissing in a park. By this point, my roomate and I had more than enough evidence, but we had just sat on it to keep collecting, lest Gavin dig himself further into his grave. He texted my boyfriend, too. I talked to my boyfriend and learned that Gavin had actually met him months prior, so Gavin DID have his phone number already.
+In may 2025, the stalker texted me one day, saying he saw me and my boyfriend kissing in a park. Strangely enough, that was the first time we had ever gone to that park, and also the first time we had ever kissed in public (new relationship). After a few days, he texted my boyfriend too. I talked to my boyfriend and learned that Gavin had actually met him months prior, so Gavin DID have his phone number already. It had to be him.
 
-The commonality between every person being stalked, and every modality of the stalking, was one person: Gavin fucking Grier.
-
-
-Once I learned that it was Gavin texting my boyfriend, I went to the Franklin County Municipal Court and filed suit immediately. I also made a group chat with me, my roommate, and Gavin, and put the evidence directly in front of him. **We have not received a harassment text since the day I texted Gavin.** 
+Within 2 days of gavin reaching out to my boyfriend, I went to the Franklin County Municipal Court and filed suit. There was more than enough evidence at this point, and we needed it to stop. I also made a group chat with me, my roommate, and Gavin, and put the evidence directly in front of him. **We have not received a harassment text since the day I texted Gavin.** 
 
 <figure style="max-width: 100%; text-align: center;">
   <a href="/assets/gavin99.png"><img src="/assets/gavin99.png" alt="Group chat with Gavin and roommate" style="max-height: 50vh;"></a>
   <figcaption>The group chat I made with my roommate and Gavin. My phone cleared the image storage because the texts are old, but this is where I sent screenshots of the harassment.</figcaption>
 </figure>
 
-We heard from people in Gavin's circle that this message sent him into a panic. He was "freaking out," they said, and would not tell them why.
+Also, over time we heard from people in Gavin's circle that this message sent him into a panic. He was "freaking out," they said, and he would not tell them why. Probably because telling them would incriminate him.
 
-After things got filef with the court, I started reaching out to some of the people who had called and texted me, attempting to get witness statements. Several of the numbers were iPhones, so I followed those leads. I had a few conversations that helped connect the calls and texts back to Gavin's friends and relatives.
+After things got filed with the court, I started reaching out to some of the people who had called and texted me, attempting to get witness statements. Several of the numbers were iPhones, so I followed those leads. I had a few conversations that helped connect the calls and texts back to Gavin's friends and relatives.
 
 <figure style="max-width: 100%; text-align: center;">
   <a href="/assets/friend.png"><img src="/assets/friend.png" alt="Conversation with person connected to harassment" style="max-height: 50vh;"></a>
   <figcaption>One of the conversations after I started tracing the iPhone numbers.</figcaption>
 </figure>
 
-I learned that Gavin moved back to Washington because of this very lawsuit. Three different people corroborated this! A few months later, despite him trying to run away, I won in Franklin County Municipal Court anyway.
+I learned that Gavin moved back to Washington because of this very lawsuit. Three different people corroborated this. A few months later, despite him trying to run away, I won in Franklin County Municipal Court. He was found liable.
 
 ---
 
@@ -330,9 +313,9 @@ If you want to hear what he said when I served him, prepare to be disappointed. 
 
 ### Why
 
-I am writing this because it seems to never end. After I realized Gavin was the person behind what happened to me, I connected with other people who described similar harassment from him. Turns out, he's harassed FIVE people that I know of. It's gotten to the point where **we literally text each other when either Gavin or a fake number reaches out to us.** Also, I have learned that he continues to talk about me, to this very day! So therefore I must be allowed to respond. This is my story.
+I am writing this because it seems to never end. After I realized Gavin was the person behind what happened to me, I connected with other people who described similar harassment from him. Turns out, he's harassed FIVE people **that I know of**. It's gotten to the point where*we literally text each other when either Gavin or a fake number reaches out to us. I have also learned that he continues to talk about me, to this very day! He literally can't keep my name out of his mouth. And he seems to be unable to stop himself from ruining people's lives.
 
-It geuinely seems like Gavin believes there will never be consequences for this, but I hope there are.
+It geuinely seems like Gavin believes there will never be consequences for this.
 
 Last thing: *Every* fact in this story is verifiable. If you have any questions or concerns, having read this article, please REACH OUT using the email above or on socials (only one i really have is ig - seansullivan2), and I can address any questions.
 
