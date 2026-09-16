@@ -9,8 +9,6 @@ tags: [personal]
 **For eleven months, Gavin Grier texted me from over 30 fake numbers, catfished me on Grindr, played me a robotic death threat over the phone, and poured a gallon of paint on my car. In late 2025, the Franklin County Municipal Court of Ohio found him liable for damages from stalking, vandalism, and harrassment, ordering him to pay the amount I was suing for and court fees. Since then, others have come forward to me and talked about their experinces, and i decided to put my story in the public to keep others safe.**
 
 
-What follows below is a LONG article detailing exactly how it happened, but this is the summary. The important point to note is that, to this date, he STILL hasn't paid the court fine.
-
 You can verify the court decision yourself at [https://www.fcmcclerk.com/case/view](https://www.fcmcclerk.com/case/view) by searching "Gavin Grier."
 
 The rest of this page is dedicated to explaining exactly what happened, the extent to which Gavin stalked me, and the extent to which I pursued legal remedies. **Everything** below is from my perspective, but I have **screenshots, audio, and court records** included to back everything up. Third-party names, phone numbers, addresses, and other identifying details will be redacted on this post. If a phone number is *not* redacted, this is because it didn't resolve to a real person, it's just a fake number that comes from a virtual-number service like the Pinger or TextNow apps. Those numbers are fake and can be obtained instantly by anyone who downloads those apps, so I don't redact them.
